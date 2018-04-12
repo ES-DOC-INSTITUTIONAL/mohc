@@ -1,0 +1,728 @@
+{
+    "citations": [
+        {
+            "abstract": "missing", 
+            "doi": "missing", 
+            "meta": {
+                "createDate": "2018-04-12 11:34:35.083903", 
+                "id": "6b71220b-0e99-4615-bf3d-b51bd11ad840", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.shared.Citation", 
+                "version": 0
+            }, 
+            "title": "Centenary Edition of the GEBCO Digital Atlas", 
+            "url": {
+                "description": "missing", 
+                "linkage": "missing", 
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "name": "missing", 
+                "protocol": "missing"
+            }
+        }, 
+        {
+            "abstract": "missing", 
+            "doi": "missing", 
+            "meta": {
+                "createDate": "2018-04-12 11:34:35.084160", 
+                "id": "30009362-4db8-4daa-8dc0-43329b3397d1", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.shared.Citation", 
+                "version": 0
+            }, 
+            "title": "Different ways to represent ice shelf melting in a z* coordinate ocean model", 
+            "url": {
+                "description": "missing", 
+                "linkage": "missing", 
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "name": "missing", 
+                "protocol": "missing"
+            }
+        }, 
+        {
+            "abstract": "missing", 
+            "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+            "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+            "doi": "missing", 
+            "meta": {
+                "createDate": "2018-04-12 11:34:35.084385", 
+                "id": "1729887a-b9d8-4127-9905-df9398e9da57", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.shared.Citation", 
+                "version": 0
+            }, 
+            "title": "NEMO ocean engine ", 
+            "url": {
+                "description": "missing", 
+                "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "name": "missing", 
+                "protocol": "missing"
+            }
+        }, 
+        {
+            "abstract": "missing", 
+            "doi": "http://dx.doi.org/10.1007/s10236-006-0082-1", 
+            "meta": {
+                "createDate": "2018-04-12 11:34:35.084607", 
+                "id": "10a255a6-602e-4e2b-8d6d-835b076e0c1a", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.shared.Citation", 
+                "version": 0
+            }, 
+            "title": "Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution.", 
+            "url": {
+                "description": "missing", 
+                "linkage": "http://archimer.ifremer.fr/doc/2006/publication-3514.pdf", 
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "name": "missing", 
+                "protocol": "missing"
+            }
+        }
+    ], 
+    "description": "The ORCA1 ocean component is based on version 3.6 of the NEMO ocean model code (Madec, 2008). The horizontal grid is a tripolar Arakawa C-grid with a nominal 1\u00b0 resolution. The vertical grid has 75 levels with thickness increasing over depth. The timestep size is 15 minutes. A full description can be found in Storkey et al. (in preparation, 2017). \r\n\r\nThe model bathymetry iis based on the ETOPO1 dataset (Amante and Eakins, 2009) with additional data in coastal regions from GEBCO (IOC, 2008) and the bathymetry on the Antarctic shelf based on IBSCO (Arndt et al., 2013). Bottom topography is represented as partial steps (Barnier et al. 2006). The derivation of DRAKKAR bathymetry data sets is described by Barnier et al. (2006): initially, each model grid cell is assigned the median of all observations falling within the boundaries of that grid cell. The initial estimate is then modified by application of two passes of a uniform Shapiro filter and, finally, hand editing is performed in a few key areas. Further smoothing is performed along the Antarctic coastline to remove single grid point inlets and avoid the spurious accumulation of sea ice here.\r\n\r\n[coupling notes to be added]\r\n", 
+    "longName": "Nucleus for European Modelling of the Ocean", 
+    "meta": {
+        "createDate": "2018-04-12 11:34:35.009317", 
+        "id": "a2f797b7-415e-4085-84b6-9d449cf046eb", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "type": "cim.2.science.Model", 
+        "version": 0
+    }, 
+    "modelType": "Ocean Only", 
+    "name": "NEMO - ORCA1", 
+    "realmCoupling": [
+        {
+            "meta": {
+                "type": "cim.2.science.RealmCoupling"
+            }, 
+            "sourceRealm": "ocean", 
+            "targetRealm": "HadAM6", 
+            "timeFrequency": "hourly", 
+            "variable": "tas"
+        }, 
+        {
+            "couplingDetails": "spatial average", 
+            "meta": {
+                "type": "cim.2.science.RealmCoupling"
+            }, 
+            "sourceRealm": "ocean", 
+            "targetRealm": "HadAM6", 
+            "timeFrequency": "daily", 
+            "variable": "tos"
+        }, 
+        {
+            "couplingDetails": "nearest neighbour", 
+            "meta": {
+                "type": "cim.2.science.RealmCoupling"
+            }, 
+            "sourceRealm": "ocean", 
+            "targetRealm": "CICE", 
+            "timeFrequency": "monthly", 
+            "variable": "sic"
+        }
+    ], 
+    "realms": [
+        {
+            "canonicalName": "ocean", 
+            "description": "Ocean realm", 
+            "grid": {
+                "description": "Ocean grid", 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "overview": "The horizontal grid is an extended version of the ORCA025 tripolar Arakawa C-grid (Barnier et al., 2006). This has nominal 1/4\u00b0 resolution (1442 x 1207 grid points) at global scale decreasing poleward (an isotropic Mercator grid in the southern hemisphere, matched to a quasi-isotropic bipolar grid in the northern hemisphere with poles at 107\u00b0W and 73\u00b0E). The reference ORCA025 grid has been extended southwards from 77\u00b0S to 85\u00b0S using the procedure of Mathiot et al. (submitted 2017) to permit the modelling of the circulation under ice shelves in Antarctica. The effective resolution is approximately 27.75 km at the equator but increases with latitude (for example, to 13.8 km at 60\u00b0S or 60\u00b0N). ", 
+                "shortName": "Grid", 
+                "specializationID": "cmip6.ocean.grid"
+            }, 
+            "keyProperties": {
+                "description": "Ocean key properties", 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "overview": "Includes information on the model family, prognostic variables, seawater properties, bathymetry, ocean smoothing, resolution, global and regional metrics and conservation.", 
+                "shortName": "Key Properties", 
+                "specializationID": "cmip6.ocean.key_properties"
+            }, 
+            "meta": {
+                "createDate": "2018-04-12 11:34:35.012266", 
+                "id": "fa44cf34-d2c7-4264-ad5e-5056623049f9", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Realm", 
+                "version": 0
+            }, 
+            "overview": "Ocean realm", 
+            "processes": [
+                {
+                    "description": "Ocean Timestepping Framework", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "The integration timestep is 15 minutes. \r\nTimestepping of tracers is achieved by use of a leap-frog scheme and Asselin filter.\r\nThe barotropic solver scheme is a preconditioned conjugate gradient type, using a leapfrog and Asselin filter scheme.\r\nThe barotropic momentum solver also uses a leapfrog / Asselin filter scheme.", 
+                    "shortName": "Timestepping Framework", 
+                    "specializationID": "cmip6.ocean.timestepping_framework"
+                }, 
+                {
+                    "citations": [
+                        {
+                            "abstract": "missing", 
+                            "doi": "http://dx.doi.org/10.1175/1520-0493(1981)109 ", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.033811", 
+                                "id": "dbbc2b26-6bb1-4f43-a688-48275cd22dee", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "A Potential Enstrophy and Energy Conserving Scheme for the Shallow Water Equations", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": " http://dx.doi.org/10.1002/qj.49710946012", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.044008", 
+                                "id": "38b75c60-e68f-4893-b965-879c1837d348", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "An internal symmetric computational instability,\r\n", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.044234", 
+                                "id": "c1a65354-acf2-4b5a-b9fd-19a2630e54ff", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Fully multidimensional flux corrected transport algorithms for fluids", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }
+                    ], 
+                    "description": "Ocean advection", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "Advection of momentum uses a vector-invariant (rotational and irrotational) formulation. The irrotational component follows Hollingsworth et al. (1983) to avoid vertical numerical instabilities. The vorticity term is calculated using an energy and enstrophy conserving scheme. Advection of tracers uses  Total Variance Dissipation (TVD) scheme.", 
+                    "shortName": "Advection", 
+                    "specializationID": "cmip6.ocean.advection"
+                }, 
+                {
+                    "citations": [
+                        {
+                            "abstract": "missing", 
+                            "citationDetail": "Gent P. R., and J. C. McWilliams (1990) Isopycnal mixing in ocean circulation models.. Journal of Physical Oceanography, 20, 150-155.", 
+                            "collectiveTitle": "Gent P. R., and J. C. McWilliams (1990) Isopycnal mixing in ocean circulation models.. Journal of Physical Oceanography, 20, 150-155.", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.048145", 
+                                "id": "9cc41d44-aac5-4ae8-929e-245c1d080a4f", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Isopycnal mixing in ocean circulation models.", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }
+                    ], 
+                    "description": "Ocean lateral physics", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "Lateral diffusion of momentum uses a bilaplacian operator and is on geopotential surfaces. Lateral diffusion of tracers uses a laplacian operator and is along isoneutral surfaces. Both terms use a grid scale dependent mixing coefficient. Adiabatic mixing by transient eddies is parameterized in the ORCA1 configuration.", 
+                    "shortName": "Lateral Physics", 
+                    "specializationID": "cmip6.ocean.lateral_physics"
+                }, 
+                {
+                    "citations": [
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.052338", 
+                                "id": "9ee74a06-d089-42c5-b8b6-1c8a1cbaeee5", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Tidally driven mixing in a numerical model of the ocean general circulation", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "http://www.biogeosciences.net/11/4077/2014", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.052567", 
+                                "id": "d192754d-2e79-40dd-8e62-f1c4897f450f", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.052790", 
+                                "id": "89cc889e-9214-4147-8f11-7fe22d66cd99", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "A global ocean model with double-diffusive mixing", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                            "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.053021", 
+                                "id": "359bed08-f675-4a0a-add4-3d5ad1af6716", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "NEMO ocean engine ", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.053244", 
+                                "id": "ba122d90-d9b7-43a1-956a-947a5ad1a4fc", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Water mass transformation along the Indonesian throughflow in an OGCM", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.053459", 
+                                "id": "df69f18d-2bd4-444f-9484-4d1576e4c939", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Reduced mixing from the breaking of internal waves in equatorial waters", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "doi:10.1029/JC095iC09p16179", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.053671", 
+                                "id": "4061417a-9ea7-48e7-8dcb-e63b11c17fb9", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "doi:10.1029/2001JC000922, 2002.", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.053880", 
+                                "id": "780b0a87-d867-428d-b446-27a09af871e7", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.054117", 
+                                "id": "275c26e7-4894-4811-9d1f-3bb37ff0c815", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }
+                    ], 
+                    "description": "Ocean Vertical Physics", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "The vertical physics are parameterized using a \u2018one-equation\u2019 (\u2018TKE\u2019) scheme. Further parameterized processes include Langmuir turbulence, double-diffusive mixing, tidally-driven mixing and near-inertial wave breaking. Unresolved mixing is represented as background values of eddy diffusivity and viscosity.", 
+                    "shortName": "Vertical Physics", 
+                    "specializationID": "cmip6.ocean.vertical_physics"
+                }, 
+                {
+                    "citations": [
+                        {
+                            "abstract": "missing", 
+                            "doi": "http://dx.doi.org/10.1029/2000JC900089", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.058035", 
+                                "id": "54ddd945-6be2-4b5f-937c-8676185d1d1b", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.058261", 
+                                "id": "3a539e4f-7e4d-45d1-aea9-0770623465ac", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "A method for improved representation of dense water spreading over topography in geopotential-coordinate models", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "http://www.sciencedirect.com/science/article/", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.058485", 
+                                "id": "3410d96d-817b-404a-9499-4f078b8ff3e3", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }
+                    ], 
+                    "description": "Ocean upper / lower boundaries", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "The model uses a non-linear free surface in which the cell thicknesses throughout the water column are allowed to vary with time (the z\u2217 coordinate of Adcroft and Campin, 2004). This permits an exact representation of the surface freshwater flux. \r\nThe equation for the surface pressure gradient is solved using a filtered solution in which the fast gravity waves are damped by an additional force in the equation (Roullet and Madec, 2000).\r\nAn advective and diffusive bottom boundary layer scheme is used (Beckmann and Doscher, 1997), with a lateral mixing coefficient of 1000 m2/s.\r\nSea ice levitating?", 
+                    "shortName": "Uplow Boundaries", 
+                    "specializationID": "cmip6.ocean.uplow_boundaries"
+                }, 
+                {
+                    "citations": [
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.062435", 
+                                "id": "b86c1f24-1eca-4b39-931c-a997650309f6", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "A model for the global variation in oceanic depth and heat flow with lithospheric age", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "http://www.sciencedirect.com/science/article/", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.062663", 
+                                "id": "1fef74da-8d33-49c8-9685-a80b968e75c9", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "https://hal-insu.archives-ouvertes.fr/insu-01", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.062875", 
+                                "id": "1a9646ef-c2e4-4631-ace4-07d28f998ffb", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "NEMO\u2013ICB (v1.0): interactive icebergs in the NEMO ocean model globally configured at eddy-permitting resolution", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.063107", 
+                                "id": "c701d11f-a65b-4078-9be1-4338b7ca4fb7", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Modelling dynamics and thermodynamics of icebergs", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }, 
+                        {
+                            "abstract": "missing", 
+                            "doi": "missing", 
+                            "meta": {
+                                "createDate": "2018-04-12 11:34:35.063316", 
+                                "id": "856f5ced-bd2c-4248-a3eb-8c091cdb4a40", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Citation", 
+                                "version": 0
+                            }, 
+                            "title": "Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model", 
+                            "url": {
+                                "description": "missing", 
+                                "linkage": "missing", 
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "name": "missing", 
+                                "protocol": "missing"
+                            }
+                        }
+                    ], 
+                    "description": "Ocean boundary forcing", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "overview": "Meltwater fluxes from icebergs and ice shelves are specifically parameterized. Penetration of the shortwave heat flux into the ocean is parameterized using a 3-band \u2018RGB\u2019 scheme. Dense overflows are parameterized using an advective and diffusive bottom boundary layer scheme. A quadratic bottom friction is used with regional coefficient enhancements.", 
+                    "shortName": "Boundary Forcing", 
+                    "specializationID": "cmip6.ocean.boundary_forcing"
+                }
+            ], 
+            "shortName": "ocean", 
+            "specializationID": "cmip6"
+        }
+    ], 
+    "responsibleParties": [
+        {
+            "meta": {
+                "type": "cim.2.shared.Responsibility"
+            }, 
+            "parties": [
+                {
+                    "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                    "isOrganisation": false, 
+                    "meta": {
+                        "createDate": "2018-04-12 11:34:35.081877", 
+                        "id": "879bff52-f9fa-49ba-9684-efa9324c3a12", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Party", 
+                        "version": 0
+                    }, 
+                    "name": "Tim Andrews"
+                }
+            ], 
+            "role": "originator"
+        }
+    ], 
+    "version": "3.6"
+}
