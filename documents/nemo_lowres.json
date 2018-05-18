@@ -4,8 +4,8 @@
             "abstract": "missing", 
             "doi": "missing", 
             "meta": {
-                "createDate": "2018-04-12 11:34:35.083903", 
-                "id": "6b71220b-0e99-4615-bf3d-b51bd11ad840", 
+                "createDate": "2018-05-18 10:42:34.536435", 
+                "id": "3738cd00-aeb9-4175-9ffa-798dc8422e11", 
                 "project": "mohc", 
                 "source": "mohc", 
                 "type": "cim.2.shared.Citation", 
@@ -19,15 +19,15 @@
                     "type": "cim.2.shared.OnlineResource"
                 }, 
                 "name": "missing", 
-                "protocol": "missing"
+                "protocol": "http"
             }
         }, 
         {
             "abstract": "missing", 
             "doi": "missing", 
             "meta": {
-                "createDate": "2018-04-12 11:34:35.084160", 
-                "id": "30009362-4db8-4daa-8dc0-43329b3397d1", 
+                "createDate": "2018-05-18 10:42:34.536665", 
+                "id": "480d7e5d-ffce-49d5-9815-dc8b5496a100", 
                 "project": "mohc", 
                 "source": "mohc", 
                 "type": "cim.2.shared.Citation", 
@@ -41,7 +41,7 @@
                     "type": "cim.2.shared.OnlineResource"
                 }, 
                 "name": "missing", 
-                "protocol": "missing"
+                "protocol": "http"
             }
         }, 
         {
@@ -50,8 +50,8 @@
             "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
             "doi": "missing", 
             "meta": {
-                "createDate": "2018-04-12 11:34:35.084385", 
-                "id": "1729887a-b9d8-4127-9905-df9398e9da57", 
+                "createDate": "2018-05-18 10:42:34.536871", 
+                "id": "b86f490f-95ba-47d3-afbe-f586e23e69da", 
                 "project": "mohc", 
                 "source": "mohc", 
                 "type": "cim.2.shared.Citation", 
@@ -65,15 +65,15 @@
                     "type": "cim.2.shared.OnlineResource"
                 }, 
                 "name": "missing", 
-                "protocol": "missing"
+                "protocol": "http"
             }
         }, 
         {
             "abstract": "missing", 
             "doi": "http://dx.doi.org/10.1007/s10236-006-0082-1", 
             "meta": {
-                "createDate": "2018-04-12 11:34:35.084607", 
-                "id": "10a255a6-602e-4e2b-8d6d-835b076e0c1a", 
+                "createDate": "2018-05-18 10:42:34.537075", 
+                "id": "a7e4e576-ec8d-4ae4-8433-d2372898fd61", 
                 "project": "mohc", 
                 "source": "mohc", 
                 "type": "cim.2.shared.Citation", 
@@ -87,15 +87,15 @@
                     "type": "cim.2.shared.OnlineResource"
                 }, 
                 "name": "missing", 
-                "protocol": "missing"
+                "protocol": "http"
             }
         }
     ], 
     "description": "The ORCA1 ocean component is based on version 3.6 of the NEMO ocean model code (Madec, 2008). The horizontal grid is a tripolar Arakawa C-grid with a nominal 1\u00b0 resolution. The vertical grid has 75 levels with thickness increasing over depth. The timestep size is 15 minutes. A full description can be found in Storkey et al. (in preparation, 2017). \r\n\r\nThe model bathymetry iis based on the ETOPO1 dataset (Amante and Eakins, 2009) with additional data in coastal regions from GEBCO (IOC, 2008) and the bathymetry on the Antarctic shelf based on IBSCO (Arndt et al., 2013). Bottom topography is represented as partial steps (Barnier et al. 2006). The derivation of DRAKKAR bathymetry data sets is described by Barnier et al. (2006): initially, each model grid cell is assigned the median of all observations falling within the boundaries of that grid cell. The initial estimate is then modified by application of two passes of a uniform Shapiro filter and, finally, hand editing is performed in a few key areas. Further smoothing is performed along the Antarctic coastline to remove single grid point inlets and avoid the spurious accumulation of sea ice here.\r\n\r\n[coupling notes to be added]\r\n", 
     "longName": "Nucleus for European Modelling of the Ocean", 
     "meta": {
-        "createDate": "2018-04-12 11:34:35.009317", 
-        "id": "a2f797b7-415e-4085-84b6-9d449cf046eb", 
+        "createDate": "2018-05-18 10:42:34.472403", 
+        "id": "00a2f00b-610a-46d2-9f88-52e2f66df590", 
         "project": "mohc", 
         "source": "mohc", 
         "type": "cim.2.science.Model", 
@@ -157,8 +157,8 @@
                 "specializationID": "cmip6.ocean.key_properties"
             }, 
             "meta": {
-                "createDate": "2018-04-12 11:34:35.012266", 
-                "id": "fa44cf34-d2c7-4264-ad5e-5056623049f9", 
+                "createDate": "2018-05-18 10:42:34.475011", 
+                "id": "cd84cda9-2a3e-4ea5-ad48-061dc1bdd1c6", 
                 "project": "mohc", 
                 "source": "mohc", 
                 "type": "cim.2.science.Realm", 
@@ -181,8 +181,8 @@
                             "abstract": "missing", 
                             "doi": "http://dx.doi.org/10.1175/1520-0493(1981)109 ", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.033811", 
-                                "id": "dbbc2b26-6bb1-4f43-a688-48275cd22dee", 
+                                "createDate": "2018-05-18 10:42:34.491325", 
+                                "id": "9a3226aa-5c31-437d-a412-791d6546e7c0", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -196,15 +196,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": " http://dx.doi.org/10.1002/qj.49710946012", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.044008", 
-                                "id": "38b75c60-e68f-4893-b965-879c1837d348", 
+                                "createDate": "2018-05-18 10:42:34.493911", 
+                                "id": "988d56e5-bef3-416c-a14f-d5d352a173b0", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -218,15 +218,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.044234", 
-                                "id": "c1a65354-acf2-4b5a-b9fd-19a2630e54ff", 
+                                "createDate": "2018-05-18 10:42:34.494128", 
+                                "id": "3c7d6a05-1830-4f54-9dd5-cd8dfcdf3316", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -240,7 +240,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }
                     ], 
@@ -260,8 +260,8 @@
                             "collectiveTitle": "Gent P. R., and J. C. McWilliams (1990) Isopycnal mixing in ocean circulation models.. Journal of Physical Oceanography, 20, 150-155.", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.048145", 
-                                "id": "9cc41d44-aac5-4ae8-929e-245c1d080a4f", 
+                                "createDate": "2018-05-18 10:42:34.498216", 
+                                "id": "fb8a5001-6f98-4a96-9df3-522cb55e7809", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -275,7 +275,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }
                     ], 
@@ -293,8 +293,8 @@
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.052338", 
-                                "id": "9ee74a06-d089-42c5-b8b6-1c8a1cbaeee5", 
+                                "createDate": "2018-05-18 10:42:34.502544", 
+                                "id": "fecc670d-e94e-4ab2-bf3d-221bbeb7e318", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -308,15 +308,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "http://www.biogeosciences.net/11/4077/2014", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.052567", 
-                                "id": "d192754d-2e79-40dd-8e62-f1c4897f450f", 
+                                "createDate": "2018-05-18 10:42:34.502758", 
+                                "id": "321bfe12-d069-4c5a-a4b4-2a0ff1fb3292", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -330,15 +330,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.052790", 
-                                "id": "89cc889e-9214-4147-8f11-7fe22d66cd99", 
+                                "createDate": "2018-05-18 10:42:34.502966", 
+                                "id": "b8005a5b-72fa-4731-85da-c5da8ffc6518", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -352,7 +352,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
@@ -361,8 +361,8 @@
                             "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.053021", 
-                                "id": "359bed08-f675-4a0a-add4-3d5ad1af6716", 
+                                "createDate": "2018-05-18 10:42:34.503170", 
+                                "id": "5f84cbb8-75aa-4594-af54-be0072dc324b", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -376,15 +376,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.053244", 
-                                "id": "ba122d90-d9b7-43a1-956a-947a5ad1a4fc", 
+                                "createDate": "2018-05-18 10:42:34.503366", 
+                                "id": "1658d331-23ba-4e7c-a5c8-2a445e637e80", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -398,15 +398,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.053459", 
-                                "id": "df69f18d-2bd4-444f-9484-4d1576e4c939", 
+                                "createDate": "2018-05-18 10:42:34.503574", 
+                                "id": "99168c91-27e5-4ddf-a9d1-8c6052ad05d5", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -420,15 +420,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "doi:10.1029/JC095iC09p16179", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.053671", 
-                                "id": "4061417a-9ea7-48e7-8dcb-e63b11c17fb9", 
+                                "createDate": "2018-05-18 10:42:34.503771", 
+                                "id": "fc805d92-46c7-42d0-9157-462fbe3d9d90", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -442,15 +442,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "doi:10.1029/2001JC000922, 2002.", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.053880", 
-                                "id": "780b0a87-d867-428d-b446-27a09af871e7", 
+                                "createDate": "2018-05-18 10:42:34.503966", 
+                                "id": "efffab9c-376d-4639-8fe0-cc1d00422e97", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -464,15 +464,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.054117", 
-                                "id": "275c26e7-4894-4811-9d1f-3bb37ff0c815", 
+                                "createDate": "2018-05-18 10:42:34.504172", 
+                                "id": "edcb40ba-6486-41c6-bcad-5e393084c32b", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -486,7 +486,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }
                     ], 
@@ -504,8 +504,8 @@
                             "abstract": "missing", 
                             "doi": "http://dx.doi.org/10.1029/2000JC900089", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.058035", 
-                                "id": "54ddd945-6be2-4b5f-937c-8676185d1d1b", 
+                                "createDate": "2018-05-18 10:42:34.508278", 
+                                "id": "a3e62d80-bfc1-462b-ae9d-32d7e3d1f2bf", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -519,15 +519,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.058261", 
-                                "id": "3a539e4f-7e4d-45d1-aea9-0770623465ac", 
+                                "createDate": "2018-05-18 10:42:34.508490", 
+                                "id": "5f701b54-e639-4686-b509-0913ef5029eb", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -541,15 +541,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "http://www.sciencedirect.com/science/article/", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.058485", 
-                                "id": "3410d96d-817b-404a-9499-4f078b8ff3e3", 
+                                "createDate": "2018-05-18 10:42:34.508697", 
+                                "id": "69a8b7f3-abc4-4522-b022-0ec5d2e0ad0b", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -563,7 +563,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }
                     ], 
@@ -581,8 +581,8 @@
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.062435", 
-                                "id": "b86c1f24-1eca-4b39-931c-a997650309f6", 
+                                "createDate": "2018-05-18 10:42:34.512798", 
+                                "id": "d0ba372e-6ca5-4a2a-a3d0-f0ca4f46c7a6", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -596,15 +596,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "http://www.sciencedirect.com/science/article/", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.062663", 
-                                "id": "1fef74da-8d33-49c8-9685-a80b968e75c9", 
+                                "createDate": "2018-05-18 10:42:34.513020", 
+                                "id": "1d720ca3-bb3d-460d-82b2-fb2bf2019722", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -618,15 +618,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "https://hal-insu.archives-ouvertes.fr/insu-01", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.062875", 
-                                "id": "1a9646ef-c2e4-4631-ace4-07d28f998ffb", 
+                                "createDate": "2018-05-18 10:42:34.513223", 
+                                "id": "f92f8648-3e09-4c15-8b9a-64d57147b2d9", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -640,15 +640,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.063107", 
-                                "id": "c701d11f-a65b-4078-9be1-4338b7ca4fb7", 
+                                "createDate": "2018-05-18 10:42:34.513422", 
+                                "id": "20eae247-7000-44a6-a1cf-a8d2c20216f6", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -662,15 +662,15 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }, 
                         {
                             "abstract": "missing", 
                             "doi": "missing", 
                             "meta": {
-                                "createDate": "2018-04-12 11:34:35.063316", 
-                                "id": "856f5ced-bd2c-4248-a3eb-8c091cdb4a40", 
+                                "createDate": "2018-05-18 10:42:34.513626", 
+                                "id": "d613bcca-3e28-4561-af9b-94335aacb7d5", 
                                 "project": "mohc", 
                                 "source": "mohc", 
                                 "type": "cim.2.shared.Citation", 
@@ -684,7 +684,7 @@
                                     "type": "cim.2.shared.OnlineResource"
                                 }, 
                                 "name": "missing", 
-                                "protocol": "missing"
+                                "protocol": "http"
                             }
                         }
                     ], 
@@ -711,8 +711,8 @@
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "isOrganisation": false, 
                     "meta": {
-                        "createDate": "2018-04-12 11:34:35.081877", 
-                        "id": "879bff52-f9fa-49ba-9684-efa9324c3a12", 
+                        "createDate": "2018-05-18 10:42:34.534165", 
+                        "id": "0bbe0b71-0e5e-4eab-9a15-bf6108f98e9b", 
                         "project": "mohc", 
                         "source": "mohc", 
                         "type": "cim.2.shared.Party", 
