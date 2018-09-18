@@ -1,0 +1,2700 @@
+{
+    "coupledComponents": [
+        {
+            "citations": [
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/gmd-2017-291", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:18.966081", 
+                        "id": "18384cf9-9948-4b84-8d33-1e6a20f340fc", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:18.966726", 
+                        "id": "c4944108-f045-46fc-84dd-8349f7ed26e3", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }
+            ], 
+            "description": "The atmosphere component of HadGEM3-GC3.1 is labelled GA7.1 and is fully described in Walters et al. (2017) and Mulcahy et al. (2018). This atmosphere component is developed for weather forecasting applications as well as seasonal-to-centennial climate simulations. The model includes a number of major developments since HadGEM2-AO, principally: a new dynamical core; increased vertical resolution with a higher model top to fully resolve the stratosphere; prognostic treatment of cloud, condensate and rain amounts; and a 2-moment 5-mode aerosol scheme.\r\nOther developments include an improved treatment of gaseous absorption in the radiation scheme, improvements to the treatment of warm rain and ice clouds and an improvement to the numerics in the model\u2019s convection scheme.", 
+            "longName": "MetUM-HadGEM3-GA7.1", 
+            "meta": {
+                "createDate": "2018-08-28 10:52:18.812423", 
+                "id": "2696f026-b61e-4970-a2f4-d1e1f769668c", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Model", 
+                "version": 0
+            }, 
+            "modelType": "Atm Only", 
+            "name": "MetUM-HadGEM3-GA7.1", 
+            "realms": [
+                {
+                    "canonicalName": "atmos", 
+                    "description": "Atmosphere Realm", 
+                    "grid": {
+                        "description": "Atmosphere grid", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "Horizontal grid is 1.25 x 1.875 degrees lat-lon, denoted N96. Horizontal grid staggering uses an Arakawa C-grid. Vertical grid uses 85 levels with a Charney-Phillips staggering and terrain-following hybrid height coordinates.", 
+                        "shortName": "Grid", 
+                        "specializationID": "cmip6.atmos.grid"
+                    }, 
+                    "keyProperties": {
+                        "description": "Atmosphere key properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "A brief description of the key properties of the model, including type, basic approximations, orography, resolutions and timestepping.", 
+                        "shortName": "Key Properties", 
+                        "specializationID": "cmip6.atmos.key_properties"
+                    }, 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:18.816552", 
+                        "id": "df59cbf0-2fb9-4681-9454-d3dcbf630419", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.science.Realm", 
+                        "version": 0
+                    }, 
+                    "overview": "Atmosphere Realm", 
+                    "processes": [
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Bodas-Salcedo, A. et al.  (2011) COSP: satellite simulation software for model assessment. Bull. Am. Meteorol. Soc. submitted,", 
+                                    "collectiveTitle": "Bodas-Salcedo, A. et al.  (2011) COSP: satellite simulation software for model assessment. Bull. Am. Meteorol. Soc. submitted,", 
+                                    "doi": "https://doi.org/10.1175/2011BAMS2856.1", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.836377", 
+                                        "id": "033bd5b6-f3e0-4078-a387-2a9c4daf162c", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "COSP: satellite simulation software for model assessment.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.5194/gmd-11-77-2018.", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.839728", 
+                                        "id": "db6dc1da-f2f1-4f2e-9e24-a3b0e89e9f93", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Cloud Feedback Model Intercomparison Project Observational Simulator Package: version 2", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Characteristics of observation simulation", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package (COSP) simulates observational datasets from model variables. Several simulators are included in COSP. The ones relevant for CMIP6 are: ISCCP cloud products, CALIPSO lidar forward model and CALIPSO/GOCCP cloud products, CloudSat radar forward model, MISR cloud products, and MODIS cloud products. COSP is a stand-alone software, documented in Bodas-Salcedo et al. (2011) and Swales et al. (2018).", 
+                            "shortName": "Observation Simulation", 
+                            "specializationID": "cmip6.atmos.observation_simulation"
+                        }, 
+                        {
+                            "description": "Characteristics of the parameterised gravity waves in the atmosphere, whether from orography or other sources", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Separate schemes are used for orographic and non-orographic gravity waves, namely Warner and McIntyre (2001) for non-orographic and Palmer, Shutts and Swinbank (1986) for orographic.", 
+                            "shortName": "Gravity Waves", 
+                            "specializationID": "cmip6.atmos.gravity_waves"
+                        }, 
+                        {
+                            "description": "Natural forcing: solar and volcanic.", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Covers orbital parameters, solar constant, solar pathways (SW radiation only) and the treatment of volcanoes.  Variations in solar insolation have no impact on model ozone.", 
+                            "shortName": "Natural Forcing", 
+                            "specializationID": "cmip6.atmos.natural_forcing"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Wilson, D. R., Bushell, A. C., Kerr-Munslow, A. M., Price, J. D. and C. J. Morcrette (2008) A prognostic cloud fraction and condensation scheme. I: Scheme description Q.J.R. Meteorol. Soc., 134: 2093\u20132107", 
+                                    "collectiveTitle": "Wilson, D. R., Bushell, A. C., Kerr-Munslow, A. M., Price, J. D. and C. J. Morcrette (2008) A prognostic cloud fraction and condensation scheme. I: Scheme description Q.J.R. Meteorol. Soc., 134: 2093\u20132107", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.866768", 
+                                        "id": "5c0f5c78-a20a-46dc-8833-eed541e030b7", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A prognostic cloud fraction and condensation scheme. I: Scheme description", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "http://onlinelibrary.wiley.com/doi/10.1002/qj.333", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Wilson, D. R., Bushell, Andrew. C., Kerr-Munslow, A. M., Price, J. D., Morcrette, C. J. and A. Bodas-Salcedo (2008) PC2: A prognostic cloud fraction and condensation scheme. II: Climate model simulations  Q.J.R. Meteorol. Soc., 134: 2109\u20132125", 
+                                    "collectiveTitle": "Wilson, D. R., Bushell, Andrew. C., Kerr-Munslow, A. M., Price, J. D., Morcrette, C. J. and A. Bodas-Salcedo (2008) PC2: A prognostic cloud fraction and condensation scheme. II: Climate model simulations  Q.J.R. Meteorol. Soc., 134: 2109\u20132125", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.867453", 
+                                        "id": "ca4a707e-1d73-4a6f-b009-6d7ab14ce0ae", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "PC2: A prognostic cloud fraction and condensation scheme. II: Climate model simulations", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "http://onlinelibrary.wiley.com/doi/10.1002/qj.332", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1002/asl.374, 2012", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.868084", 
+                                        "id": "b707d291-aa88-4790-be92-e785c3b6e5cc", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": " Improvements  to  a  prognostic  cloud  scheme\r\nthrough changes to its cloud erosion parametrization", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.1002/qj.2874, 2016.", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.868695", 
+                                        "id": "f9baf3d1-57a5-4176-a889-e669d53f5796", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Towards retrieving critical relative humidity from ground-based remote-sensing observations", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Characteristics of the cloud scheme", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The parametrisation used is the prognostic cloud fraction and prognostic condensate (PC2) scheme (Wilson et al., 2008a, b) along with the cloud erosion parametrisation described by Morcrette (2012) and critical relative humidity parametrisation described in Van Weverberg et al. (2016). PC2 uses three prognostic variables for water mixing ratio -  vapour, liquid and ice - and a further three prognostic variables for cloud fraction: liquid, ice and mixed-phase. Cloud inhomogeneity is represented in the radiation and in warm rain microphysics using regime-dependent inhomogeneity. ", 
+                            "shortName": "Cloud Scheme", 
+                            "specializationID": "cmip6.atmos.cloud_scheme"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Wilson D. R., and S. P. Ballard (1999) A microphysically based precipitation scheme for the Met Office Unified Model.. Quarterly Journal of Royal Meteorological Society, 125, 1607-1636.", 
+                                    "collectiveTitle": "Wilson D. R., and S. P. Ballard (1999) A microphysically based precipitation scheme for the Met Office Unified Model.. Quarterly Journal of Royal Meteorological Society, 125, 1607-1636.", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.878546", 
+                                        "id": "e3bd5ba0-a0da-4e8c-8862-56aab67d6bf3", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A microphysically based precipitation scheme for the Met Office Unified Model.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.1175/2007JAS2344.1, 2007.", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.879242", 
+                                        "id": "7e788325-a3c4-4a51-bad5-29f97ef48ab2", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Snow Size Distribution Parameterization for Midlatitude and Tropical Ice Clouds\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1002/qj.1949", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.879903", 
+                                        "id": "c0add251-ff9f-4a14-9625-a084d7e18ebd", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "An improved representation of the raindrop size distribution for single-moment microphysics schemes.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Large Scale Cloud Microphysics and Precipitation", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Based on Wilson and Ballard (1999) with significant additions. Calculates transfers between liquid, ice and vapour allowing for mixed-phase and with assumed particle-size distributions for the liquid and ice, and size-dependent fall speeds. Cloud inhomogeneity is taken into account when calculating autoconversion and accretion. Size distribution for rain is based on Abel and Boutle (2012) and for snow on Field et al., 2007.\r\n", 
+                            "shortName": "Microphysics Precipitation", 
+                            "specializationID": "cmip6.atmos.microphysics_precipitation"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Lock A.P., A.R. Brown, M.R. Bush, G.M. Martin, R.N.B. Smith et al.  (2000) A new boundary layer mixing scheme. Part I: scheme description and single column model tests.. Monthly Weather Review, American Meteorological Society, 128, 3187-3199.", 
+                                    "collectiveTitle": "Lock A.P., A.R. Brown, M.R. Bush, G.M. Martin, R.N.B. Smith et al.  (2000) A new boundary layer mixing scheme. Part I: scheme description and single column model tests.. Monthly Weather Review, American Meteorological Society, 128, 3187-3199.", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.889640", 
+                                        "id": "8dced170-2281-4679-bddc-3bd17c4f30e4", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A new boundary layer mixing scheme. Part I: scheme description and single column model tests.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.1175/1520-0493(2001)129<11", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.890327", 
+                                        "id": "4c9f556f-c374-42d9-be8e-a6dddcf1e1f9", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The Numerical Representation of Entrainment in Parameterizations of Boundary Layer Turbulent Mixing", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": " https://doi.org/10.1007/s10546-008-9275-0", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.890948", 
+                                        "id": "f2602b7c-75b0-4e66-8fd7-691e0eb3a709", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Upgrades to the boundary-layer scheme in the Met Office numerical weather prediction model\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Gregory J., and P.R. Rowntree  (1990) A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.. Monthly Weather Review, 118, 1483-1506.", 
+                                    "collectiveTitle": "Gregory J., and P.R. Rowntree  (1990) A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.. Monthly Weather Review, 118, 1483-1506.", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.891556", 
+                                        "id": "b5200a9f-5b64-4ba5-81c8-c6ce81389f9e", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Atmosphere Convective Turbulence and Clouds", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Deep and shallow convection are based on the Gregory Rowntree (1990) scheme with modifications. The turbulence convection scheme is that of Lock et al. (2000) with the modifications described in Lock (2001) and Brown et al. (2008). It is a first-order turbulence closure mixing adiabatically conserved heat and moisture variables, momentum and tracers. \r\n", 
+                            "shortName": "Turbulence Convection", 
+                            "specializationID": "cmip6.atmos.turbulence_convection"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": " https://doi.org/10.1016/j.jqsrt.2013.07.002", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.901368", 
+                                        "id": "3b4f9c4e-6c3a-4728-a2fb-95b55fe42414", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The HITRAN2012 molecular spectroscopic database", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.1175/1520-0469(1996)053<19", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.902036", 
+                                        "id": "077b5a20-fa79-4721-b205-b5b23590580d", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Efficient calculation of infrared fluxes and cooling rates using the two-stream equations\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.1051/0004-6361/201629322", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.902640", 
+                                        "id": "5c5fe16b-7b97-48d9-9cba-fb9e3ab8fd69", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Treatment of overlapping gaseous absorption with the correlated-k method in hot Jupiter and brown dwarf atmosphere models\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
+                                    "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
+                                    "doi": "http://dx.doi.org/10.1002/qj.49712253107 ", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.903246", 
+                                        "id": "b1a3e295-0f9d-4adb-a3db-e8944504ae18", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Characteristics of the atmosphere radiation process", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Solar radiation is treated in six SW bands and thermal radiation in nine LW bands. Gaseous absorption uses the correlated-k method with newly derived coefficients for all gases (except where indicated below) based on the HITRAN 2012 spectroscopic database (Rothman et al., 2013). Scaling of absorption coefficients uses a look-up table of 59 pressures with five temperatures per pressure level based around a mid-latitude summer profile. The method of equivalent extinction (Edwards, 1996; Amundsen et al., 2017) is used for minor gases in each band.", 
+                            "shortName": "Radiation", 
+                            "specializationID": "cmip6.atmos.radiation"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-2017-291", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.912910", 
+                                        "id": "297284c9-863a-41a3-af63-ed6ff36558b5", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1002/qj.2235, 2014", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:18.913559", 
+                                        "id": "86aa36d3-cdb5-441a-9d51-53c74760bd73", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "An inherently mass-conserving semi-implicit semi-Lagrangian  discretization  of  the  deep-atmosphere  global  non-hydrostatic  equations", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Characteristics of the dynamical core", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Semi-implicit, semi-Lagrangian, using cubic interpolation.", 
+                            "shortName": "Dynamical Core", 
+                            "specializationID": "cmip6.atmos.dynamical_core"
+                        }
+                    ], 
+                    "shortName": "atmos", 
+                    "specializationID": "cmip6"
+                }
+            ], 
+            "responsibleParties": [
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:18.960792", 
+                                "id": "17013e50-d901-4fc6-8e3b-9e11d850311b", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Alistair Sellar"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }
+            ], 
+            "version": "7.1"
+        }, 
+        {
+            "citations": [
+                {
+                    "abstract": "MISSING", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.084809", 
+                        "id": "f6b8526d-53e8-4280-85fd-0d6618cf7edf", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                    "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.085464", 
+                        "id": "d41b87a8-487e-4960-8cde-cc6612de2a45", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.086085", 
+                        "id": "ea80b517-6a8f-419f-9ab0-25d3e9d21f46", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.086677", 
+                        "id": "1f50c4d8-c2c6-469c-a4db-e010bc105973", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }
+            ], 
+            "description": "UKCA-GLOMAP-mode (Mann et al., 2010, 2012) is a multi-component and multi-modal aerosol model representing microphysical processes in the form of size-resolved primary emissions, new particle formation, condensation, coagulation, cloud processing, dry deposition, sedimentation, nucleation scavenging and impaction scavenging. The model transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes.\r\nMineral dust is simulated separately using the 6-bin emission scheme of Woodward et al. (2001). This represents the direct interaction of dust with radiation, but not interactions with cloud microphysics. Dust does not mix internally with the aerosols represented by the modal scheme.", 
+            "longName": "UKCA-GLOMAP-mode", 
+            "meta": {
+                "createDate": "2018-08-28 10:52:18.982555", 
+                "id": "c8d2c748-22a9-4e22-9474-dd98b7644d2b", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Model", 
+                "version": 0
+            }, 
+            "modelType": "Process", 
+            "name": "UKCA-GLOMAP-mode", 
+            "realms": [
+                {
+                    "canonicalName": "aerosol", 
+                    "description": "MISSING", 
+                    "grid": {
+                        "description": "Aerosol grid", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "The grid used for the aerosols model is the same as for the atmosphere model.", 
+                        "shortName": "Grid", 
+                        "specializationID": "cmip6.aerosol.grid"
+                    }, 
+                    "keyProperties": {
+                        "citations": [
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.070562", 
+                                    "id": "29b29547-a0da-4a67-a925-59effdfb1c20", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.071275", 
+                                    "id": "eff1749b-56f6-42ec-88c1-adda60b847f3", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.071901", 
+                                    "id": "c54320ff-6746-436b-927e-a02c75aa68ea", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.072521", 
+                                    "id": "4b58e6b5-900f-4941-bb7d-bd0a019a4e4b", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }
+                        ], 
+                        "description": "Key properties of the aerosol model", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "Multi-component and multi-modal aerosol model that transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes. Mineral dust is simulated separately using the 6-bin mass-based CLASSIC scheme.\r\n", 
+                        "shortName": "Key Properties", 
+                        "specializationID": "cmip6.aerosol.key_properties"
+                    }, 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:18.985669", 
+                        "id": "c33bd574-1153-4d77-a4d0-a1bb975c0a74", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.science.Realm", 
+                        "version": 0
+                    }, 
+                    "overview": "MISSING", 
+                    "processes": [
+                        {
+                            "description": "Aerosol transport", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Transport of aerosols and aerosol-chemistry tracers is handled by the atmospheric model.", 
+                            "shortName": "Transport", 
+                            "specializationID": "cmip6.aerosol.transport"
+                        }, 
+                        {
+                            "description": "Atmospheric aerosol emissions", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "For HadGEM3/GC3.1 prescribed emissions of SO2, BC, OC, land and oceanic DMS, Isoprene and Monoterpene.  Online emissions for sea-salt and dust.\r\n", 
+                            "shortName": "Emissions", 
+                            "specializationID": "cmip6.aerosol.emissions"
+                        }, 
+                        {
+                            "description": "Atmospheric aerosol concentrations", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "For HadGEM3 the concentrations in the model are unknown with no species listed.", 
+                            "shortName": "Concentrations", 
+                            "specializationID": "cmip6.aerosol.concentrations"
+                        }, 
+                        {
+                            "description": "Aerosol optical and radiative properties", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Aerosol direct and indirect effects included. Optical properties calculated from Mie theory assuming homogeneous spheres where all components present in a size mode are internally mixed. Mineral dust aerosol also modelled as spheres and externally mixed with the modal aerosol.", 
+                            "shortName": "Optical Radiative Properties", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                    "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.034069", 
+                                        "id": "3ea2918c-b742-4dca-b51d-8f2a3182b19a", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.034719", 
+                                        "id": "5685df61-9dd3-4716-9872-21dab2a991d1", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.035359", 
+                                        "id": "bc7407d6-10d0-4df5-bd12-2b8da8c4685f", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Aerosol model", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "UKCA-GLOMAP-mode (Mann et al., 2010, 2012) is a multi-component and multi-modal aerosol model representing microphysical processes in the form of size-resolved primary emissions, new particle formation, condensation, coagulation, cloud processing, dry deposition, sedimentation, nucleation scavenging and impaction scavenging. The model transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes.\r\nMineral dust is simulated separately using the 6-bin emission scheme of Woodward (2001). This represents the direct interaction of dust with radiation, but not interactions with cloud microphysics. Dust does not mix internally with the aerosols represented by the modal scheme.", 
+                            "shortName": "Model", 
+                            "specializationID": "cmip6.aerosol.model"
+                        }
+                    ], 
+                    "shortName": "aerosol", 
+                    "specializationID": "cmip6"
+                }
+            ], 
+            "responsibleParties": [
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.079605", 
+                                "id": "b1943886-ec5f-458b-88c5-5b824812f4b1", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Mohit Dalvi"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }
+            ], 
+            "version": "part of UM11.0"
+        }, 
+        {
+            "citations": [
+                {
+                    "abstract": "MISSING", 
+                    "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                    "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.223745", 
+                        "id": "bfaaedf1-9c11-4232-9d71-a06970a71892", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "citationDetail": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                    "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.224415", 
+                        "id": "45ffa22b-a350-40af-9899-8b974c57b19c", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "http://www.geosci-model-dev.net/4/701/2011/gmd-4-701-2011.html", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }
+            ], 
+            "description": "Land-surface component of HadGEM3 GC3.1. The joint UK Land Environment Simulator (JULES) model is based on the Met Office Surface Exchange Scheme (MOSES). Sub-grid scale surface heterogeneity is represented by a tiling system. A multi-layer snow scheme has been implemented since HadGEM2. ", 
+            "longName": "MISSING", 
+            "meta": {
+                "createDate": "2018-08-28 10:52:19.098373", 
+                "id": "b6393cdc-aa85-4100-b691-258ac564a177", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Model", 
+                "version": 0
+            }, 
+            "modelType": "Process", 
+            "name": "JULES-HadGEM3-GL7.1", 
+            "realms": [
+                {
+                    "canonicalName": "land", 
+                    "description": "Land Realm", 
+                    "grid": {
+                        "description": "Land surface grid", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "The land-surface grid maps to the atmospheric model grid.", 
+                        "shortName": "Grid", 
+                        "specializationID": "cmip6.land.grid"
+                    }, 
+                    "keyProperties": {
+                        "citations": [
+                            {
+                                "abstract": "MISSING", 
+                                "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.210925", 
+                                    "id": "f0a7cef4-6bbf-47d7-bc0b-5aa17201ea98", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "citationDetail": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                                "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.211574", 
+                                    "id": "a7326f51-1c21-4114-8e0f-5c288203ae16", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "http://www.geosci-model-dev.net/4/701/2011/gmd-4-701-2011.html", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }
+                        ], 
+                        "description": "Land surface key properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "Covers the key properties of the model including its details, processes modelled, flux exchanges, atmospheric coupling treatment, land cover types, tiling, conservation properties, software properties and timestepping framework.", 
+                        "shortName": "Key Properties", 
+                        "specializationID": "cmip6.land.key_properties"
+                    }, 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.101493", 
+                        "id": "771d15e1-fe14-4bec-9610-c488288d5641", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.science.Realm", 
+                        "version": 0
+                    }, 
+                    "overview": "Land Realm", 
+                    "processes": [
+                        {
+                            "description": "Land surface lakes", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "There is no lakes module in GC3.1.", 
+                            "shortName": "Lakes", 
+                            "specializationID": "cmip6.land.lakes"
+                        }, 
+                        {
+                            "description": "Land surface nitrogen cycle", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "There is no nitrogen cycling in GC3.1.", 
+                            "shortName": "Nitrogen Cycle", 
+                            "specializationID": "cmip6.land.nitrogen_cycle"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
+                                    "collectiveTitle": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
+                                    "doi": "https://doi.org/10.1175/1087-3562(1998)002<00", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.132242", 
+                                        "id": "013dac8d-cb36-4978-8e02-89a62c0bc76b", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Land surface river routing", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The surface and sub-surface runoff fluxes are supplied to an implementation of the TRIP river routing model.  ", 
+                            "shortName": "River Routing", 
+                            "specializationID": "cmip6.land.river_routing"
+                        }, 
+                        {
+                            "description": "Land surface energy balance", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Energy balance is resolved for each land-surface tile.", 
+                            "shortName": "Energy Balance", 
+                            "specializationID": "cmip6.land.energy_balance"
+                        }, 
+                        {
+                            "description": "Land surface carbon cycle", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "There is no carbon module in GC3.1.", 
+                            "shortName": "Carbon Cycle", 
+                            "specializationID": "cmip6.land.carbon_cycle"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                    "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.158528", 
+                                        "id": "f286d989-e6d4-4ccf-8979-6c0d29e1558f", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Land surface snow", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The snow module included is a layered snow module. A maximum number of layers is preset (three in this configuration) but layers are only created when the snow depth requires it. Variable density allows compaction of the snow pack. For needleleaf trees snow is partitioned between canopy interception and throughfall, with canopy snow being stored in a single reservoir.\r\n", 
+                            "shortName": "Snow", 
+                            "specializationID": "cmip6.land.snow"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.168003", 
+                                        "id": "55dc04c0-c14e-45e6-8ca8-5da98dd44ae7", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Direct impact of atmospheric CO2 enrichment on regional transpiration", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Land surface vegetation", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The vegetation coverage, LAI and height are prescribed by maps read from files and dynamic vegetation is turned off.  ", 
+                            "shortName": "Vegetation", 
+                            "specializationID": "cmip6.land.vegetation"
+                        }, 
+                        {
+                            "description": "Land surface soil", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The soil hydraulics in the model is an implementation of the van Genuchten equations. \r\n", 
+                            "shortName": "Soil", 
+                            "specializationID": "cmip6.land.soil"
+                        }
+                    ], 
+                    "shortName": "land", 
+                    "specializationID": "cmip6"
+                }
+            ], 
+            "responsibleParties": [
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Maclean Building, Benson Lane Crowmarsh Gifford   Wallingford Oxfordshire OX10 8BB", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.218587", 
+                                "id": "b519abff-7a95-419a-bdcf-d7d0d3c2b7e6", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Rich Ellis"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }
+            ], 
+            "version": "UM10.7 VN4.8"
+        }, 
+        {
+            "citations": [
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/gmd-11-713-2018", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.302867", 
+                        "id": "37c3d5ca-c373-4b63-9f89-1e2fd44262ae", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The sea ice model component of HadGEM3-GC3.1, \r\n\r\n", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/gmd-9-1125-2016", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.303525", 
+                        "id": "cd17c29d-930a-4acb-867a-3eb1b0ae2096", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The location of the thermodynamic atmosphere-ice interface in fully coupled models - a case study using JULES and CICE", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }
+            ], 
+            "description": "The sea ice configuration in HadGEM3 GC3.1, GSI8.1, is described by Ridley et al. (2018). It is largely based on the the Los Alamos sea ice model CICE, version 5.1.2. It is modified as described in West et al. (2016) with surface variables calculated in the surface exchange scheme JULES, on the atmosphere grid. It is configured to use a 5-category thickness distribution, multilayer thermodynamics and explicit meltponds for albedo calculation.", 
+            "longName": "CICE-HadGEM3-GSI8", 
+            "meta": {
+                "createDate": "2018-08-28 10:52:19.232515", 
+                "id": "90b27c3b-2717-4751-a8ea-fb5b4b27d24e", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Model", 
+                "version": 0
+            }, 
+            "modelType": "Process", 
+            "name": "CICE-HadGEM3-GSI8", 
+            "realms": [
+                {
+                    "canonicalName": "seaice", 
+                    "description": "Sea ice realm", 
+                    "grid": {
+                        "description": "Sea Ice grid", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "The sea ice model CICE uses ORCA1, a tripolar grid with poles located in Canada, Russia and Antarctica. It has resolution of roughly 1 degree over most of the world, but latitudinal resolution is higher in the tropics. Ice velocities, forces and stresses are calculated at the corners of grid cells. The model has four vertical layers of ice, equally-spaced, and one vertical layer of snow which is used in thermodynamic calculations only if the snow is greater than 10 cm thick.", 
+                        "shortName": "Grid", 
+                        "specializationID": "cmip6.seaice.grid"
+                    }, 
+                    "keyProperties": {
+                        "description": "Sea Ice key properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "Information on key assumptions made in the sea ice model, including conserved quantities, resolution and tuning.", 
+                        "shortName": "Key Properties", 
+                        "specializationID": "cmip6.seaice.key_properties"
+                    }, 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.233945", 
+                        "id": "0ae252f5-43cf-4201-b2bd-f264e3b2725d", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.science.Realm", 
+                        "version": 0
+                    }, 
+                    "overview": "Sea ice realm", 
+                    "processes": [
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Hunke E., and J. Dukowicz (1997) An elastic-viscous-plastic model for sea-ice dynamics.. Journal of Physical Oceanography, 27, 1849-1867.", 
+                                    "collectiveTitle": "Hunke E., and J. Dukowicz (1997) An elastic-viscous-plastic model for sea-ice dynamics.. Journal of Physical Oceanography, 27, 1849-1867.", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.243997", 
+                                        "id": "5453555e-280e-4059-b980-325e8efbae01", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "An elastic-viscous-plastic model for sea-ice dynamics.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Sea Ice Dynamics", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The ice dynamics are solved by integrating a two-dimensional simplification of the momentum equation to obtain ice velocities. The five forces which affect the sea ice in this equation are: atmosphere-ice stress, ocean-ice stress, Coriolis force, internal ice stress and sea surface tilt. The internal ice stress is calculated using the elastic-viscous-plastic formulation of Hunke (1997).", 
+                            "shortName": "Dynamics", 
+                            "specializationID": "cmip6.seaice.dynamics"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.248833", 
+                                        "id": "afd8a853-c781-492d-921f-9d5f61a22387", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "An energy-conserving thermodynamic sea ice model for climate study", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-11-713-2018", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.249054", 
+                                        "id": "60602014-736d-471d-aaba-134a6c3c6427", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The sea ice model component of HadGEM3-GC3.1, \r\n\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-9-1125-2016", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.249260", 
+                                        "id": "0e8d4eb8-1eba-4b10-99a6-66f6d2dce5ef", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The location of the thermodynamic atmosphere-ice interface in fully coupled models - a case study using JULES and CICE", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Sea Ice Thermodynamics", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The sea ice thermodynamics scheme is based on the energy-conserving method of Bitz and Lipscomb (1999), with four sea ice layers and optionally one snow layer. Conductivity and specific heat capacity are allowed to vary depending on temperature and salinity (the latter being a constant, horizontally-uniform prescribed profile). Unlike in Bitz and Lipscomb (1999), the surface variables (e.g. surface temperature, surface fluxes) are calculated separately in the surface exchange scheme. Ice temperature and effective conductivity form the lower boundary condition for the surface exchange, while top conductive flux, sublimation flux and top melting flux are calculated by the surface exchange and act as forcing for the sea ice thermodynamics. More details can be found in West et al (2016). In situations of very thin ice, or of very cold ice occurring in small concentrations, conductive flux is transferred directly to the ice base to preserve the thermodynamic solver, as described in Ridley et al. (2018).", 
+                            "shortName": "Thermodynamics", 
+                            "specializationID": "cmip6.seaice.thermodynamics"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.254981", 
+                                        "id": "f186b062-d553-45d7-a150-60552d61a4b8", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "CICE: the Los Alamos Sea Ice Model Documentation and Software User\u2019s Manual ", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-11-713-2018", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.255304", 
+                                        "id": "ce147757-5e34-476b-b613-1f068f67262b", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "The sea ice model component of HadGEM3-GC3.1, \r\n\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Semtner A., (1976) A model for the thermodynamic growth of sea ice in numerical investigations of climate.. Journal of Physical Oceanography, 6, 379-389", 
+                                    "collectiveTitle": "Semtner A., (1976) A model for the thermodynamic growth of sea ice in numerical investigations of climate.. Journal of Physical Oceanography, 6, 379-389", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.255798", 
+                                        "id": "96bc542f-837e-40d9-b77f-91284ffa9306", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A model for the thermodynamic growth of sea ice in numerical investigations of climate.", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Sea Ice Radiative Processes", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Radiative processes at the surface are handled in the surface exchange scheme using a multi-band albedo scheme based on that used in the CCSM3 model.  This has separate albedos for visible (< 700 nm) and near-infrared (> 700 nm) wavelengths for both bare ice and snow, and is described in the CICE User\u2019s Manual (Hunke et al., 2015).  Penetration of radiation into the ice is not included.  A correction is therefore applied to the surface albedo to account for scattering within the ice pack (Semtner, 1976).  The impact of surface melt ponds on albedo is included as an addition to the CCSM3 albedo scheme, as described in the Melt Ponds subtopic under Thermodynamics below.  Because the impact of melt ponds on albedo has been included explicitly, the reduction in bare ice albedo with increasing temperature, which was intended to account for melt pond formation, is not included.  However, the reduction in snow albedo with increasing surface skin temperature, intended to take account of the lower albedo of melting snow, has been retained.  The total gridbox albedo of ice in each thickness category is calculated for each of the two wavebands by combining the melt pond, bare ice and snow albedos, weighted by the melt pond and snow fractions.  Further details of the scheme and its implementation are given by Ridley et al. (2018).", 
+                            "shortName": "Radiative Processes", 
+                            "specializationID": "cmip6.seaice.radiative_processes"
+                        }
+                    ], 
+                    "shortName": "seaice", 
+                    "specializationID": "cmip6"
+                }
+            ], 
+            "responsibleParties": [
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.296032", 
+                                "id": "9ac38054-eecc-44de-8410-5855089ad681", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Alex West"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }, 
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.296792", 
+                                "id": "cc66d639-9fa0-45eb-8a43-f26df44b015c", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Ed Blockley"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }, 
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.297532", 
+                                "id": "d4edce81-db28-4989-97be-117cd795b65a", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Jamie Rae"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }
+            ], 
+            "version": "5.1.2"
+        }, 
+        {
+            "citations": [
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.1002/2017MS001115", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.428018", 
+                        "id": "f6d3fed9-67fc-4224-8dd7-bf5c460aa898", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                    "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.428655", 
+                        "id": "976b39f5-0d8b-4fac-a6ca-e880acf75319", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "NEMO ocean engine ", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "10.5194/gmd-2017-263", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.429282", 
+                        "id": "f4b9b17f-f981-4966-bf6f-a78ba60c495a", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "https://www.geosci-model-dev-discuss.net/gmd-2017-263/", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "https"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "MISSING", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.429907", 
+                        "id": "48d9eef7-793e-424d-a22c-794e1c51173f", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "MISSING", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "http"
+                    }
+                }, 
+                {
+                    "abstract": "MISSING", 
+                    "doi": "https://doi.org/10.5194/gmd-10-2849-2017", 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.430496", 
+                        "id": "83c4b281-a8a6-48c9-b9d3-3a2300724169", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.shared.Citation", 
+                        "version": 0
+                    }, 
+                    "title": "Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6 ", 
+                    "url": {
+                        "description": "missing", 
+                        "linkage": "https://www.geosci-model-dev.net/10/2849/2017", 
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "name": "missing", 
+                        "protocol": "https"
+                    }
+                }
+            ], 
+            "description": "The ocean component of the low-resolution version of HadGEM3 GC3.1 is the 1 degree GO6 configuration (Kuhlbrodt et al., 2018; Storkey et al., 2018) of version 3.6_stable of the NEMO primitive equation model (Madec, 2008). \r\n\r\nSince 2010 the UK Met Office, the National Oceanography Centre and the British Antarctic Survey have collaborated on the development of standard global ocean model configurations based on the NEMO code. These are intended to be used for a variety of applications across a range of timescales from ocean forecasting a few days ahead to century-scale climate modelling. The use of a single ocean model configuration for multiple applications is in the spirit of the seamless forecasting approach.\r\nThe GO6 ocean model is the ocean component of the GC3.1 version of the Met Office Hadley Centre coupled climate model (Williams et al., 2017) and the ocean component of the UKESM1 UK Earth System model (Kuhlbrodt et al., 2018), both of which will be used in CMIP6 simulations and associated OMIP simulations. GO6 is expected to be incorporated into future versions of the FOAM ocean forecasting system, the GloSea seasonal forecasting system and the DePreSys decadal forecasting system. \r\n\r\nThe previous configuration GO5 was only released at a single resolution of a nominal 1/4 degree horizontal grid spacing. GO6 is a traceable hierarchy of three horizontal resolutions:  1 degree, 1/4 degree and 1/12 degree, all with the same vertical grid - traceable means that the only differences between the three configurations are those that can be justified as necessitated by the change in resolution, an example being tuning of the horizontal viscosity. \r\n", 
+            "longName": "Nucleus for European Modelling of the Ocean", 
+            "meta": {
+                "createDate": "2018-08-28 10:52:19.315474", 
+                "id": "586b5a11-f32d-424b-beb6-b129ea682c51", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "type": "cim.2.science.Model", 
+                "version": 0
+            }, 
+            "modelType": "Process", 
+            "name": "NEMO-HadGEM3-GO6.0", 
+            "realms": [
+                {
+                    "canonicalName": "ocean", 
+                    "description": "Ocean Realm", 
+                    "grid": {
+                        "citations": [
+                            {
+                                "abstract": "MISSING", 
+                                "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.396145", 
+                                    "id": "0f65b09d-b074-41d6-96a2-466f019c0883", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "NEMO ocean engine ", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "http://dx.doi.org/10.1007/s10236-006-0082-1", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.396571", 
+                                    "id": "31f6c92b-6353-4233-a567-75f58c86136b", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution.", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "http://archimer.ifremer.fr/doc/2006/publication-3514.pdf", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "http://www.sciencedirect.com/science/article/", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.396991", 
+                                    "id": "8b6d0f3b-cc5d-4b71-9ed7-d419942961de", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "http://www.sciencedirect.com/science/article/pii/S1463500303000544", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }
+                        ], 
+                        "description": "Ocean grid", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "The horizontal grid is based on the ORCA1 tripolar Arakawa C-grid (Madec, 2008). The vertical grid varies in thickness over time (the z* coordinate of Adcroft and Campin, 2004). Cells spanning partial model levels are allowed next to the bathymetry (Barnier et al., 2006).", 
+                        "shortName": "Grid", 
+                        "specializationID": "cmip6.ocean.grid"
+                    }, 
+                    "keyProperties": {
+                        "citations": [
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "10.5194/gmd-2017-263", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.408731", 
+                                    "id": "0b5d7bd9-1905-4fa7-b0d0-494f3e78a605", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "https://www.geosci-model-dev-discuss.net/gmd-2017-263/", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "https"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.409297", 
+                                    "id": "b7a6d29a-0d7a-4c44-9094-10d8fe20b41f", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.409817", 
+                                    "id": "70806f33-7ff0-43b1-8ba8-6b73ae947af4", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "ETOPO2v2", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "https://www.ngdc.noaa.gov/mgg/global/etopo2.html", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "https"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "10.1002/grl.50413", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.410463", 
+                                    "id": "18b3e883-f0ff-4dd5-be28-1d06f219ef46", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "The International Bathymetric Chart of the Southern Ocean (IBCSO) Version 1.0\u2014A new bathymetric compilation covering circum-Antarctic waters", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "MISSING", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                "doi": "MISSING", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.411071", 
+                                    "id": "77bdddc4-7673-4063-8e9a-dc726dbe5e97", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "NEMO ocean engine ", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "http"
+                                }
+                            }, 
+                            {
+                                "abstract": "MISSING", 
+                                "doi": "https://doi.org/10.5194/gmd-10-2849-2017", 
+                                "meta": {
+                                    "createDate": "2018-08-28 10:52:19.411656", 
+                                    "id": "6a7c61ec-3f0e-49c6-8917-7448be400fc7", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "type": "cim.2.shared.Citation", 
+                                    "version": 0
+                                }, 
+                                "title": "Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6 ", 
+                                "url": {
+                                    "description": "missing", 
+                                    "linkage": "https://www.geosci-model-dev.net/10/2849/2017", 
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "name": "missing", 
+                                    "protocol": "https"
+                                }
+                            }
+                        ], 
+                        "description": "Ocean key properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "overview": "Key properties provides an overview of the model and summary properties for bathymetry, non-oceanic water, seawater and the software. Sub-topics address conservation, resolution and tuning.", 
+                        "shortName": "Key Properties", 
+                        "specializationID": "cmip6.ocean.key_properties"
+                    }, 
+                    "meta": {
+                        "createDate": "2018-08-28 10:52:19.318625", 
+                        "id": "3ea082ab-2db1-41e8-98fb-d571cf7658eb", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "type": "cim.2.science.Realm", 
+                        "version": 0
+                    }, 
+                    "overview": "Ocean Realm", 
+                    "processes": [
+                        {
+                            "description": "Ocean Timestepping Framework", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Timestepping of tracers and dynamics uses a leap-frog scheme and Asselin filter with an integration time step of 45 minutes. Vertical diffusion of tracers uses an implicit backward time stepping scheme.", 
+                            "shortName": "Timestepping Framework", 
+                            "specializationID": "cmip6.ocean.timestepping_framework"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "http://dx.doi.org/10.1175/1520-0493(1981)109 ", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.341382", 
+                                        "id": "872b058e-71e7-4d7e-a80e-6308a038e8e7", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A Potential Enstrophy and Energy Conserving Scheme for the Shallow Water Equations", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0493(1981)109%3C0018:APEAEC%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": " http://dx.doi.org/10.1002/qj.49710946012", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.342074", 
+                                        "id": "dacf9344-399b-44be-b393-f136a0638508", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "An internal symmetric computational instability,\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49710946012", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "http://dx.doi.org/10.1016/0021-9991(79)90051-", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.342689", 
+                                        "id": "4492bb15-533b-4bcb-a60d-3c280c2e2ea6", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Fully multidimensional flux corrected transport algorithms for fluids", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "http://www.sciencedirect.com/science/article/pii/0021999179900512", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Ocean advection", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Advection of momentum uses a vector-invariant (rotational and irrotational) formulation. The irrotational component is formulated according to Hollingsworth et al. (1983) in order to avoid vertical numerical instabilities. The vorticity term is calculated using the energy and enstrophy conserving scheme of Arakawa and Lamb (1981). Advection of tracers uses the Total Variance Dissipation (TVD) scheme of Zalesak (1979).", 
+                            "shortName": "Advection", 
+                            "specializationID": "cmip6.ocean.advection"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "doi:10.1175/1520-0469(1996)053<0946:ASTFHH>2.", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.352153", 
+                                        "id": "0e996242-a35a-4d30-a40a-8abe25184662", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0469(1996)053%3C0946%3AASTFHH%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }
+                            ], 
+                            "description": "Ocean lateral physics", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Lateral diffusion of momentum is on geopotential surfaces and uses a laplacian operator with a coefficient of 2x10^4 m2s-1, reducing linearly with the grid spacing in order to avoid numerical diffusion instabilities and reducing with a hyperbolic profile over depth. Lateral diffusion of tracers is along isoneutral surfaces and uses a laplacian operator with a coefficient of 1000 m2s-1, reducing linearly with the grid spacing. Adiabatic mixing by transient mesoscale eddies is parameterised according to Held and Larichev (1996).", 
+                            "shortName": "Lateral Physics", 
+                            "specializationID": "cmip6.ocean.lateral_physics"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1016/S1463-5003(03)00011-8i", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.362347", 
+                                        "id": "a46e3ab0-2980-43dc-ab02-73bf8dd80ecc", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Tidally driven mixing in a numerical model of the ocean general circulation", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.sciencedirect.com/science/article/pii/S1463500303000118", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.5194/bg-11-4077-2014", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.363025", 
+                                        "id": "fdf828e1-1ada-4c83-be37-40df246f8b30", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.biogeosciences.net/11/4077/2014/bg-11-4077-2014.html", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1175/1520-0485(1999)029<1124:AGOMWD>2.0.CO", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.363635", 
+                                        "id": "cae3f2df-b7af-44ba-bf2f-4a6f889bc617", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A global ocean model with double-diffusive mixing", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1999)029%3C1124%3AAGOMWD%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                    "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.364254", 
+                                        "id": "d3d474f9-3e37-4fad-acd4-c411b5f17eb3", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "NEMO ocean engine ", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1007/s10236-008-0155-4", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.364864", 
+                                        "id": "35744ccc-659a-48f8-911a-bd6c12faf27f", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Water mass transformation along the Indonesian throughflow in an OGCM", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://link.springer.com/article/10.1007/s10236-008-0155-4", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1038/nature01507 ", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.365453", 
+                                        "id": "ce57b591-c6f8-4ef6-aab2-cd47796d6ea4", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Reduced mixing from the breaking of internal waves in equatorial waters", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.nature.com/articles/nature01507", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "doi:10.1029/JC095iC09p16179", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.366070", 
+                                        "id": "fbf73813-b01a-48de-a148-8fbcc3fcb9ac", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "ttps://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JC095iC09p16179", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "MISSING", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.366666", 
+                                        "id": "9cbf2cc9-8be1-47d1-9c2b-7493e2bc2330", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1994)024%3C2546:MWETIT%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "doi:10.1029/2001JC000922, 2002.", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.367279", 
+                                        "id": "2f7d6185-4f29-4cbc-a8f5-ef965732aca2", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2001JC000922", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.5194/gmd-2017-263", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.367887", 
+                                        "id": "0fa15275-037c-476b-a40c-8ff2f7f48f40", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.geosci-model-dev-discuss.net/gmd-2017-263/", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }
+                            ], 
+                            "description": "Ocean Vertical Physics", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The vertical mixing of tracers and momentum is parameterised using a modified version of the Gaspar et al. (1990) Turbulent Kinetic Energy (TKE) scheme. Unresolved mixing due to internal wave breaking is represented by a background vertical diffusivity of 1.2x10^-5 m2/s which decreases linearly from 15 degrees latitude to 1.2x10^-6 m2/s at 5 degrees latitude (Gregg et al., 2003), and a globally constant background viscosity of 1.2x10^-4 m2/s. \r\nThe wave breaking parameterisation of Craig and Banner (1994) is used as the TKE surface boundary condition. Vertical mixing in the boundary layer includes an ad-hoc parameterisation of near-inertial wave breaking (Madec, 2008; Rodgers et al., 2014) with an e-decay vertical length scale increasing sinusoidally from 0.5 m at the equator to 10 m and 30 m at ~13 N and ~40 S respectively (Storkey et al., 2018). Langmuir turbulence is parameterised following Axell (2002).\r\nVertical mixing in the ocean interior includes parameterisations of tidal mixing with a special formulation for the Indonesian Throughflow (Simmons et al., 2004; Koch-Larrouy et al., 2008) and double diffusive mixing (Merryfield et al., 1999). Convection is parameterised as an enhanced vertical diffusivity of 10 m2/s where the density profile is statically unstable.", 
+                            "shortName": "Vertical Physics", 
+                            "specializationID": "cmip6.ocean.vertical_physics"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "http://dx.doi.org/10.1029/2000JC900089", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.374019", 
+                                        "id": "f6d78add-29e6-40c2-8ff2-39ecf787737a", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2000JC900089", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1175/1520-0485(1997)027<0581:AMFIRO>2.0.CO", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.374237", 
+                                        "id": "9cb96024-2493-436e-aa00-7d642a999cb5", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A method for improved representation of dense water spreading over topography in geopotential-coordinate models", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1997)027%3C0581%3AAMFIRO%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "http://www.sciencedirect.com/science/article/", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.374445", 
+                                        "id": "1a9eac55-289d-48d1-ac65-d34a5091dd04", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "http://www.sciencedirect.com/science/article/pii/S1463500303000544", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }
+                            ], 
+                            "description": "Ocean upper / lower boundaries", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "The model uses a non-linear free surface in which the cell thicknesses throughout the water column are allowed to vary with time (the z* coordinate of Adcroft and Campin, 2004). This permits an exact representation of the surface freshwater flux. The equation for the surface pressure gradient is solved using a filtered solution in which the fast gravity waves are damped by an additional force in the equation (Roullet and Madec, 2000). An advective and diffusive bottom boundary layer scheme is used (Beckmann and Doscher, 1997) with a lateral mixing coefficient of 1000 m2/s. ", 
+                            "shortName": "Uplow Boundaries", 
+                            "specializationID": "cmip6.ocean.uplow_boundaries"
+                        }, 
+                        {
+                            "citations": [
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1111/j.1365-246X.2011.05228.x", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.379357", 
+                                        "id": "07eb5bb8-1c20-4f55-8ebe-2f197a0e10b7", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Global heat flow trends resolved from multiple\r\ngeological and geophysical proxies, ", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://academic.oup.com/gji/article/187/3/1405/614806", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "0.1007/s00382-006-0200-2 ", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.379569", 
+                                        "id": "75b3f985-4907-497c-8079-2242c852aaa8", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://link.springer.com/article/10.1007/s00382-006-0200-2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1016/S0165-232X(97)00012-8 ", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.379772", 
+                                        "id": "057223fe-5b7e-4c62-a849-b1a0f6db065b", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Modelling dynamics and thermodynamics of icebergs", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.sciencedirect.com/science/article/pii/S0165232X97000128", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "10.1175/1520-0485(1997)027<0581:AMFIRO>2.0.CO", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.380087", 
+                                        "id": "0e6715f6-e377-47ed-85a6-8f05c23342c5", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "A method for improved representation of dense water spreading over topography in geopotential-coordinate models", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1997)027%3C0581%3AAMFIRO%3E2.0.CO%3B2", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "http://www.sciencedirect.com/science/article/", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.380408", 
+                                        "id": "ed50856b-6649-4c6b-a41e-5fd907013cc1", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "MISSING", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "http"
+                                    }
+                                }, 
+                                {
+                                    "abstract": "MISSING", 
+                                    "doi": "https://doi.org/10.5194/gmd-10-2849-2017", 
+                                    "meta": {
+                                        "createDate": "2018-08-28 10:52:19.380739", 
+                                        "id": "cfe50be5-67f3-4859-955a-fc6c4562935c", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "type": "cim.2.shared.Citation", 
+                                        "version": 0
+                                    }, 
+                                    "title": "Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6 ", 
+                                    "url": {
+                                        "description": "missing", 
+                                        "linkage": "https://www.geosci-model-dev.net/10/2849/2017", 
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "name": "missing", 
+                                        "protocol": "https"
+                                    }
+                                }
+                            ], 
+                            "description": "Ocean boundary forcing", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "overview": "Freshwater runoff from land is added to the surface layer of the ocean, assuming the runoff is fresh and at the same temperature as the local SST. An enhanced vertical diffusion of 2x10^-3 m2/s is added over the top 10 m of the water column at runoff points to avoid instabilities associated with very shallow fresh layers at the surface. Meltwater fluxes from land ice are parameterised using a Lagrangian iceberg model (Bigg et al., 1997; Martin and Adcroft, 2010) and a prescribed freshwater flux at the edge of ice shelves to represent basal melting (Mathiot et al., 2017). Penetration of the shortwave heat flux into the ocean is parameterised using a 3-band RGB scheme (Lengaigne et al., 2007) assuming a constant chlorophyll concentration of 0.05 g.Chl/L. Dense overflows are parameterised using an advective and diffusive bottom boundary layer scheme (Beckmann and Doscher, 1997). A quadratic bottom friction is used with enhancements in the Indonesian Throughflow, Denmark Strait and Bab al Mandab regions.", 
+                            "shortName": "Boundary Forcing", 
+                            "specializationID": "cmip6.ocean.boundary_forcing"
+                        }
+                    ], 
+                    "shortName": "ocean", 
+                    "specializationID": "cmip6"
+                }
+            ], 
+            "responsibleParties": [
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "Department of Meteorology Earley Gate PO Box 243 Reading Berks RG6 6BB UK", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.422066", 
+                                "id": "1728b8fa-1ce2-4b8e-83c8-dbbac7f3ca2e", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Till Kuhlbrodt"
+                        }
+                    ], 
+                    "role": "originator"
+                }, 
+                {
+                    "meta": {
+                        "type": "cim.2.shared.Responsibility"
+                    }, 
+                    "parties": [
+                        {
+                            "address": "MISSING", 
+                            "isOrganisation": false, 
+                            "meta": {
+                                "createDate": "2018-08-28 10:52:19.422812", 
+                                "id": "59b9b7c8-f688-4f33-a148-a9ca0ad16116", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "type": "cim.2.shared.Party", 
+                                "version": 0
+                            }, 
+                            "name": "Daley Calvert"
+                        }
+                    ], 
+                    "role": "point of contact"
+                }
+            ], 
+            "version": "3.6 stable"
+        }
+    ], 
+    "keyProperties": {
+        "description": "Key properties of the model", 
+        "meta": {
+            "type": "cim.2.science.Topic"
+        }, 
+        "overview": "Describes summary properties, genealogy and history of the model, software properties, conservation, coupling and tuning.", 
+        "shortName": "Key Properties", 
+        "specializationID": "cmip6.toplevel.key_properties"
+    }, 
+    "longName": "HadGEM3-GC3.1-N96ORCA1", 
+    "meta": {
+        "createDate": "2018-08-28 10:52:18.795454", 
+        "id": "542fe72d-5d9d-4838-8fa5-9691199cfb26", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "type": "cim.2.science.Model", 
+        "version": 0
+    }, 
+    "modelType": "GCM", 
+    "name": "HadGEM3-GC31-LL"
+}
