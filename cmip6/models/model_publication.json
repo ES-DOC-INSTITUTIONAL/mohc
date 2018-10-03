@@ -17,8 +17,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "hadgem3-gc31-hm": {
         "toplevel": {
             "publish": "off"
@@ -37,8 +37,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "hadgem3-gc31-ll": {
         "toplevel": {
             "publish": "off"
@@ -57,8 +57,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "hadgem3-gc31-lm": {
         "toplevel": {
             "publish": "off"
@@ -77,8 +77,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "hadgem3-gc31-mh": {
         "toplevel": {
             "publish": "off"
@@ -97,8 +97,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "hadgem3-gc31-mm": {
         "toplevel": {
             "publish": "off"
@@ -117,8 +117,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "ukesm1-0-ll": {
         "toplevel": {
             "publish": "off"
@@ -126,10 +126,10 @@
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -143,8 +143,8 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
-    },
+        }
+    }, 
     "ukesm1-0-mmh": {
         "toplevel": {
             "publish": "off"
@@ -152,10 +152,10 @@
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -169,6 +169,6 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
+        }
     }
 }
