@@ -1,0 +1,25 @@
+{
+    "doi": "10.1175/1520-0485(1999)029<1124:AGOMWD>2.0.CO", 
+    "citationDetail": "Merryfield, W. J., Holloway, G. and Gargett, A. E. A global ocean model with double-diffusive mixing J. Phys. Ocean., 29, 1124-1142", 
+    "title": "A global ocean model with double-diffusive mixing", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1999)029%3C1124%3AAGOMWD%3E2.0.CO%3B2", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Merryfield, W. J., Holloway, G. and Gargett, A. E. A global ocean model with double-diffusive mixing J. Phys. Ocean., 29, 1124-1142", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.992106", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "23e444ba-ce8f-4f8b-a40c-db6a8a3860a4"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "doi:10.1175/1520-0469(1996)053<0946:ASTFHH>2.", 
+    "citationDetail": "Held, I.M. and Larichev, V. D. A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n Journal of the Atmospheric Sciences, 53, 946-952", 
+    "title": "A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0469(1996)053%3C0946%3AASTFHH%3E2.0.CO%3B2", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Held, I.M. and Larichev, V. D. A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n Journal of the Atmospheric Sciences, 53, 946-952", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.878091", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "607654a1-5841-4411-b520-2535ae353176"
+    }, 
+    "context": "reference"
+}

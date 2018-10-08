@@ -1,0 +1,25 @@
+{
+    "doi": "0.1007/s00382-006-0200-2 ", 
+    "citationDetail": "Lengaigne, M., Menkes, C., Aumont, O., Gorgues, T., Bopp, L., Andr\u00e9, J.-M. and Madec, G. Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model Climate Dynamics, 28(5), 503-516.", 
+    "title": "Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://link.springer.com/article/10.1007/s00382-006-0200-2", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Lengaigne, M., Menkes, C., Aumont, O., Gorgues, T., Bopp, L., Andr\u00e9, J.-M. and Madec, G. Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model Climate Dynamics, 28(5), 503-516.", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.066301", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "c2107657-55cf-40a4-b76e-73e6f3bd479b"
+    }, 
+    "context": "reference"
+}

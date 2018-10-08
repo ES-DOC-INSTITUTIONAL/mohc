@@ -1,0 +1,25 @@
+{
+    "doi": "MISSING", 
+    "citationDetail": "Craig, P. D. and Banner, M. L. Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface J. Phys. Oceanogr., 24, 2546-2559", 
+    "title": "Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1994)024%3C2546:MWETIT%3E2.0.CO%3B2", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Craig, P. D. and Banner, M. L. Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface J. Phys. Oceanogr., 24, 2546-2559", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.993235", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "220c0297-0b72-4108-96a0-40b642813807"
+    }, 
+    "context": "reference"
+}

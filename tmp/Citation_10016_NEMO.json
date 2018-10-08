@@ -1,0 +1,25 @@
+{
+    "doi": "10.1016/S0165-232X(97)00012-8 ", 
+    "citationDetail": "Bigg, G. R., Wadley, M. R., Stevens, D. P., and Johnson, J. A. Modelling dynamics and thermodynamics of icebergs Cold Regions Science and Technology, 26, 113-135", 
+    "title": "Modelling dynamics and thermodynamics of icebergs", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.sciencedirect.com/science/article/pii/S0165232X97000128", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Bigg, G. R., Wadley, M. R., Stevens, D. P., and Johnson, J. A. Modelling dynamics and thermodynamics of icebergs Cold Regions Science and Technology, 26, 113-135", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.066770", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "ff388b5a-d236-49f7-b965-fb6c5df9265b"
+    }, 
+    "context": "reference"
+}

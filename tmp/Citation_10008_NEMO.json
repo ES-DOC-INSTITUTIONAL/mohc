@@ -1,0 +1,25 @@
+{
+    "doi": "10.1038/nature01507 ", 
+    "citationDetail": "Gregg, M. C., Sanford, T. B. and Winkel, D. P. Reduced mixing from the breaking of internal waves in equatorial waters Nature, 422, 513-515", 
+    "title": "Reduced mixing from the breaking of internal waves in equatorial waters", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.nature.com/articles/nature01507", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Gregg, M. C., Sanford, T. B. and Winkel, D. P. Reduced mixing from the breaking of internal waves in equatorial waters Nature, 422, 513-515", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.992785", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "c7db4f0d-37f9-4f42-b8ba-b5a262b3f9f9"
+    }, 
+    "context": "reference"
+}

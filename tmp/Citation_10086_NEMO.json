@@ -1,0 +1,25 @@
+{
+    "doi": "10.5194/gmd-2017-263", 
+    "citationDetail": "Storkey, D., Blaker, A. T., Mathiot, P., Megann, A., Aksenov, Y., Blockley, E. W., Calvert, D., Graham, T., Hewitt, H. T., Hyder, P., Kuhlbrodt, T., Rae, J. G. L. and B. Sinha.\r\n UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n Geoscientific Model Development (in review)", 
+    "title": "UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.geosci-model-dev-discuss.net/gmd-2017-263/", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Storkey, D., Blaker, A. T., Mathiot, P., Megann, A., Aksenov, Y., Blockley, E. W., Calvert, D., Graham, T., Hewitt, H. T., Hyder, P., Kuhlbrodt, T., Rae, J. G. L. and B. Sinha.\r\n UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n Geoscientific Model Development (in review)", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.993693", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "f2883ef6-01a0-4007-880f-600afdcc1ff9"
+    }, 
+    "context": "reference"
+}

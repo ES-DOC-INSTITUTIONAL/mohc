@@ -1,0 +1,25 @@
+{
+    "doi": "10.5194/bg-11-4077-2014", 
+    "citationDetail": "Rodgers, K. B., Aumont, O., Mikaloff Fletcher, S. E., Plancherel, Y., Bopp, L., de Boyer Mont\u00e9gut, C., Iudicone, D., Keeling, R. F., Madec, G. and Wanninkhof, R. Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring Biogeosciences, 11, 4077-4098", 
+    "title": "Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.biogeosciences.net/11/4077/2014/bg-11-4077-2014.html", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Rodgers, K. B., Aumont, O., Mikaloff Fletcher, S. E., Plancherel, Y., Bopp, L., de Boyer Mont\u00e9gut, C., Iudicone, D., Keeling, R. F., Madec, G. and Wanninkhof, R. Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring Biogeosciences, 11, 4077-4098", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.991875", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "4a518ed4-f77d-4e29-adab-446f26fd0f54"
+    }, 
+    "context": "reference"
+}

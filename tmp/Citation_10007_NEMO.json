@@ -1,0 +1,25 @@
+{
+    "doi": "doi:10.1029/JC095iC09p16179", 
+    "citationDetail": "Gaspar, P., Gr\u00e9goris, Y., and Lefevre, J.-M. A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site  J. Geophys. Res., 95, 16179-16193", 
+    "title": "A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "ttps://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JC095iC09p16179", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Gaspar, P., Gr\u00e9goris, Y., and Lefevre, J.-M. A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site  J. Geophys. Res., 95, 16179-16193", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.993009", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "916e6081-d2b1-49c6-a7c4-399e3a1db712"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,2297 @@
+{
+    "responsibleParties": [
+        {
+            "meta": {
+                "type": "cim.2.shared.Responsibility"
+            }, 
+            "role": "originator", 
+            "parties": [
+                {
+                    "version": 0, 
+                    "meta": {
+                        "type": "cim.2.shared.DocReference"
+                    }, 
+                    "id": "9f5e38bb-4962-4ca9-80f7-db1f9ba212a5"
+                }
+            ]
+        }, 
+        {
+            "meta": {
+                "type": "cim.2.shared.Responsibility"
+            }, 
+            "role": "point of contact", 
+            "parties": [
+                {
+                    "version": 0, 
+                    "meta": {
+                        "type": "cim.2.shared.DocReference"
+                    }, 
+                    "id": "a44b67be-83f6-4fb8-9376-67b7489e6395"
+                }
+            ]
+        }
+    ], 
+    "realms": [
+        {
+            "processes": [
+                {
+                    "description": "Ocean Timestepping Framework", 
+                    "overview": "Timestepping of tracers and dynamics uses a leap-frog scheme and Asselin filter with an integration time step of 45 minutes. Vertical diffusion of tracers uses an implicit backward time stepping scheme.", 
+                    "specializationID": "cmip6.ocean.timestepping_framework", 
+                    "propertySets": [
+                        {
+                            "shortName": "Baroclinic Dynamics", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.timestepping_framework.baroclinic_dynamics", 
+                            "description": "Baroclinic dynamics in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.baroclinic_dynamics.type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Preconditioned conjugate gradient"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.baroclinic_dynamics.scheme", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Leap-frog + Asselin filter"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.baroclinic_dynamics.time_step", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "2700"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "shortName": "Barotropic", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.timestepping_framework.barotropic", 
+                            "description": "Barotropic time stepping in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.barotropic.splitting", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "None"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.barotropic.time_step", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "2700"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "shortName": "Tracers", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.timestepping_framework.tracers", 
+                            "description": "Properties of tracers time stepping in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.tracers.scheme", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Leap-frog + Asselin filter"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.tracers.time_step", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "2700"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "shortName": "Vertical Physics", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.timestepping_framework.vertical_physics", 
+                            "description": "Vertical physics time stepping in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.timestepping_framework.vertical_physics.method", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "implicit / backward stepping"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "leap-frog scheme", 
+                        "Asselin filter"
+                    ], 
+                    "shortName": "Timestepping Framework", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.ocean.timestepping_framework.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.timestepping_framework.diurnal_cycle", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Via coupling"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Ocean advection", 
+                    "overview": "Advection of momentum uses a vector-invariant (rotational and irrotational) formulation. The irrotational component is formulated according to Hollingsworth et al. (1983) in order to avoid vertical numerical instabilities. The vorticity term is calculated using the energy and enstrophy conserving scheme of Arakawa and Lamb (1981). Advection of tracers uses the Total Variance Dissipation (TVD) scheme of Zalesak (1979).", 
+                    "specializationID": "cmip6.ocean.advection", 
+                    "citations": [
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "10c74699-5b76-46df-babc-635c5a804470"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "7097121e-7c9a-4942-a9c7-246333c60a49"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "5b0bfc9d-4150-4762-9fbb-75a39feb4f34"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "TVD"
+                    ], 
+                    "shortName": "Advection", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.ocean.advection.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Properties of lateral momemtum advection scheme in ocean", 
+                            "overview": "Advection of momentum uses a vector-invariant (rotational and irrotational) formulation. The irrotational component is formulated according to Hollingsworth et al. (1983) in order to avoid vertical numerical instabilities. The vorticity term is calculated using the energy and enstrophy conserving scheme of Arakawa and Lamb (1981). ", 
+                            "specializationID": "cmip6.ocean.advection.momentum", 
+                            "citations": [
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "10c74699-5b76-46df-babc-635c5a804470"
+                                }, 
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "7097121e-7c9a-4942-a9c7-246333c60a49"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "keywords": [
+                                "EEN"
+                            ], 
+                            "shortName": "Momentum", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.advection.momentum.type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Vector form"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.momentum.scheme_name", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Energy and ENstrophy conservative scheme (EEN)"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.momentum.ALE", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Properties of lateral tracer advection scheme in ocean", 
+                            "overview": "Advection of tracers uses the Total Variance Dissipation (TVD) scheme of Zalesak (1979).", 
+                            "specializationID": "cmip6.ocean.advection.lateral_tracers", 
+                            "citations": [
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "5b0bfc9d-4150-4762-9fbb-75a39feb4f34"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Lateral Tracers", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.advection.lateral_tracers.type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Total Variance Dissipation (TVD)"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.lateral_tracers.flux_limiter", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.lateral_tracers.passive_tracers", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Ideal age"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.lateral_tracers.passive_tracers_advection", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Properties of vertical tracer advection scheme in ocean", 
+                            "overview": "Advection of tracers uses the Total Variance Dissipation (TVD) scheme of Zalesak (1979).", 
+                            "specializationID": "cmip6.ocean.advection.vertical_tracers", 
+                            "citations": [
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "5b0bfc9d-4150-4762-9fbb-75a39feb4f34"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "keywords": [
+                                "TVD"
+                            ], 
+                            "shortName": "Vertical Tracers", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.advection.vertical_tracers.type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Total Variance Dissipation (TVD)"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.advection.vertical_tracers.flux_limiter", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Ocean lateral physics", 
+                    "overview": "Lateral diffusion of momentum is on geopotential surfaces and uses a laplacian operator with a coefficient of 2x10^4 m2s-1, reducing linearly with the grid spacing in order to avoid numerical diffusion instabilities and reducing with a hyperbolic profile over depth. Lateral diffusion of tracers is along isoneutral surfaces and uses a laplacian operator with a coefficient of 1000 m2s-1, reducing linearly with the grid spacing. Adiabatic mixing by transient mesoscale eddies is parameterised according to Held and Larichev (1996).", 
+                    "specializationID": "cmip6.ocean.lateral_physics", 
+                    "citations": [
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "607654a1-5841-4411-b520-2535ae353176"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "laplacian operator"
+                    ], 
+                    "shortName": "Lateral Physics", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.ocean.lateral_physics.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.lateral_physics.scheme", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Properties of lateral physics for momentum in ocean", 
+                            "overview": "SEE TOPIC DESCRIPTION", 
+                            "specializationID": "cmip6.ocean.lateral_physics.momentum", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Eddy Viscosity Coeff", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff", 
+                                    "description": "Properties of eddy viscosity coeff in lateral physics momemtum scheme in the ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Space varying"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.constant_coefficient", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.variable_coefficient", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "2x10^4 m2/s-1 at equator reducing linearly with grid spacing and with a hyperbolic profile over depth.\r\n."
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "0"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_backscatter", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "false"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Operator", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.lateral_physics.momentum.operator", 
+                                    "description": "Properties of lateral physics operator for momentum in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.operator.direction", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Geopotential"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.operator.order", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Harmonic"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.momentum.operator.discretisation", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:unknown"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Momentum"
+                        }, 
+                        {
+                            "description": "Properties of lateral physics for tracers in ocean", 
+                            "overview": "SEE TOPIC DESCRIPTION", 
+                            "specializationID": "cmip6.ocean.lateral_physics.tracers", 
+                            "citations": [
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "607654a1-5841-4411-b520-2535ae353176"
+                                }
+                            ], 
+                            "propertySets": [
+                                {
+                                    "shortName": "Eddy Induced Velocity", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity", 
+                                    "description": "Properties of eddy induced velocity (EIV) in lateral physics tracers scheme in the ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "HL"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.constant_val", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "advective"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.added_diffusivity", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "none"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Eddy Viscosity Coeff", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff", 
+                                    "description": "Properties of eddy viscosity coeff in lateral physics tracers scheme in the ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Space varying"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff.constant_coefficient", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff.variable_coefficient", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "1000 m2/s at equator reducing linearly with the grid spacing."
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff.coeff_background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "0"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.eddy_viscosity_coeff.coeff_backscatter", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "false"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Operator", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.lateral_physics.tracers.operator", 
+                                    "description": "Properties of lateral physics operator for tracers in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.operator.direction", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Isoneutral"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.operator.order", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Harmonic"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.lateral_physics.tracers.operator.discretisation", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:unknown"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Tracers", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.lateral_physics.tracers.mesoscale_closure", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.lateral_physics.tracers.submesoscale_mixing", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Ocean Vertical Physics", 
+                    "overview": "The vertical mixing of tracers and momentum is parameterised using a modified version of the Gaspar et al. (1990) Turbulent Kinetic Energy (TKE) scheme. Unresolved mixing due to internal wave breaking is represented by a background vertical diffusivity of 1.2x10^-5 m2/s which decreases linearly from 15 degrees latitude to 1.2x10^-6 m2/s at 5 degrees latitude (Gregg et al., 2003), and a globally constant background viscosity of 1.2x10^-4 m2/s. \r\nThe wave breaking parameterisation of Craig and Banner (1994) is used as the TKE surface boundary condition. Vertical mixing in the boundary layer includes an ad-hoc parameterisation of near-inertial wave breaking (Madec, 2008; Rodgers et al., 2014) with an e-decay vertical length scale increasing sinusoidally from 0.5 m at the equator to 10 m and 30 m at ~13 N and ~40 S respectively (Storkey et al., 2018). Langmuir turbulence is parameterised following Axell (2002).\r\nVertical mixing in the ocean interior includes parameterisations of tidal mixing with a special formulation for the Indonesian Throughflow (Simmons et al., 2004; Koch-Larrouy et al., 2008) and double diffusive mixing (Merryfield et al., 1999). Convection is parameterised as an enhanced vertical diffusivity of 10 m2/s where the density profile is statically unstable.", 
+                    "specializationID": "cmip6.ocean.vertical_physics", 
+                    "citations": [
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "d1fbcc17-3b2a-4256-8d14-7b29349c97eb"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "4a518ed4-f77d-4e29-adab-446f26fd0f54"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "23e444ba-ce8f-4f8b-a40c-db6a8a3860a4"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "3556336a-7270-4262-8a8d-3b94dd4971fe"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "c7db4f0d-37f9-4f42-b8ba-b5a262b3f9f9"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "916e6081-d2b1-49c6-a7c4-399e3a1db712"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "220c0297-0b72-4108-96a0-40b642813807"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "2560f80c-42ea-4a67-97dc-992b66f93da5"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "f2883ef6-01a0-4007-880f-600afdcc1ff9"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "TKE scheme"
+                    ], 
+                    "shortName": "Vertical Physics", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.ocean.vertical_physics.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Properties of boundary layer mixing in the ocean (aka mixed layer)", 
+                            "overview": "SEE TOPIC DESCRIPTION\r\n", 
+                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Details", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.details", 
+                                    "description": "Properties of vertical physics in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.details.langmuir_cells_mixing", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "true"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Momentum", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum", 
+                                    "description": "Properties of boundary layer (BL) mixing on momentum in the ocean ", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Turbulent closure - TKE"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.closure_order", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "1.5"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.constant", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "constant, 1.2e-4 m2/s "
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Tracers", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers", 
+                                    "description": "Properties of boundary layer (BL) mixing on tracers in the ocean ", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Turbulent closure - TKE"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.closure_order", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "1.5"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.constant", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "constant but reduced in tropics, 1.2e-5 m2/s"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Boundary Layer Mixing"
+                        }, 
+                        {
+                            "description": "Properties of interior vertical mixing in the ocean", 
+                            "overview": "SEE TOPIC DESCRIPTION", 
+                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Details", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.details", 
+                                    "description": "Properties of interior mixing in the ocean ", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Enhanced vertical diffusion"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.details.tide_induced_mixing", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "baroclinic based on climatologies"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.details.double_diffusion", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "true"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.details.shear_mixing", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "false"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Momentum", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.momentum", 
+                                    "description": "Properties of interior mixing on momentum in the ocean ", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.momentum.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Turbulent closure / TKE"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.momentum.constant", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.momentum.profile", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "no profile"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.momentum.background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "constant, 1.2e-4 m2/s "
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Tracers", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.tracers", 
+                                    "description": "Properties of interior mixing on tracers in the ocean ", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.tracers.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Turbulent closure / TKE"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.tracers.constant", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.tracers.profile", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "no profile"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.vertical_physics.interior_mixing.tracers.background", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "constant but reduced at tropics, 1.2e-5 m2/s"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Interior Mixing"
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Ocean upper / lower boundaries", 
+                    "overview": "The model uses a non-linear free surface in which the cell thicknesses throughout the water column are allowed to vary with time (the z* coordinate of Adcroft and Campin, 2004). This permits an exact representation of the surface freshwater flux. The equation for the surface pressure gradient is solved using a filtered solution in which the fast gravity waves are damped by an additional force in the equation (Roullet and Madec, 2000). An advective and diffusive bottom boundary layer scheme is used (Beckmann and Doscher, 1997) with a lateral mixing coefficient of 1000 m2/s. ", 
+                    "specializationID": "cmip6.ocean.uplow_boundaries", 
+                    "citations": [
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "e02c2b55-d6d6-4174-9b67-1d860767ac44"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "cc414a63-b24c-4d62-8bc0-afeab84045a7"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "8e466598-b3c4-489a-af50-43c3a31f44a1"
+                        }
+                    ], 
+                    "propertySets": [
+                        {
+                            "shortName": "Bottom Boundary Layer", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.uplow_boundaries.bottom_boundary_layer", 
+                            "description": "Properties of bottom boundary layer in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.overview", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Advective and Diffusive"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.lateral_mixing_coef", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "1000"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "none"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "shortName": "Free Surface", 
+                            "meta": {
+                                "type": "cim.2.science.TopicPropertySet"
+                            }, 
+                            "specializationID": "cmip6.ocean.uplow_boundaries.free_surface", 
+                            "description": "Properties of free surface in ocean", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.free_surface.overview", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.free_surface.scheme", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Non-linear filtered"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.ocean.uplow_boundaries.free_surface.embeded_seaice", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Uplow Boundaries"
+                }, 
+                {
+                    "description": "Ocean boundary forcing", 
+                    "overview": "Freshwater runoff from land is added to the surface layer of the ocean, assuming the runoff is fresh and at the same temperature as the local SST. An enhanced vertical diffusion of 2x10^-3 m2/s is added over the top 10 m of the water column at runoff points to avoid instabilities associated with very shallow fresh layers at the surface. Meltwater fluxes from land ice are parameterised using a Lagrangian iceberg model (Bigg et al., 1997; Martin and Adcroft, 2010) and a prescribed freshwater flux at the edge of ice shelves to represent basal melting (Mathiot et al., 2017). Penetration of the shortwave heat flux into the ocean is parameterised using a 3-band RGB scheme (Lengaigne et al., 2007) assuming a constant chlorophyll concentration of 0.05 g.Chl/L. Dense overflows are parameterised using an advective and diffusive bottom boundary layer scheme (Beckmann and Doscher, 1997). A quadratic bottom friction is used with enhancements in the Indonesian Throughflow, Denmark Strait and Bab al Mandab regions.", 
+                    "specializationID": "cmip6.ocean.boundary_forcing", 
+                    "citations": [
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "67ddc730-408a-45d9-92d6-2ad71f11c14c"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "c2107657-55cf-40a4-b76e-73e6f3bd479b"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "ff388b5a-d236-49f7-b965-fb6c5df9265b"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "cc414a63-b24c-4d62-8bc0-afeab84045a7"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "dd3b093e-340e-455d-9b3b-bbd8866bb9aa"
+                        }, 
+                        {
+                            "version": 0, 
+                            "meta": {
+                                "type": "cim.2.shared.DocReference"
+                            }, 
+                            "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Boundary Forcing", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.surface_pressure", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:unknown"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.momentum_flux_correction", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.tracers_flux_correction", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.wave_effects", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Craig-Banner wave breaking parametrisation"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.river_runoff_budget", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "TRIP scheme"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.ocean.boundary_forcing.geothermal_heating", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Climatology (Goutorbe et al., 2011)"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Key properties of momentum boundary forcing in the ocean", 
+                            "overview": "A quadratic bottom friction is used with enhancements in the Indonesian Throughflow, Denmark Strait and Bab al Mandab regions.\r\n", 
+                            "specializationID": "cmip6.ocean.boundary_forcing.momentum", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Bottom Friction", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.boundary_forcing.momentum.bottom_friction", 
+                                    "description": "Properties of momentum bottom friction in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Non-linear"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Lateral Friction", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.boundary_forcing.momentum.lateral_friction", 
+                                    "description": "Properties of momentum lateral friction in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Free-slip"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Momentum"
+                        }, 
+                        {
+                            "description": "Key properties of tracer boundary forcing in the ocean", 
+                            "overview": "SEE TOPIC DESCRIPTION", 
+                            "specializationID": "cmip6.ocean.boundary_forcing.tracers", 
+                            "citations": [
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "dd3b093e-340e-455d-9b3b-bbd8866bb9aa"
+                                }, 
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "c2107657-55cf-40a4-b76e-73e6f3bd479b"
+                                }, 
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+                                }, 
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "ff388b5a-d236-49f7-b965-fb6c5df9265b"
+                                }, 
+                                {
+                                    "version": 0, 
+                                    "meta": {
+                                        "type": "cim.2.shared.DocReference"
+                                    }, 
+                                    "id": "cc414a63-b24c-4d62-8bc0-afeab84045a7"
+                                }
+                            ], 
+                            "propertySets": [
+                                {
+                                    "shortName": "Fresh Water Forcing", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing", 
+                                    "description": "Properties of surface fresh water forcing in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_atmopshere", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Freshwater flux"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_sea_ice", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:unknown"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.forced_mode_restoring", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Restoration to monthly climatology using a -33.33 mm/day/psu retroaction coefficient."
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Sunlight Penetration", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration", 
+                                    "description": "Properties of sunlight penetration scheme in ocean", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "3 extinction depth"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "false"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.extinction_depth", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "39.984 m, 12.713 m, 2.619 m. Inverse of attenuation coefficients for 0.05 g.Chl/L from lookup table within NEMO."
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Tracers"
+                        }
+                    ]
+                }
+            ], 
+            "description": "Ocean Realm", 
+            "overview": "Ocean Realm", 
+            "specializationID": "cmip6", 
+            "canonicalName": "ocean", 
+            "meta": {
+                "createDate": "2018-10-03 15:32:45.711708", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.science.Realm", 
+                "id": "15477009-9a39-43fa-9692-f09ae32adb00"
+            }, 
+            "grid": {
+                "description": "Ocean grid", 
+                "overview": "The horizontal grid is based on the ORCA1 tripolar Arakawa C-grid (Madec, 2008). The vertical grid varies in thickness over time (the z* coordinate of Adcroft and Campin, 2004). Cells spanning partial model levels are allowed next to the bathymetry (Barnier et al., 2006).", 
+                "specializationID": "cmip6.ocean.grid", 
+                "citations": [
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "267e0e44-de83-43d1-bcf5-edb21fd79af2"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "8e466598-b3c4-489a-af50-43c3a31f44a1"
+                    }
+                ], 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "shortName": "Grid", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.ocean.grid.overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE TOPIC DESCRIPTION"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "Type of discretisation scheme in ocean", 
+                        "overview": "Includes information on type of horizontal grid, its discretisation scheme and the type of vertical coordinates.", 
+                        "specializationID": "cmip6.ocean.grid.discretisation", 
+                        "propertySets": [
+                            {
+                                "shortName": "Horizontal", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicPropertySet"
+                                }, 
+                                "specializationID": "cmip6.ocean.grid.discretisation.horizontal", 
+                                "description": "Type of horizontal discretisation scheme in ocean", 
+                                "properties": [
+                                    {
+                                        "specializationID": "cmip6.ocean.grid.discretisation.horizontal.type", 
+                                        "meta": {
+                                            "type": "cim.2.science.TopicProperty"
+                                        }, 
+                                        "values": [
+                                            "Two north poles (ORCA-style)"
+                                        ], 
+                                        "qcStatus": 0
+                                    }, 
+                                    {
+                                        "specializationID": "cmip6.ocean.grid.discretisation.horizontal.scheme", 
+                                        "meta": {
+                                            "type": "cim.2.science.TopicProperty"
+                                        }, 
+                                        "values": [
+                                            "Finite difference / Arakawa C-grid"
+                                        ], 
+                                        "qcStatus": 0
+                                    }
+                                ]
+                            }, 
+                            {
+                                "shortName": "Vertical", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicPropertySet"
+                                }, 
+                                "specializationID": "cmip6.ocean.grid.discretisation.vertical", 
+                                "description": "Properties of vertical discretisation in ocean", 
+                                "properties": [
+                                    {
+                                        "specializationID": "cmip6.ocean.grid.discretisation.vertical.coordinates", 
+                                        "meta": {
+                                            "type": "cim.2.science.TopicProperty"
+                                        }, 
+                                        "values": [
+                                            "Z*-coordinate"
+                                        ], 
+                                        "qcStatus": 0
+                                    }, 
+                                    {
+                                        "specializationID": "cmip6.ocean.grid.discretisation.vertical.partial_steps", 
+                                        "meta": {
+                                            "type": "cim.2.science.TopicProperty"
+                                        }, 
+                                        "values": [
+                                            "true"
+                                        ], 
+                                        "qcStatus": 0
+                                    }
+                                ]
+                            }
+                        ], 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Discretisation"
+                    }
+                ]
+            }, 
+            "shortName": "ocean", 
+            "keyProperties": {
+                "description": "Ocean key properties", 
+                "overview": "Key properties provides an overview of the model and summary properties for bathymetry, non-oceanic water, seawater and the software. Sub-topics address conservation, resolution and tuning.", 
+                "specializationID": "cmip6.ocean.key_properties", 
+                "citations": [
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "f2883ef6-01a0-4007-880f-600afdcc1ff9"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "d71935ea-ca02-42a4-bf44-b0346ac71119"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "6a3b3ffe-3d11-4702-80d8-0e6546995958"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "5d3ca9e2-71cb-4f6f-835b-68689b4f61d0"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+                    }, 
+                    {
+                        "version": 0, 
+                        "meta": {
+                            "type": "cim.2.shared.DocReference"
+                        }, 
+                        "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+                    }
+                ], 
+                "propertySets": [
+                    {
+                        "shortName": "Bathymetry", 
+                        "meta": {
+                            "type": "cim.2.science.TopicPropertySet"
+                        }, 
+                        "specializationID": "cmip6.ocean.key_properties.bathymetry", 
+                        "description": "Properties of bathymetry in ocean", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.bathymetry.reference_dates", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Present day"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.bathymetry.type", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "true"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.bathymetry.ocean_smoothing", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "The model bathymetry is based on the ETOPO2 dataset (NOAA, 2006) with bathymetry on the Antarctic shelf based on IBSCO (Arndt et al., 2013). The Antarctic coastline is smoothed to remove single grid point inlets and avoid the spurious accumulation of sea ice related to the different grid of the coupled sea ice model."
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.bathymetry.source", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "ETOPO2, IBSCO"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "shortName": "Nonoceanic Waters", 
+                        "meta": {
+                            "type": "cim.2.science.TopicPropertySet"
+                        }, 
+                        "specializationID": "cmip6.ocean.key_properties.nonoceanic_waters", 
+                        "description": "Non oceanic waters treatement in ocean", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Caspian Sea as ocean points"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "None"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "shortName": "Seawater Properties", 
+                        "meta": {
+                            "type": "cim.2.science.TopicPropertySet"
+                        }, 
+                        "specializationID": "cmip6.ocean.key_properties.seawater_properties", 
+                        "description": "Physical properties of seawater in ocean", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.eos_type", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Polynomial EOS-80"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.eos_functional_temp", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Potential temperature"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.eos_functional_salt", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Practical salinity Sp"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.eos_functional_depth", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Depth (meters)"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "UNESCO 1983"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "3991.8679571196"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.seawater_properties.ocean_reference_density", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1026"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "shortName": "Software Properties", 
+                        "meta": {
+                            "type": "cim.2.science.TopicPropertySet"
+                        }, 
+                        "specializationID": "cmip6.ocean.key_properties.software_properties", 
+                        "description": "Software properties of ocean code", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.software_properties.repository", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "http://forge.ipsl.jussieu.fr/shaconemo"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.software_properties.code_version", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "3.6 stable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.software_properties.code_languages", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Fortran"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ], 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "keywords": [
+                    "NEMO ORCA", 
+                    "Arakawa C-grid", 
+                    "ETOPO2", 
+                    "IBSCO"
+                ], 
+                "shortName": "Key Properties", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.ocean.key_properties.model_overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE MODEL DESCRIPTION"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.ocean.key_properties.model_name", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "NEMO 3.6"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.ocean.key_properties.model_family", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "OGCM"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.ocean.key_properties.basic_approximations", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Primitive equations", 
+                            "Boussinesq"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.ocean.key_properties.prognostic_variables", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Potential temperature", 
+                            "Salinity", 
+                            "U-velocity", 
+                            "V-velocity"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "Resolution in the ocean grid", 
+                        "overview": "The horizontal grid is based on the ORCA1 tripolar Arakawa C-grid (Madec, 2008), with the southern boundary extended from 77S to 85S to permit the modelling of circulation under ice shelves in Antarctica (Mathiot et al., 2017). This has nominal 1 degree resolution (362 x 332 grid points) at the equator decreasing poleward and uses an isotropic Mercator grid between 22N and 67S, with meridional refinement to 1/3 degree in the tropics. Three quasi-isotropic bipolar grids are joined to the Mercator grid; one north of 22N with poles in Siberia and Canada, and two south of 67S in the Weddell Sea and Bellingshausen, Amundsen and Ross Sea sectors. \r\nThe model has 75 vertical levels which are a double tanh function of depth such that the thickness increases from 1 m near the surface to 200 m at 6000 m. This provides high resolution near the surface for short- to mid-range forecasting purposes, while retaining reasonable resolution at mid-depths for long-term climate studies.", 
+                        "specializationID": "cmip6.ocean.key_properties.resolution", 
+                        "citations": [
+                            {
+                                "version": 0, 
+                                "meta": {
+                                    "type": "cim.2.shared.DocReference"
+                                }, 
+                                "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+                            }, 
+                            {
+                                "version": 0, 
+                                "meta": {
+                                    "type": "cim.2.shared.DocReference"
+                                }, 
+                                "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+                            }
+                        ], 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Resolution", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.name", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "eORCA1"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.canonical_horizontal_resolution", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1 degree"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.range_horizontal_resolution", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "approx 23 km (polar) - approx 111 km (equator)\r\n"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.number_of_horizontal_gridpoints", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "120184"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.number_of_vertical_levels", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "75"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.is_adaptive_grid", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "false"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.resolution.thickness_level_1", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1.023"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Tuning methodology for ocean component", 
+                        "overview": "Tuning details covered in coupled model information.", 
+                        "specializationID": "cmip6.ocean.key_properties.tuning_applied", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Tuning Applied", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.tuning_applied.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.tuning_applied.global_mean_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.tuning_applied.regional_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.tuning_applied.trend_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Conservation in the ocean component", 
+                        "overview": "Includes information on the conservation methodology, properties conserved, consistency properties and corrected conserved prognostic variables.", 
+                        "specializationID": "cmip6.ocean.key_properties.conservation", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Conservation", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.conservation.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:unknown"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.conservation.scheme", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Salt", 
+                                    "Heat"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.conservation.consistency_properties", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:unknown"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.conservation.corrected_conserved_prognostic_variables", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:unknown"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.ocean.key_properties.conservation.was_flux_correction_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "false"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ], 
+    "description": "The ocean component of the low-resolution version of HadGEM3 GC3.1 is the 1 degree GO6 configuration (Kuhlbrodt et al., 2018; Storkey et al., 2018) of version 3.6_stable of the NEMO primitive equation model (Madec, 2008). \r\n\r\nSince 2010 the UK Met Office, the National Oceanography Centre and the British Antarctic Survey have collaborated on the development of standard global ocean model configurations based on the NEMO code. These are intended to be used for a variety of applications across a range of timescales from ocean forecasting a few days ahead to century-scale climate modelling. The use of a single ocean model configuration for multiple applications is in the spirit of the seamless forecasting approach.\r\nThe GO6 ocean model is the ocean component of the GC3.1 version of the Met Office Hadley Centre coupled climate model (Williams et al., 2017) and the ocean component of the UKESM1 UK Earth System model (Kuhlbrodt et al., 2018), both of which will be used in CMIP6 simulations and associated OMIP simulations. GO6 is expected to be incorporated into future versions of the FOAM ocean forecasting system, the GloSea seasonal forecasting system and the DePreSys decadal forecasting system. \r\n\r\nThe previous configuration GO5 was only released at a single resolution of a nominal 1/4 degree horizontal grid spacing. GO6 is a traceable hierarchy of three horizontal resolutions:  1 degree, 1/4 degree and 1/12 degree, all with the same vertical grid - traceable means that the only differences between the three configurations are those that can be justified as necessitated by the change in resolution, an example being tuning of the horizontal viscosity. \r\n", 
+    "repository": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "http://forge.ipsl.jussieu.fr/shaconemo", 
+        "name": "missing"
+    }, 
+    "canonicalID": "NEMO-HadGEM3-GO6.0", 
+    "releaseDate": "2015-06-30 00:00:00", 
+    "citations": [
+        {
+            "version": 0, 
+            "meta": {
+                "type": "cim.2.shared.DocReference"
+            }, 
+            "id": "85c76c50-b6e9-4228-b7e8-08378650cf78"
+        }, 
+        {
+            "version": 0, 
+            "meta": {
+                "type": "cim.2.shared.DocReference"
+            }, 
+            "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+        }, 
+        {
+            "version": 0, 
+            "meta": {
+                "type": "cim.2.shared.DocReference"
+            }, 
+            "id": "f2883ef6-01a0-4007-880f-600afdcc1ff9"
+        }, 
+        {
+            "version": 0, 
+            "meta": {
+                "type": "cim.2.shared.DocReference"
+            }, 
+            "id": "d71935ea-ca02-42a4-bf44-b0346ac71119"
+        }, 
+        {
+            "version": 0, 
+            "meta": {
+                "type": "cim.2.shared.DocReference"
+            }, 
+            "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+        }
+    ], 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.709218", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.science.Model", 
+        "id": "50980c1f-423b-468c-aa1d-23510bd64cb0"
+    }, 
+    "modelType": "Ocean Only", 
+    "version": "3.6 stable", 
+    "longName": "Nucleus for European Modelling of the Ocean", 
+    "name": "NEMO-HadGEM3-GO6.0"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": " http://dx.doi.org/10.1002/qj.49710946012", 
+    "citationDetail": "Hollingsworth, A., Kallberg, P., Renner, V., and Burridge, D. M. An internal symmetric computational instability,\r\n Quarterly Journal of the Royal Meteorological Society, 109, 417-428", 
+    "title": "An internal symmetric computational instability,\r\n", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49710946012", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Hollingsworth, A., Kallberg, P., Renner, V., and Burridge, D. M. An internal symmetric computational instability,\r\n Quarterly Journal of the Royal Meteorological Society, 109, 417-428", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.775833", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "7097121e-7c9a-4942-a9c7-246333c60a49"
+    }, 
+    "context": "reference"
+}

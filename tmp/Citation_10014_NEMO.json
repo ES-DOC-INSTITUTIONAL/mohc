@@ -1,0 +1,25 @@
+{
+    "doi": "10.1175/1520-0485(1997)027<0581:AMFIRO>2.0.CO", 
+    "citationDetail": "Beckmann, A. and Doscher, R. A method for improved representation of dense water spreading over topography in geopotential-coordinate models J. Phys. Oceanogr., 27, 581-591", 
+    "title": "A method for improved representation of dense water spreading over topography in geopotential-coordinate models", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1997)027%3C0581%3AAMFIRO%3E2.0.CO%3B2", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Beckmann, A. and Doscher, R. A method for improved representation of dense water spreading over topography in geopotential-coordinate models J. Phys. Oceanogr., 27, 581-591", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.008909", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "cc414a63-b24c-4d62-8bc0-afeab84045a7"
+    }, 
+    "context": "reference"
+}

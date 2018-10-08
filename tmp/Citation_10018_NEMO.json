@@ -1,0 +1,25 @@
+{
+    "doi": "http://www.sciencedirect.com/science/article/", 
+    "citationDetail": "Martin, T. and Adcroft, A. Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model Ocean Modelling, 34, 111-124", 
+    "title": "Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "MISSING", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Martin, T. and Adcroft, A. Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model Ocean Modelling, 34, 111-124", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.066039", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "dd3b093e-340e-455d-9b3b-bbd8866bb9aa"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "MISSING", 
+    "citationDetail": "Kuhlbrodt, T., Jones, C. G., Sellar, A., Storkey, D., Blockley, E., Stringer, M., Hill, R., Graham, T., Ridley, J., Blaker, A., Calvert, D., Copsey, D., Ellis, R., Hewitt, H., Hyder, P., Ineson, S., Mulcahy, J., Siahaan, A. and J. Walton.\r\n\r\n The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate Journal of Advances in Modeling Earth Systems\r\n(in review)", 
+    "title": "The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "MISSING", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Kuhlbrodt, T., Jones, C. G., Sellar, A., Storkey, D., Blockley, E., Stringer, M., Hill, R., Graham, T., Ridley, J., Blaker, A., Calvert, D., Copsey, D., Ellis, R., Hewitt, H., Hyder, P., Ineson, S., Mulcahy, J., Siahaan, A. and J. Walton.\r\n\r\n The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate Journal of Advances in Modeling Earth Systems\r\n(in review)", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.209752", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "d71935ea-ca02-42a4-bf44-b0346ac71119"
+    }, 
+    "context": "reference"
+}

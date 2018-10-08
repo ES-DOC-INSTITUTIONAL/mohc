@@ -1,0 +1,25 @@
+{
+    "doi": "10.1111/j.1365-246X.2011.05228.x", 
+    "citationDetail": "Goutorbe, B., J. Poort, F. Lucazeau, and S. Raillard Global heat flow trends resolved from multiple\r\ngeological and geophysical proxies,  Geophys. J. Int., 187, 1405-1419.", 
+    "title": "Global heat flow trends resolved from multiple\r\ngeological and geophysical proxies, ", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://academic.oup.com/gji/article/187/3/1405/614806", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Goutorbe, B., J. Poort, F. Lucazeau, and S. Raillard Global heat flow trends resolved from multiple\r\ngeological and geophysical proxies,  Geophys. J. Int., 187, 1405-1419.", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.094590", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "67ddc730-408a-45d9-92d6-2ad71f11c14c"
+    }, 
+    "context": "reference"
+}

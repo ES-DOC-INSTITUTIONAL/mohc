@@ -1,0 +1,25 @@
+{
+    "doi": "http://dx.doi.org/10.1007/s10236-006-0082-1", 
+    "citationDetail": "Barnier, B., Madec, G., Penduff, T., Molines, J.-M., Treguier, A.-M., Le Sommer, J., Beckmann, A., Biastoch, A., B\u00f6ning, C., Dengg, J., Derval, C., Durand, E., Gulev, S., Remy, E., Talandier, C., Theetten, S., Maltrud, M., McClean, J., and De Cuevas, B.\r\n Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution. Ocean Dynamics, 56, 543-567.", 
+    "title": "Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution.", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "http://archimer.ifremer.fr/doc/2006/publication-3514.pdf", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Barnier, B., Madec, G., Penduff, T., Molines, J.-M., Treguier, A.-M., Le Sommer, J., Beckmann, A., Biastoch, A., B\u00f6ning, C., Dengg, J., Derval, C., Durand, E., Gulev, S., Remy, E., Talandier, C., Theetten, S., Maltrud, M., McClean, J., and De Cuevas, B.\r\n Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution. Ocean Dynamics, 56, 543-567.", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.145986", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "267e0e44-de83-43d1-bcf5-edb21fd79af2"
+    }, 
+    "context": "reference"
+}

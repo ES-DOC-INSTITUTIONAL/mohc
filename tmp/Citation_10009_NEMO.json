@@ -1,0 +1,25 @@
+{
+    "doi": "10.1007/s10236-008-0155-4", 
+    "citationDetail": "Koch-Larrouy, A., Madec, G., Blanke, B. and Molcard, R. Water mass transformation along the Indonesian throughflow in an OGCM Ocean Dynam., 58, 289-309", 
+    "title": "Water mass transformation along the Indonesian throughflow in an OGCM", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://link.springer.com/article/10.1007/s10236-008-0155-4", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Koch-Larrouy, A., Madec, G., Blanke, B. and Molcard, R. Water mass transformation along the Indonesian throughflow in an OGCM Ocean Dynam., 58, 289-309", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.992554", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "3556336a-7270-4262-8a8d-3b94dd4971fe"
+    }, 
+    "context": "reference"
+}

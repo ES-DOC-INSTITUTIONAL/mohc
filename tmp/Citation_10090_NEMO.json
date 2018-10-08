@@ -1,0 +1,25 @@
+{
+    "doi": "https://doi.org/10.1002/2017MS001115", 
+    "citationDetail": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P.,\r\nIneson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations Journal of Advances in Modeling Earth Systems, 10, 357-380\r\n", 
+    "title": "The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "MISSING", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P.,\r\nIneson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations Journal of Advances in Modeling Earth Systems, 10, 357-380\r\n", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.259320", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "85c76c50-b6e9-4228-b7e8-08378650cf78"
+    }, 
+    "context": "reference"
+}

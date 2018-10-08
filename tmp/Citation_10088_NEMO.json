@@ -1,0 +1,25 @@
+{
+    "doi": "MISSING", 
+    "citationDetail": "NOAA ETOPO2v2 NOAA online information", 
+    "title": "ETOPO2v2", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.ngdc.noaa.gov/mgg/global/etopo2.html", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "NOAA ETOPO2v2 NOAA online information", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.210056", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "6a3b3ffe-3d11-4702-80d8-0e6546995958"
+    }, 
+    "context": "reference"
+}

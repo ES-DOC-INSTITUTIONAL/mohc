@@ -1,0 +1,25 @@
+{
+    "doi": "http://www.sciencedirect.com/science/article/", 
+    "citationDetail": "Adcroft, A. and Campin, J.-M. Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models Ocean Modelling, 7, 269 - 284", 
+    "title": "Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "http://www.sciencedirect.com/science/article/pii/S1463500303000544", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Adcroft, A. and Campin, J.-M. Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models Ocean Modelling, 7, 269 - 284", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.009140", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "8e466598-b3c4-489a-af50-43c3a31f44a1"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "https://doi.org/10.5194/gmd-10-2849-2017", 
+    "citationDetail": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
+    "title": "Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6 ", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.geosci-model-dev.net/10/2849/2017", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.066539", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "7506ccac-caf8-4018-b9ab-56fad59bb828"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "doi:10.1029/2001JC000922, 2002.", 
+    "citationDetail": "Axell, L. B.\r\n Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea J. Geophys. Res., 107, C11, 3204, 20pp", 
+    "title": "Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2001JC000922", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Axell, L. B.\r\n Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea J. Geophys. Res., 107, C11, 3204, 20pp", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.993464", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "2560f80c-42ea-4a67-97dc-992b66f93da5"
+    }, 
+    "context": "reference"
+}

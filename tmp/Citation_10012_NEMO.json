@@ -1,0 +1,25 @@
+{
+    "doi": "10.1016/S1463-5003(03)00011-8i", 
+    "citationDetail": "Simmons, H., Jayne, S., Laurent, L. S. and Weaver, A.\r\n Tidally driven mixing in a numerical model of the ocean general circulation Ocean Model., 6, 245-263", 
+    "title": "Tidally driven mixing in a numerical model of the ocean general circulation", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://www.sciencedirect.com/science/article/pii/S1463500303000118", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Simmons, H., Jayne, S., Laurent, L. S. and Weaver, A.\r\n Tidally driven mixing in a numerical model of the ocean general circulation Ocean Model., 6, 245-263", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.991615", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "d1fbcc17-3b2a-4256-8d14-7b29349c97eb"
+    }, 
+    "context": "reference"
+}

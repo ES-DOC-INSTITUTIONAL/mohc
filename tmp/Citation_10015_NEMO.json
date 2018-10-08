@@ -1,0 +1,25 @@
+{
+    "doi": "http://dx.doi.org/10.1029/2000JC900089", 
+    "citationDetail": "Roullet, G. and Madec, G. Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models Journal of Geophysical Research, 105, C10, 23927-23942", 
+    "title": "Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2000JC900089", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Roullet, G. and Madec, G. Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models Journal of Geophysical Research, 105, C10, 23927-23942", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.008664", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "e02c2b55-d6d6-4174-9b67-1d860767ac44"
+    }, 
+    "context": "reference"
+}

@@ -1,0 +1,25 @@
+{
+    "doi": "MISSING", 
+    "citationDetail": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+    "title": "NEMO ocean engine ", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "http://www.nemo-ocean.eu/About-NEMO/Reference-manuals", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:45.992331", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "7115383c-7fbe-43b8-a60e-984205899e78"
+    }, 
+    "context": "reference"
+}

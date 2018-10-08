@@ -1,0 +1,25 @@
+{
+    "doi": "10.1002/grl.50413", 
+    "citationDetail": "Arndt, J. E., Schenke, H. W., Jakobsson, M., Nitsche, F. O., Buys, G., Goleby, B., Rebesco, M., Bohoyo, F., Hong, J., Black, J., Greku, R.,\r\nUdintsev, G., Barrios, F., Reynoso-Peralta, W., Taisei, M. and R. Wigley.\r\n The International Bathymetric Chart of the Southern Ocean (IBCSO) Version 1.0\u2014A new bathymetric compilation covering circum-Antarctic waters Geophysical Research Letters, 40, 3111-3117", 
+    "title": "The International Bathymetric Chart of the Southern Ocean (IBCSO) Version 1.0\u2014A new bathymetric compilation covering circum-Antarctic waters", 
+    "url": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "http", 
+        "description": "n/a", 
+        "linkage": "MISSING", 
+        "name": "missing"
+    }, 
+    "abstract": "MISSING", 
+    "collectiveTitle": "Arndt, J. E., Schenke, H. W., Jakobsson, M., Nitsche, F. O., Buys, G., Goleby, B., Rebesco, M., Bohoyo, F., Hong, J., Black, J., Greku, R.,\r\nUdintsev, G., Barrios, F., Reynoso-Peralta, W., Taisei, M. and R. Wigley.\r\n The International Bathymetric Chart of the Southern Ocean (IBCSO) Version 1.0\u2014A new bathymetric compilation covering circum-Antarctic waters Geophysical Research Letters, 40, 3111-3117", 
+    "meta": {
+        "createDate": "2018-10-03 15:32:46.210287", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.shared.Citation", 
+        "id": "5d3ca9e2-71cb-4f6f-835b-68689b4f61d0"
+    }, 
+    "context": "reference"
+}
