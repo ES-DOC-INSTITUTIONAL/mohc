@@ -1,0 +1,1593 @@
+{
+    "responsibleParties": [
+        {
+            "meta": {
+                "type": "cim.2.shared.Responsibility"
+            }, 
+            "role": "point of contact", 
+            "parties": [
+                {
+                    "isOrganisation": false, 
+                    "name": "Mohit Dalvi", 
+                    "url": {
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "protocol": "http", 
+                        "description": "n/a", 
+                        "linkage": "http://www.metoffice.gov.uk", 
+                        "name": "n/a"
+                    }, 
+                    "meta": {
+                        "createDate": "2019-01-31 13:12:21.253969", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "version": 0, 
+                        "type": "cim.2.shared.Party", 
+                        "id": "07d32245-94cb-46b7-b35e-8c42014e4c81"
+                    }, 
+                    "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
+                    "email": "mohit.dalvi@metoffice.gov.uk"
+                }
+            ]
+        }
+    ], 
+    "realms": [
+        {
+            "processes": [
+                {
+                    "description": "Transport of aerosols and aerosol-chemistry tracers is handled by the atmospheric model.", 
+                    "overview": "Aerosol transport", 
+                    "specializationID": "cmip6.aerosol.transport", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Transport", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.aerosol.transport.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.transport.scheme", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Specific transport scheme (semi-lagrangian)"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.transport.mass_conservation_scheme", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Mass adjustment", 
+                                "Gradients monotonicity"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.transport.convention", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Convective fluxes connected to tracers"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.transport.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "For HadGEM3/GC3.1 prescribed emissions of SO2, BC, OC, land and oceanic DMS, Isoprene and Monoterpene.  Online emissions for sea-salt and dust.\r\n", 
+                    "overview": "Atmospheric aerosol emissions", 
+                    "specializationID": "cmip6.aerosol.emissions", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Emissions", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.method", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Prescribed (climatology)", 
+                                "Prescribed CMIP6", 
+                                "Prescribed above surface", 
+                                "Interactive"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.sources", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Vegetation", 
+                                "Volcanos", 
+                                "Sea surface", 
+                                "Fires", 
+                                "Anthropogenic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.prescribed_climatology", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Monthly"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.prescribed_climatology_emitted_species", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Volcanic SO2, oceanic-DMS, Monoterpene, Isoprene"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SO2, BC, OC, land-DMS"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.interactive_emitted_species", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Sea-salt, dust."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.other_emitted_species", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.other_method_characteristics", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.emissions.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "No name"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "For HadGEM3 the concentrations in the model are unknown with no species listed.", 
+                    "overview": "Atmospheric aerosol concentrations", 
+                    "specializationID": "cmip6.aerosol.concentrations", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Concentrations", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "The concentrations are interactively simulated."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.prescribed_lower_boundary", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.prescribed_upper_boundary", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.prescribed_fields_mmr", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "COS- carbonyl sulphide"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.concentrations.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Not applicable"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Aerosol direct and indirect effects included. Optical properties calculated from Mie theory assuming homogeneous spheres where all components present in a size mode are internally mixed. Mineral dust aerosol also modelled as spheres and externally mixed with the modal aerosol.", 
+                    "overview": "Aerosol optical and radiative properties", 
+                    "specializationID": "cmip6.aerosol.optical_radiative_properties", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "Mie theory"
+                    ], 
+                    "shortName": "Optical Radiative Properties", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "RADAER (AERosol RADiation interaction scheme)"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Information on absorption mass coefficients for black carbon, dust and organics.", 
+                            "overview": "Absortion properties in aerosol scheme", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.absorption", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Absorption", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Varies interactively depending on mass fraction and size in each mode. Typically values are around 16 m2/g averaged across all modes."
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.absorption.dust", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Varies across the six size bins. Typical single scattering albedo for regional transported dust is 0.9-0.95 at 550 nm. "
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.absorption.organics", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "0"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Information on internal and external mixing with respect to chemical composition.", 
+                            "overview": "n/a", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.mixtures", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Mixtures", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.mixtures.external", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.mixtures.internal", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Homogeneous spheres with volume-weighted mean refractive index."
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "The impact of H2O on aerosols", 
+                            "overview": "n/a", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Impact Of H2o", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Aerosol-radiation scheme RADAER is described in Bellouin et al., 2013. Optical properties for each aerosol mode vary interactively depending on modal radius and chemical composition (including any water). ", 
+                            "overview": "Radiative scheme for aerosol", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.radiative_scheme", 
+                            "citations": [
+                                {
+                                    "doi": "doi:10.5194/acp-13-3027-2013", 
+                                    "citationDetail": "Bellouin, N., Mann, G. W., Woodhouse, M. T., Johnson, C., Carslaw, K. S. and M. Dalvi Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model Atmos. Chem. Phys., 13, 3027-3044", 
+                                    "title": "Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "www.atmos-chem-phys.net/13/3027/2013/", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Bellouin, N., Mann, G. W., Woodhouse, M. T., Johnson, C., Carslaw, K. S. and M. Dalvi Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model Atmos. Chem. Phys., 13, 3027-3044", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:12:21.059388", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "a9dcaf4f-fac6-4737-98b3-db4e40c5d267"
+                                    }, 
+                                    "context": "reference"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "keywords": [
+                                "RADAER"
+                            ], 
+                            "shortName": "Radiative Scheme", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "6"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "9"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Aerosol activation of cloud droplets is simulated using the UKCA-ACTIVATE scheme (West et al., 2014), which implements the Abdul Razzak Ghan (2000) parameterisation. There is no minimum limit on CCN, but the activation scheme assumes a minimum CDNC of 5 cm-3 to avoid numerical failures.\r\n", 
+                            "overview": "Aerosol-cloud interactions", 
+                            "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions", 
+                            "citations": [
+                                {
+                                    "doi": "doi:10.5194/acp-14-6369-2014, https://www.atm", 
+                                    "citationDetail": "West R.E.L, Stier P., Jones, A., Johnson, C. E., Mann, G. W., Bellouin, N., Partridge, D. G., and Z. Kipling\r\n The importance of vertical velocity variability for estimates of the indirect aerosol effects Atmospheric Chemistry and Physics, 14, 6369-6393", 
+                                    "title": "The importance of vertical velocity variability for estimates of the indirect aerosol effects", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "n/a", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "West R.E.L, Stier P., Jones, A., Johnson, C. E., Mann, G. W., Bellouin, N., Partridge, D. G., and Z. Kipling\r\n The importance of vertical velocity variability for estimates of the indirect aerosol effects Atmospheric Chemistry and Physics, 14, 6369-6393", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:12:21.079674", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "272bd66e-b71d-4844-ac21-2d760eb14d7c"
+                                    }, 
+                                    "context": "reference"
+                                }, 
+                                {
+                                    "doi": "doi:10.1029/1999JD901161, http://dx.doi.org/1", 
+                                    "citationDetail": "Abdul-Razzak, H. and S. J. Ghan A parameterization of aerosol activation: 2. Multiple aerosol types\r\n Journal of Geophysical Research:Atmospheres, 105, 6837-6844", 
+                                    "title": "A parameterization of aerosol activation: 2. Multiple aerosol types\r\n", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "https", 
+                                        "description": "n/a", 
+                                        "linkage": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/1999JD901161", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Abdul-Razzak, H. and S. J. Ghan A parameterization of aerosol activation: 2. Multiple aerosol types\r\n Journal of Geophysical Research:Atmospheres, 105, 6837-6844", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:12:21.080167", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "5c8c213c-1280-4054-a7a2-deca1b635a3b"
+                                    }, 
+                                    "context": "reference"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "keywords": [
+                                "UKCA-ACTIVATE"
+                            ], 
+                            "shortName": "Cloud Interactions", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey_minimum_ccn", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "0"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "9"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "UKCA-GLOMAP-mode (Mann et al., 2010, 2012) is a multi-component and multi-modal aerosol model representing microphysical processes in the form of size-resolved primary emissions, new particle formation, condensation, coagulation, cloud processing, dry deposition, sedimentation, nucleation scavenging and impaction scavenging. The model transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes.\r\nMineral dust is simulated separately using the 6-bin emission scheme of Woodward (2001). This represents the direct interaction of dust with radiation, but not interactions with cloud microphysics. Dust does not mix internally with the aerosols represented by the modal scheme.", 
+                    "overview": "Aerosol model", 
+                    "specializationID": "cmip6.aerosol.model", 
+                    "citations": [
+                        {
+                            "doi": "n/a", 
+                            "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                            "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "n/a", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:12:21.107703", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "6a23af27-63f3-4970-8f4c-60f7073f9525"
+                            }, 
+                            "context": "reference"
+                        }, 
+                        {
+                            "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+                            "citationDetail": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+                            "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "n/a", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:12:21.108133", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "fb347658-9e65-42ca-9c96-120ed90978cb"
+                            }, 
+                            "context": "reference"
+                        }, 
+                        {
+                            "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+                            "citationDetail": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+                            "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "n/a", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:12:21.108548", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "332b2243-5bd0-4ceb-8073-19f244794c08"
+                            }, 
+                            "context": "reference"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Model", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.aerosol.model.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.processes", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Dry deposition", 
+                                "Sedimentation", 
+                                "Wet deposition (impaction scavenging)"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.coupling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Radiation", 
+                                "Land surface", 
+                                "Heterogeneous chemistry", 
+                                "Clouds", 
+                                "Ocean", 
+                                "Gas phase chemistry"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.gas_phase_precursors", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "DMS", 
+                                "SO2", 
+                                "Terpene"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.scheme_type", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Modal", 
+                                "Bin"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.bulk_scheme_species", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.aerosol.model.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "GLOMAP-MODE (GLobal Model for Atmospheric Processes) - Modal version"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }
+            ], 
+            "description": "n/a", 
+            "overview": "n/a", 
+            "specializationID": "cmip6", 
+            "canonicalName": "aerosol", 
+            "meta": {
+                "createDate": "2019-01-31 13:12:20.937121", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.science.Realm", 
+                "id": "66c5938f-53df-4783-8501-c120aab0e643"
+            }, 
+            "grid": {
+                "description": "The grid used for the aerosols model is the same as for the atmosphere model.", 
+                "overview": "Aerosol grid", 
+                "specializationID": "cmip6.aerosol.grid", 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "shortName": "Grid", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.aerosol.grid.overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Same as atmospheric model."
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.grid.matches_atmosphere_grid", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "true"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.grid.name", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Same as atmospheric model"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "192x144 grid cells in horizontal with resolution of 1.875 x 1.25 degrees respectively, translating to approx 110 km in mid-latitudes. 85 hybrid levels in the vertical extending upto 85.0 km", 
+                        "overview": "Resolution in the atmospheric aerosol grid", 
+                        "specializationID": "cmip6.aerosol.grid.resolution", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Resolution", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.grid.resolution.name", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "N96L85"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1.875 x 1.25"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "27648"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.grid.resolution.number_of_vertical_levels", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "85"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.grid.resolution.is_adaptive_grid", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "false"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            "shortName": "aerosol", 
+            "keyProperties": {
+                "description": "Multi-component and multi-modal aerosol model that transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes. Mineral dust is simulated separately using the 6-bin mass-based CLASSIC scheme.\r\n", 
+                "overview": "Key properties of the aerosol model", 
+                "specializationID": "cmip6.aerosol.key_properties", 
+                "citations": [
+                    {
+                        "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+                        "citationDetail": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+                        "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "n/a", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:12:21.232573", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "e86b08fe-317f-4866-9ddb-221b361bdb50"
+                        }, 
+                        "context": "reference"
+                    }, 
+                    {
+                        "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+                        "citationDetail": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+                        "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "n/a", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:12:21.232902", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "628e8998-d6ff-4106-8186-3c68507ce582"
+                        }, 
+                        "context": "reference"
+                    }, 
+                    {
+                        "doi": "n/a", 
+                        "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                        "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "n/a", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:12:21.233205", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "dec38f8e-18e1-431e-95bb-78b8fd0eddce"
+                        }, 
+                        "context": "reference"
+                    }, 
+                    {
+                        "doi": "n/a", 
+                        "citationDetail": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+                        "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "n/a", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:12:21.233493", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "7924b10d-18a1-4790-b37f-8e664fd44216"
+                        }, 
+                        "context": "reference"
+                    }
+                ], 
+                "propertySets": [
+                    {
+                        "shortName": "Software Properties", 
+                        "meta": {
+                            "type": "cim.2.science.TopicPropertySet"
+                        }, 
+                        "specializationID": "cmip6.aerosol.key_properties.software_properties", 
+                        "description": "Software properties of aerosol code", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.software_properties.repository", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "https://code.metoffice.co.uk/trac/um "
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.software_properties.code_version", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "UM11.0"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.software_properties.code_languages", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Fortran 90/2003"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ], 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "keywords": [
+                    "UKCA", 
+                    "GLOMAP", 
+                    "CLASSIC"
+                ], 
+                "shortName": "Key Properties", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE MODEL DESCRIPTION"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.name", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "UKCA-GLOMAP-mode"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.scheme_scope", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "whole atmosphere"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.basic_approximations", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Prognostic variables in GLOMAP are particle number and mass concentrations in different size classes from approx 3 nm up to approx 25 um dry diameter. Processes such as condensation and aqueous sulphate production grow particles by increasing the mass in a size class while conserving particle number. New particle formation generates sub-10 nm sulphate particles within a nucleation mode, and primary-sulphate can emit into larger Aitken and accumulation modes. Carbonaceous aerosol (apart for prim. marine organics) emits into an insoluble Aitken mode and is transferred to the corresponding soluble mode. Sea-salt is emitted into soluble accumulation and coarse soluble modes where it can become internally mixed with sulphate and aged BC/OC."
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.prognostic_variables_form", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "3D mass/volume ratio for aerosols", 
+                            "3D number concenttration for aerosols"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.number_of_tracers", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "26"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.family_approach", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "false"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.aerosol.key_properties.keywords", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE KEYWORDS"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "Specific timestepping (operator splitting) performed with a timestep of 1200 seconds done in the atmosphere model for aerosol advection and a timestep of 3600 seconds for aerosol physics.", 
+                        "overview": "Physical properties of seawater in ocean", 
+                        "specializationID": "cmip6.aerosol.key_properties.timestep_framework", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Timestep Framework", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.timestep_framework.method", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Specific timestepping (operator splitting)"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1200"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "3600"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Information on 3D and 2D forcing variables and the frequency with which the forcings are applied.", 
+                        "overview": "n/a", 
+                        "specializationID": "cmip6.aerosol.key_properties.meteorological_forcings", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Meteorological Forcings", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Driving fields for UKCA (not all used in aerosol module) :\r\nTheta, Q, QCF, Convective cloud liquid Water path, W, Density*r*r, QCL, Cca with anvil, Exner pressure (Rho), Cloud fraction (area, bulk, liq) in each layer, P, Exner pressure (rho, theta levels), Convective Rainfall and Snowfall rates, Large-scale rain and snowfall rates, Melting rates of ice crystals and aggregates."
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Driving fields for UKCA (not all used in aerosol module) :\r\nSoil moisture, Surf. temperature, Boundary layer depth, Roughness length, Land mask, Sea ice fraction, Standard deviation of orography, fractions of land-surface types, Leaf area index, Canopy height, Canopy water, Snow amount, Land fraction in grid box, Mean Land Albedo, Surface pressure, downward SW flux, Surface heat flux, 10 metre wind speed, Stomatal conductance, Friction velocity, Turbulent kinetic Energy, parameters for boundary layer mixing (rhokh, entrainment rates, ..)."
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.meteorological_forcings.frequency", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1200"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "192x144 grid cells in horizontal with resolution of 1.875 x 1.25 degrees respectively, translating to approx 110 km in mid-latitudes. 85 Hybrid Levels in the vertical extending upto 85.0 km.", 
+                        "overview": "Resolution in the aerosol model grid", 
+                        "specializationID": "cmip6.aerosol.key_properties.resolution", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Resolution", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.resolution.name", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "N96L85"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1.875 x 1.25"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "27648"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "85"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.resolution.is_adaptive_grid", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "false"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Mineral dust emissions have three tuning parameters described in Woodward (2001), these tune the global total emission, soil moisture dependence and threshold frictional velocity dependence. Tuned to give as good agreement as possible with observed dust surface concentration and optical depths. Biomass burning emissions of BC and OC are scaled to give improved AOD agreement in biomass burning regions following Johnson et al., 2016. SOA yield from Monoterpene has a scaling factor of 2.0. In-cloud oxidation of SO2 is reduced by 25% following Mulcahy et al., 2018 in prep.", 
+                        "overview": "Tuning methodology for aerosol model", 
+                        "specializationID": "cmip6.aerosol.key_properties.tuning_applied", 
+                        "citations": [
+                            {
+                                "doi": "n/a", 
+                                "citationDetail": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+                                "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+                                "url": {
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "protocol": "http", 
+                                    "description": "n/a", 
+                                    "linkage": "n/a", 
+                                    "name": "n/a"
+                                }, 
+                                "abstract": "n/a", 
+                                "collectiveTitle": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+                                "meta": {
+                                    "createDate": "2019-01-31 13:12:21.221694", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "version": 0, 
+                                    "type": "cim.2.shared.Citation", 
+                                    "id": "3cecb19f-1dae-41d4-a071-dbf36fcbf07a"
+                                }, 
+                                "context": "reference"
+                            }, 
+                            {
+                                "doi": "https://doi.org/10.5194/acp-16-14657-2016", 
+                                "citationDetail": "Johnson, B. T., Haywood, J. M., Langridge, J. M., Darbyshire, E., Morgan, W. T., Szpek, K., Brooke, J. K., Marenco, F., Coe, H., Artaxo, P., Longo, K. M., Mulcahy, J. P., Mann, G. W., Dalvi, M., and Bellouin, N. Evaluation of biomass burning aerosols in the HadGEM3 climate model with observations from the SAMBBA field campaign Atmos. Chem. Phys., 16, 14657-14685", 
+                                "title": "Evaluation of biomass burning aerosols in the HadGEM3 climate model with observations from the SAMBBA field campaign", 
+                                "url": {
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "protocol": "http", 
+                                    "description": "n/a", 
+                                    "linkage": "n/a", 
+                                    "name": "n/a"
+                                }, 
+                                "abstract": "n/a", 
+                                "collectiveTitle": "Johnson, B. T., Haywood, J. M., Langridge, J. M., Darbyshire, E., Morgan, W. T., Szpek, K., Brooke, J. K., Marenco, F., Coe, H., Artaxo, P., Longo, K. M., Mulcahy, J. P., Mann, G. W., Dalvi, M., and Bellouin, N. Evaluation of biomass burning aerosols in the HadGEM3 climate model with observations from the SAMBBA field campaign Atmos. Chem. Phys., 16, 14657-14685", 
+                                "meta": {
+                                    "createDate": "2019-01-31 13:12:21.222034", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "version": 0, 
+                                    "type": "cim.2.shared.Citation", 
+                                    "id": "24b99667-00de-4126-bc02-01e24a9f2fd9"
+                                }, 
+                                "context": "reference"
+                            }, 
+                            {
+                                "doi": "n/a", 
+                                "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+                                "url": {
+                                    "meta": {
+                                        "type": "cim.2.shared.OnlineResource"
+                                    }, 
+                                    "protocol": "http", 
+                                    "description": "n/a", 
+                                    "linkage": "n/a", 
+                                    "name": "n/a"
+                                }, 
+                                "abstract": "n/a", 
+                                "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+                                "meta": {
+                                    "createDate": "2019-01-31 13:12:21.222353", 
+                                    "project": "mohc", 
+                                    "source": "mohc", 
+                                    "version": 0, 
+                                    "type": "cim.2.shared.Citation", 
+                                    "id": "2343fcbe-bc51-471d-90a2-331245c79bac"
+                                }, 
+                                "context": "reference"
+                            }
+                        ], 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Tuning Applied", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.tuning_applied.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "SEE TOPIC DESCRIPTION"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Surface concentrations as well as profiles of Dust, H2SO4, BC/OC and aerosol optical depth."
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Surface concentrations as well as profiles of Dust, H2SO4, BC/OC and aerosol optical depth."
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ], 
+    "description": "UKCA-GLOMAP-mode (Mann et al., 2010, 2012) is a multi-component and multi-modal aerosol model representing microphysical processes in the form of size-resolved primary emissions, new particle formation, condensation, coagulation, cloud processing, dry deposition, sedimentation, nucleation scavenging and impaction scavenging. The model transports aerosol particle number and component mass concentrations of sulfate, sea salt, black carbon and organic carbon in five internally mixed log-normal modes.\r\nMineral dust is simulated separately using the 6-bin emission scheme of Woodward et al. (2001). This represents the direct interaction of dust with radiation, but not interactions with cloud microphysics. Dust does not mix internally with the aerosols represented by the modal scheme.", 
+    "repository": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://code.metoffice.co.uk/trac/um", 
+        "name": "n/a"
+    }, 
+    "canonicalID": "UKCA-GLOMAP-mode", 
+    "releaseDate": "2018-01-01 00:00:00", 
+    "citations": [
+        {
+            "doi": "n/a", 
+            "citationDetail": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+            "title": "Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "n/a", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
+            "meta": {
+                "createDate": "2019-01-31 13:12:21.256334", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "880abe02-83f0-4f21-a165-f45df2124da6"
+            }, 
+            "context": "reference"
+        }, 
+        {
+            "doi": "n/a", 
+            "citationDetail": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+            "title": "Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "n/a", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Woodward S., (2001) Modelling the atmospheric life cycle and radiative impact of mineral dust in the Hadley Centre climate model.. J. Geophys. Res., 106, D16, 18,155-18,166, 2001.", 
+            "meta": {
+                "createDate": "2019-01-31 13:12:21.256569", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "28a8d1ce-cb9f-4d65-946f-7f7f1ff2f566"
+            }, 
+            "context": "reference"
+        }, 
+        {
+            "doi": "https://doi.org/10.5194/gmd-3-519-2010", 
+            "citationDetail": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+            "title": "Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model,", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "n/a", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Mann, G. W., Carslaw, K. S., Spracklen, D. V., Ridley, D. A., Manktelow, P. T., Chipperfield, M. P., Pickering, S. J.  and C. E.  Johnson Description and evaluation of GLOMAP-mode: a modal global aerosol microphysics model for the UKCA composition-climate model, Geosci. Model Dev., 3, 519-551", 
+            "meta": {
+                "createDate": "2019-01-31 13:12:21.256789", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "a4d21d82-4b1f-491e-bdc9-5ae3ff43112e"
+            }, 
+            "context": "reference"
+        }, 
+        {
+            "doi": "https://doi.org/10.5194/acp-12-4449-2012", 
+            "citationDetail": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+            "title": "Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "n/a", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Mann, G. W., Carslaw, K. S., Ridley, D. A., Spracklen, D. V., Pringle, K. J., Merikanto, J., Korhonen, H., Schwarz, J. P., Lee, L. A., Manktelow, P. T., Woodhouse, M. T., Schmidt, A., Breider, T. J., Emmerson, K. M., Reddington, C. L., Chipperfield, M. P, and S. J. Pickering Intercomparison of modal and sectional aerosol microphysics representations within the same 3-D global chemical transport model Atmos. Chem. Phys., 12, 4449-4476", 
+            "meta": {
+                "createDate": "2019-01-31 13:12:21.257017", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "d7ce5ce4-608c-44b7-ac8e-0ba6045f2153"
+            }, 
+            "context": "reference"
+        }
+    ], 
+    "meta": {
+        "createDate": "2019-01-31 13:12:20.929965", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.science.Model", 
+        "id": "fe8b00e6-ecbc-4e85-844e-1fefa225d2fb"
+    }, 
+    "modelType": "Process", 
+    "version": "part of UM11.0", 
+    "longName": "UKCA-GLOMAP-mode", 
+    "name": "UKCA-GLOMAP-mode"
+}

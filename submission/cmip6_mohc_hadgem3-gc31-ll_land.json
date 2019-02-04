@@ -1,0 +1,2493 @@
+{
+    "responsibleParties": [
+        {
+            "meta": {
+                "type": "cim.2.shared.Responsibility"
+            }, 
+            "role": "point of contact", 
+            "parties": [
+                {
+                    "isOrganisation": false, 
+                    "name": "Dr Rich Ellis", 
+                    "url": {
+                        "meta": {
+                            "type": "cim.2.shared.OnlineResource"
+                        }, 
+                        "protocol": "https", 
+                        "description": "n/a", 
+                        "linkage": "https://www.ceh.ac.uk", 
+                        "name": "n/a"
+                    }, 
+                    "meta": {
+                        "createDate": "2019-01-31 13:11:50.727125", 
+                        "project": "mohc", 
+                        "source": "mohc", 
+                        "version": 0, 
+                        "type": "cim.2.shared.Party", 
+                        "id": "e1016083-985a-4aee-8d7e-c7ee7ae17d68"
+                    }, 
+                    "address": "Maclean Building, Benson Lane Crowmarsh Gifford   Wallingford Oxfordshire OX10 8BB", 
+                    "email": "rjel@ceh.ac.uk"
+                }
+            ]
+        }
+    ], 
+    "realms": [
+        {
+            "processes": [
+                {
+                    "description": "There is no lakes module in GC3.1.", 
+                    "overview": "Land surface lakes", 
+                    "specializationID": "cmip6.land.lakes", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Lakes", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.lakes.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.coupling_with_rivers", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.time_step", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.quantities_exchanged_with_rivers", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.vertical_grid", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.lakes.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "No lakes model is included", 
+                            "overview": "Wetlands treatment", 
+                            "specializationID": "cmip6.land.lakes.wetlands", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Wetlands", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.lakes.wetlands.description", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "No lakes model is included", 
+                            "overview": "Lakes treatment", 
+                            "specializationID": "cmip6.land.lakes.method", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Method", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.lakes.method.endorheic_basins", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.lakes.method.dynamic_lake_extent", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.lakes.method.dynamics", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.lakes.method.albedo", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.lakes.method.ice_treatment", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "There is no nitrogen cycling in GC3.1.", 
+                    "overview": "Land surface nitrogen cycle", 
+                    "specializationID": "cmip6.land.nitrogen_cycle", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Nitrogen Cycle", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.nitrogen_cycle.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.nitrogen_cycle.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.nitrogen_cycle.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.nitrogen_cycle.time_step", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.nitrogen_cycle.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "The surface and sub-surface runoff fluxes are supplied to an implementation of the TRIP river routing model. ", 
+                    "overview": "Land surface river routing", 
+                    "specializationID": "cmip6.land.river_routing", 
+                    "citations": [
+                        {
+                            "doi": "https://doi.org/10.1175/1087-3562(1998)002<00", 
+                            "citationDetail": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
+                            "title": "Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "n/a", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:11:50.436621", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "d43bccb1-8aab-4dbf-89c4-7f04ed4dc8a6"
+                            }, 
+                            "context": "reference"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "TRIP"
+                    ], 
+                    "shortName": "River Routing", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.river_routing.coupled_to_atmosphere", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "false"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.coupled_to_land", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "One way coupling surface and subsurface runoff into rivers."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.quantities_exchanged_with_atmosphere", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.basin_flow_direction_map", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "present day"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.flooding", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Water storage"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.water_re_evaporation", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "TRIP"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Kinematic wave model with constant velocity."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Kinematic wave model with constant velocity."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.time_step", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "3600"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.grid_inherited_from_land_surface", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "false"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.grid_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Longitude, latitude grid 1.0 degrees in both directions."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.river_routing.number_of_reservoirs", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "0"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "The river routing oceanic discharge is claculated by direct flow from major basins.", 
+                            "overview": "Oceanic discharge treatment in river routing", 
+                            "specializationID": "cmip6.land.river_routing.oceanic_discharge", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Oceanic Discharge", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.river_routing.oceanic_discharge.quantities_transported", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "water"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.river_routing.oceanic_discharge.discharge_type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "direct (large rivers)"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "Energy balance is resolved for each land-surface tile.", 
+                    "overview": "Land surface energy balance", 
+                    "specializationID": "cmip6.land.energy_balance", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Energy Balance", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.energy_balance.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.energy_balance.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.energy_balance.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "There is no tiling for the energy balance"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.energy_balance.number_of_surface_temperatures", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "9"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.energy_balance.evaporation", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Monteith potential evaporation"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.energy_balance.processes", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "transpiration"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "There is no carbon module in GC3.1.", 
+                    "overview": "Land surface carbon cycle", 
+                    "specializationID": "cmip6.land.carbon_cycle", 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Carbon Cycle", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.time_step", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.anthropogenic_carbon", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.carbon_cycle.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "There is no representation of permafrost in GC3.1 beyond the fact that some soil layers may stay frozen year round. ", 
+                            "overview": "Permafrost carbon treatment in carbon cycle", 
+                            "specializationID": "cmip6.land.carbon_cycle.permafrost_carbon", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Permafrost Carbon", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.permafrost_carbon.decomposition", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.permafrost_carbon.impact_on_soil_properties", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Soil carbon is not a prognostic in the model. There is a fixed soil carbon map and one carbon pool.", 
+                            "overview": "Soil treatment in carbon cycle", 
+                            "specializationID": "cmip6.land.carbon_cycle.soil", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Soil", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.soil.carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.soil.decomposition", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.soil.method", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.soil.number_of_carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Ther is no carbon cycle module in GC3.1.", 
+                            "overview": "Vegetation treatment in carbon cycle", 
+                            "specializationID": "cmip6.land.carbon_cycle.vegetation", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Allocation", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.allocation", 
+                                    "description": "Allocation treatment in carbon cycle", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.allocation.method", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Autotrophic Respiration", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration", 
+                                    "description": "Autotrophic respiration treatment in carbon cycle", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Mortality", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.mortality", 
+                                    "description": "Vegetation mortality treatment in carbon cycle", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.mortality.method", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Phenology", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.phenology", 
+                                    "description": "Phenology treatment in carbon cycle", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.phenology.method", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Photosynthesis", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.photosynthesis", 
+                                    "description": "Photosynthesis treatment in carbon cycle", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.carbon_cycle.vegetation.photosynthesis.method", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Vegetation", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "1"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "There is no litter module GC3.1.", 
+                            "overview": "Litter treatment in Carbon Cycle", 
+                            "specializationID": "cmip6.land.carbon_cycle.litter", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Litter", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.litter.method", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.litter.decomposition", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.litter.carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.carbon_cycle.litter.number_of_carbon_pools", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "The snow module included is a layered snow module. A maximum number of layers is preset (three in this configuration) but layers are only created when the snow depth requires it. Variable density allows compaction of the snow pack. For needleleaf trees snow is partitioned between canopy interception and throughfall, with canopy snow being stored in a single reservoir.\r\n", 
+                    "overview": "Land surface snow", 
+                    "specializationID": "cmip6.land.snow", 
+                    "citations": [
+                        {
+                            "doi": "n/a", 
+                            "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                            "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:11:50.529276", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "5cfe2e3c-3c9a-4023-aa87-973ac44246d3"
+                            }, 
+                            "context": "reference"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Snow", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.snow.processes", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "snow interception"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Thickness of snow layers, temperature, density and ice content, liquid water content, number of snow layers\r\n"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.liquid_water_content", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "prognostic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.snow_cover_fractions", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.temperature", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "prognostic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.heat_content", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "prognostic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.water_equivalent", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "prognostic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.number_of_snow_layers", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "3"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.density", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "prognostic"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "There is no snow tiling in HadGEM3"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.snow.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "n/a", 
+                            "overview": "Snow albedo", 
+                            "specializationID": "cmip6.land.snow.snow_albedo", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Snow Albedo", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.snow.snow_albedo.functions", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.snow.snow_albedo.type", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "description": "The vegetation coverage, LAI and height are prescribed by maps read from files and dynamic vegetation is turned off.  ", 
+                    "overview": "Land surface vegetation", 
+                    "specializationID": "cmip6.land.vegetation", 
+                    "citations": [
+                        {
+                            "doi": "n/a", 
+                            "citationDetail": "Jacobs, C. M. J. Direct impact of atmospheric CO2 enrichment on regional transpiration PhD Thesis, Wageningen Agric. Univ., Wageningen, Netherlands", 
+                            "title": "Direct impact of atmospheric CO2 enrichment on regional transpiration", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "http", 
+                                "description": "n/a", 
+                                "linkage": "n/a", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "Jacobs, C. M. J. Direct impact of atmospheric CO2 enrichment on regional transpiration PhD Thesis, Wageningen Agric. Univ., Wageningen, Netherlands", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:11:50.539930", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "07e9936b-80f2-4771-b57e-d228921c85d3"
+                            }, 
+                            "context": "reference"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "shortName": "Vegetation", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.vegetation.biogeography_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.stomatal_resistance", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "photosynthesis rate", 
+                                "CO2 gradient", 
+                                "leaf humidity deficit"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.stomatal_resistance_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Stomatal resistance is dependant on photosynthesis rate, CO2 gradient across the leaf surface and the leaf humidity deficit. The stomatal conductance is related to photosynthesis by a diffusion equation. In addition an equation defined in Jacobs (1994) links this to leaf humidity deficit.\r\n"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.vegetation_representation", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "plant functional types"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.vegetation_types", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "broadleaf tree", 
+                                "needleleaf tree", 
+                                "C3 grass", 
+                                "C4 grass", 
+                                "deciduous shrub"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.dynamic_vegetation", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "false"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.tiling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "There are five vegetation tiles."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.time_step", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "None"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.biome_types", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.vegetation_time_variation", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.biogeography", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.biomass", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.biomass_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "nil:inapplicable"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.leaf_area_index_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Seasonal variation read from climatology.\r\n"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.leaf_area_index", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "from files"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.phenology_description", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Seasonal climatology of vegetation parameters from files"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.vegetation_map", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Vegetation map is based on the IGBP land cover classes. "
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.interception", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "true"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.vegetation.phenology", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "from files"
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ]
+                }, 
+                {
+                    "description": "The soil hydraulics in the model is an implementation of the van Genuchten equations. \r\n", 
+                    "overview": "Land surface soil", 
+                    "specializationID": "cmip6.land.soil", 
+                    "citations": [
+                        {
+                            "doi": "n/a", 
+                            "citationDetail": "van Genuchten, M. Th (1980) A closed-form equation for predicting the hydraulic conductivity of unsaturated soils Soil Science Society of America Journal, 44:892\u2013898", 
+                            "title": "A closed-form equation for predicting the hydraulic conductivity of unsaturated soils", 
+                            "url": {
+                                "meta": {
+                                    "type": "cim.2.shared.OnlineResource"
+                                }, 
+                                "protocol": "https", 
+                                "description": "n/a", 
+                                "linkage": "https://dl.sciencesocieties.org/publications/sssaj/abstracts/44/5/SS0440050892", 
+                                "name": "n/a"
+                            }, 
+                            "abstract": "n/a", 
+                            "collectiveTitle": "van Genuchten, M. Th (1980) A closed-form equation for predicting the hydraulic conductivity of unsaturated soils Soil Science Society of America Journal, 44:892\u2013898", 
+                            "meta": {
+                                "createDate": "2019-01-31 13:11:50.595820", 
+                                "project": "mohc", 
+                                "source": "mohc", 
+                                "version": 0, 
+                                "type": "cim.2.shared.Citation", 
+                                "id": "c2e3bb45-e0fb-4b38-a04e-3402aaf1e146"
+                            }, 
+                            "context": "reference"
+                        }
+                    ], 
+                    "meta": {
+                        "type": "cim.2.science.Topic"
+                    }, 
+                    "keywords": [
+                        "Darcy / Richardson", 
+                        "TOPMODEL"
+                    ], 
+                    "shortName": "Soil", 
+                    "properties": [
+                        {
+                            "specializationID": "cmip6.land.soil.name", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Darcy / Richardson for soil moisture. Simplified Johanson method for energy and TOPMODEL for deep layer water."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.soil.overview", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "SEE TOPIC DESCRIPTION"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.soil.heat_water_coupling", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "There is a soft coupling.The temperature of a given soil layer is incremented by the diffusive heat fluxes into and out of the layer and the advective flux from the layer by flowing water. The thermal conductivity is dependent on the soil moisture in a given layer."
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.soil.number_of_soil layers", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "4"
+                            ], 
+                            "qcStatus": 0
+                        }, 
+                        {
+                            "specializationID": "cmip6.land.soil.prognostic_variables", 
+                            "meta": {
+                                "type": "cim.2.science.TopicProperty"
+                            }, 
+                            "values": [
+                                "Soil temperature, soil moisture, moisture in deep layer  "
+                            ], 
+                            "qcStatus": 0
+                        }
+                    ], 
+                    "subTopics": [
+                        {
+                            "description": "Incoming precipitation is divided between canopy intercepted and throughfall. Throughfall at a rate lower than a (hydraulic conductivity based) threshold infiltrates the soil. Surplus is partitioned into surface runoff. Movement of moisture between soil layers is based on the hydraulic relationships of van Genuchten.", 
+                            "overview": "Key properties of the soil hydrology", 
+                            "specializationID": "cmip6.land.soil.hydrology", 
+                            "propertySets": [
+                                {
+                                    "shortName": "Drainage", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.soil.hydrology.drainage", 
+                                    "description": "Drainage treatment in the soil", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.soil.hydrology.drainage.description", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "SEE TOPIC DESCRIPTION"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.soil.hydrology.drainage.types", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Horton mechanism", 
+                                                "topmodel-based", 
+                                                "Dunne mechanism"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "shortName": "Freezing", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicPropertySet"
+                                    }, 
+                                    "specializationID": "cmip6.land.soil.hydrology.freezing", 
+                                    "description": "Frozen Soil Treatment", 
+                                    "properties": [
+                                        {
+                                            "specializationID": "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "4"
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.soil.hydrology.freezing.ice_storage_method", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "Soil water may freeze with the amount dependent on the minimisation of Gibbs free energy."
+                                            ], 
+                                            "qcStatus": 0
+                                        }, 
+                                        {
+                                            "specializationID": "cmip6.land.soil.hydrology.freezing.permafrost", 
+                                            "meta": {
+                                                "type": "cim.2.science.TopicProperty"
+                                            }, 
+                                            "values": [
+                                                "nil:inapplicable"
+                                            ], 
+                                            "qcStatus": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Hydrology", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.description", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.time_step", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "1200"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.tiling", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.vertical_discretisation", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Four soil layers at 0.1 m, 0.35 m, 0.65 m and 2.0 m depth. "
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.number_of_ground_water_layers", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "1"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.lateral_connectivity", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.hydrology.method", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Explicit diffusion"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Heat treatment within surface / soil is a simplified version of the scheme described in Johansen (1975) and is documented in Dharssi et al. (2009). Heat fluxes take into account frozen and unfrozen components of soil moisture.", 
+                            "overview": "Soil heat treatment", 
+                            "specializationID": "cmip6.land.soil.heat_treatment", 
+                            "citations": [
+                                {
+                                    "doi": "n/a", 
+                                    "citationDetail": "Johansen, O.\r\n Thermal Conductivity of Soils PhD Thesis, Trondheim University, Norway", 
+                                    "title": "Thermal Conductivity of Soils", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "n/a", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Johansen, O.\r\n Thermal Conductivity of Soils PhD Thesis, Trondheim University, Norway", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:11:50.568912", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "d20e4603-848f-4659-82dd-0d86afbc675c"
+                                    }, 
+                                    "context": "reference"
+                                }, 
+                                {
+                                    "doi": "n/a", 
+                                    "citationDetail": "Dharssi, I., P. L. Vidale, A. Verhoef, B. Macpherson, C. Jones and M. Best  New soil physical properties implemented in the Unified Model at PS18  Met R&D Tech. Rep. 528, 34 p, Met Office, Exeter, UK ", 
+                                    "title": "New soil physical properties implemented in the Unified Model at PS18 ", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "n/a", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Dharssi, I., P. L. Vidale, A. Verhoef, B. Macpherson, C. Jones and M. Best  New soil physical properties implemented in the Unified Model at PS18  Met R&D Tech. Rep. 528, 34 p, Met Office, Exeter, UK ", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:11:50.569146", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "1fb53df1-ac1d-4fee-82be-57484515c159"
+                                    }, 
+                                    "context": "reference"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Heat Treatment", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.heat_storage", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Explicit diffusion"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.processes", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "soil moisture freeze-thaw"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.vertical_discretisation", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Four layers at 0.1 m, 0.25 m, 0.65 m and 2.0 m depth."
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.tiling", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.description", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.heat_treatment.time_step", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "1200"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "The soil map is derived from the Harmonized World Soil Database (HWSD) and the hydraulic parameters are derived from the texture properties and equations from Brookes Corey. The hydraulic and thermal parameters are derived from the grid box mean ratios of sand, silt and clay. ", 
+                            "overview": "Key properties of the land surface soil map", 
+                            "specializationID": "cmip6.land.soil.soil_map", 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "keywords": [
+                                "HWSD", 
+                                "Brookes-Cory"
+                            ], 
+                            "shortName": "Soil Map", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.description", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.structure", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.texture", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "The soil texture map  is the Harmonized World Soil Database (HWSD)."
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.organic_matter", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Organic matter is not used to derive the thermal or hydraulic properties."
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.albedo", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "SEE TOPIC DESCRIPTION"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.water_table", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "nil:inapplicable"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.continuously_varying_soil_depth", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "false"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.soil_map.soil_depth", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "Soil depth is a constant 3.0 m. "
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }, 
+                        {
+                            "description": "Snow free albedo is calculated as the fraction area covered weight sum of individual tile albedos, with lake and urban albedo taking a globally prescribed value, soil albedo prescribed from a soil colour map (Best et al., 2011).\r\n\r\nVegetated tile albedo are calculated based on radiative transfer through vegetation as described by Sellers (1985) and implemented by Essery et al. (2001). This scheme uses separate direct-beam and diffuse albedos in the visible and near-infrared for each vegetation type and requires four parameter values for leaf reflection and leaf scattering coefficients for both near-infrared and photosynthetically active radiation. Beams are intercepted/scattered through the canopy, where leaves are approximated as isotropic scattering elements. A fraction of both beams penetrate the canopy and is reflected by the bare soils prescribed albedo. ", 
+                            "overview": "TODO", 
+                            "specializationID": "cmip6.land.soil.snow_free_albedo", 
+                            "citations": [
+                                {
+                                    "doi": "n/a", 
+                                    "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                    "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:11:50.588142", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "8ed7a36c-6833-4a9c-848d-0b992e6d5d49"
+                                    }, 
+                                    "context": "reference"
+                                }, 
+                                {
+                                    "doi": "n/a", 
+                                    "citationDetail": "Essery R., M. Best, and P. Cox (2001) MOSES 2.2 technical documentation.. Hadley Centre Technical Note 30, 30 pp.", 
+                                    "title": "MOSES 2.2 technical documentation.", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "http://www.metoffice.gov.uk/publications/HCTN/HCTN_30.pdf", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Essery R., M. Best, and P. Cox (2001) MOSES 2.2 technical documentation.. Hadley Centre Technical Note 30, 30 pp.", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:11:50.588357", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "79c11ea8-2845-4c6f-8ddc-cf22e85c345c"
+                                    }, 
+                                    "context": "reference"
+                                }, 
+                                {
+                                    "doi": "https://doi.org/10.1080/01431168508948283", 
+                                    "citationDetail": "Sellers, P. J. Canopy reflectance, photosynthesis and transpiration.  International Journal of Remote Sensing, 6(8), pp.1335-1372.\r\n", 
+                                    "title": "Canopy reflectance, photosynthesis and transpiration. ", 
+                                    "url": {
+                                        "meta": {
+                                            "type": "cim.2.shared.OnlineResource"
+                                        }, 
+                                        "protocol": "http", 
+                                        "description": "n/a", 
+                                        "linkage": "n/a", 
+                                        "name": "n/a"
+                                    }, 
+                                    "abstract": "n/a", 
+                                    "collectiveTitle": "Sellers, P. J. Canopy reflectance, photosynthesis and transpiration.  International Journal of Remote Sensing, 6(8), pp.1335-1372.\r\n", 
+                                    "meta": {
+                                        "createDate": "2019-01-31 13:11:50.588566", 
+                                        "project": "mohc", 
+                                        "source": "mohc", 
+                                        "version": 0, 
+                                        "type": "cim.2.shared.Citation", 
+                                        "id": "010d1d0f-0c1b-4b67-978c-e59441ddb79c"
+                                    }, 
+                                    "context": "reference"
+                                }
+                            ], 
+                            "meta": {
+                                "type": "cim.2.science.Topic"
+                            }, 
+                            "shortName": "Snow Free Albedo", 
+                            "properties": [
+                                {
+                                    "specializationID": "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "2"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.snow_free_albedo.functions", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "vegetation type", 
+                                        "vegetation state"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.snow_free_albedo.direct_diffuse", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "distinction between direct and diffuse albedo"
+                                    ], 
+                                    "qcStatus": 0
+                                }, 
+                                {
+                                    "specializationID": "cmip6.land.soil.snow_free_albedo.prognostic", 
+                                    "meta": {
+                                        "type": "cim.2.science.TopicProperty"
+                                    }, 
+                                    "values": [
+                                        "true"
+                                    ], 
+                                    "qcStatus": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "description": "Land Realm", 
+            "overview": "Land Realm", 
+            "specializationID": "cmip6", 
+            "canonicalName": "land", 
+            "meta": {
+                "createDate": "2019-01-31 13:11:50.382344", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.science.Realm", 
+                "id": "b6b97282-ab1e-42a6-a398-3e2261883234"
+            }, 
+            "grid": {
+                "description": "The land-surface grid maps to the atmospheric model grid.", 
+                "overview": "Land surface grid", 
+                "specializationID": "cmip6.land.grid", 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "shortName": "Grid", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.land.grid.name", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "N96"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.grid.overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE TOPIC DESCRIPTION"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "Horizontal grid matches the atmospheric model grid.", 
+                        "overview": "The horizontal grid in the land surface", 
+                        "specializationID": "cmip6.land.grid.horizontal", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Horizontal", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.grid.horizontal.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "SEE ATMOS MODEL"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.grid.horizontal.matches_atmosphere_grid", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "true"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "The total depth of the soil is 3 m with the vertical grid structured as four layers for water and energy at 0.1, 0.25, 0.65 and 2.0 m.", 
+                        "overview": "The vertical grid in the soil", 
+                        "specializationID": "cmip6.land.grid.vertical", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Vertical", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.grid.vertical.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Four soil layers for water and energy at 0.1, 0.25, 0.65, 2.0 m.  "
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.grid.vertical.total_depth", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "3"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            "shortName": "land", 
+            "keyProperties": {
+                "description": "Covers the key properties of the model including its details, processes modelled, flux exchanges, atmospheric coupling treatment, land cover types, tiling, conservation properties, software properties and timestepping framework.", 
+                "overview": "Land surface key properties", 
+                "specializationID": "cmip6.land.key_properties", 
+                "citations": [
+                    {
+                        "doi": "n/a", 
+                        "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                        "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:11:50.706550", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "1056652d-1e1f-428c-94e7-8f2a7cf2732f"
+                        }, 
+                        "context": "reference"
+                    }, 
+                    {
+                        "doi": "n/a", 
+                        "citationDetail": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                        "title": "The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics", 
+                        "url": {
+                            "meta": {
+                                "type": "cim.2.shared.OnlineResource"
+                            }, 
+                            "protocol": "http", 
+                            "description": "n/a", 
+                            "linkage": "http://www.geosci-model-dev.net/4/701/2011/gmd-4-701-2011.html", 
+                            "name": "n/a"
+                        }, 
+                        "abstract": "n/a", 
+                        "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+                        "meta": {
+                            "createDate": "2019-01-31 13:11:50.706969", 
+                            "project": "mohc", 
+                            "source": "mohc", 
+                            "version": 0, 
+                            "type": "cim.2.shared.Citation", 
+                            "id": "45101b43-489b-4e26-8bed-7f9b99f6975c"
+                        }, 
+                        "context": "reference"
+                    }
+                ], 
+                "meta": {
+                    "type": "cim.2.science.Topic"
+                }, 
+                "keywords": [
+                    "JULES"
+                ], 
+                "shortName": "Key Properties", 
+                "properties": [
+                    {
+                        "specializationID": "cmip6.land.key_properties.tiling", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "There are nine tiles: five plant functional types and four non-vegetated tiles. Land-sea is defined from the atmospheric component. Vegetation is static. "
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.land_cover_change", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "nil:inapplicable"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.land_cover", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "bare soil", 
+                            "urban", 
+                            "land ice", 
+                            "vegetated"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.atmospheric_coupling_treatment", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Energy: implicit, Humidity: implicit"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.land_atmosphere_flux_exchanges", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "water", 
+                            "energy", 
+                            "carbon"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.overview", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE MODEL DESCRIPTION"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.description", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "Prognostic albedo, canopy interception, soil hydrology, photosynthesis, surface energy and water exchange. "
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.keywords", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "SEE KEYWORDS"
+                        ], 
+                        "qcStatus": 0
+                    }, 
+                    {
+                        "specializationID": "cmip6.land.key_properties.name", 
+                        "meta": {
+                            "type": "cim.2.science.TopicProperty"
+                        }, 
+                        "values": [
+                            "JULES"
+                        ], 
+                        "qcStatus": 0
+                    }
+                ], 
+                "subTopics": [
+                    {
+                        "description": "Energy conservation has been assessed as part of the coupled model configuration development process.", 
+                        "overview": "Conservation", 
+                        "specializationID": "cmip6.land.key_properties.conservation_properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Conservation Properties", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.key_properties.conservation_properties.energy", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "SEE DESCRIPTION"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.conservation_properties.water", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.conservation_properties.carbon", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "nil:inapplicable"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Land-surface is called during each atmospheric timestep (1200s in GC3.1).", 
+                        "overview": "Timestepping Framework", 
+                        "specializationID": "cmip6.land.key_properties.timestepping_framework", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Timestepping Framework", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "true"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.timestepping_framework.time_step", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "1200"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.timestepping_framework.timestepping_method", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "SEE TOPIC DESCRIPTION"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "Details of the software properties for the model, including repository, version and coding language.", 
+                        "overview": "Software properties of land surface code", 
+                        "specializationID": "cmip6.land.key_properties.software_properties", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Software Properties", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.key_properties.software_properties.repository", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "https://code.metoffice.gov.uk/svn/jules/main/trunk "
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.software_properties.code_version", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "4.8"
+                                ], 
+                                "qcStatus": 0
+                            }, 
+                            {
+                                "specializationID": "cmip6.land.key_properties.software_properties.code_languages", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Fortran 2003"
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }, 
+                    {
+                        "description": "n/a", 
+                        "overview": "Tuning methodology for land component", 
+                        "specializationID": "cmip6.land.key_properties.tuning_applied", 
+                        "meta": {
+                            "type": "cim.2.science.Topic"
+                        }, 
+                        "shortName": "Tuning Applied", 
+                        "properties": [
+                            {
+                                "specializationID": "cmip6.land.key_properties.tuning_applied.description", 
+                                "meta": {
+                                    "type": "cim.2.science.TopicProperty"
+                                }, 
+                                "values": [
+                                    "Atmosphere-land component model was tuned to reduce key errors deemed\r\ncritical to model stakeholders, such as S. Ocean surface temperature bias, or\r\ntropical tropopause temperature errors, while maintaining performance\r\nagainst a basket of ~100 other process-based and top-down metrics. An\r\napproximate net downward TOA radiation of +/- 0.5 Wm-2 under pre-\r\nindustrial forcing was targeted, to increase the likelihood of the TOA being far\r\nfrom balance when coupled to the ocean. See Walters et al (2017) and\r\nWilliams et al (2017) for the general approach taken to evaluation and tuning,\r\nand Mulcahy et al (2018) for specific changes made to ensure a realistic\r\naerosol forcing."
+                                ], 
+                                "qcStatus": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ], 
+    "description": "Land-surface component of HadGEM3 GC3.1. The joint UK Land Environment Simulator (JULES) model is based on the Met Office Surface Exchange Scheme (MOSES). Sub-grid scale surface heterogeneity is represented by a tiling system. A multi-layer snow scheme has been implemented since HadGEM2. ", 
+    "repository": {
+        "meta": {
+            "type": "cim.2.shared.OnlineResource"
+        }, 
+        "protocol": "https", 
+        "description": "n/a", 
+        "linkage": "https://code.metoffice.gov.uk/svn/jules", 
+        "name": "n/a"
+    }, 
+    "canonicalID": "JULES-HadGEM3-GL7.1", 
+    "releaseDate": "2016-12-01 00:00:00", 
+    "citations": [
+        {
+            "doi": "n/a", 
+            "citationDetail": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+            "title": "The Joint UK Land Environment Simulator (JULES), model\r\ndescription Part 1: Energy and water fluxes", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "www.geosci-model-dev.net/4/677/2011/", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
+            "meta": {
+                "createDate": "2019-01-31 13:11:50.730939", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "25a22490-dc7a-4307-bf1d-e1bd20fe398f"
+            }, 
+            "context": "reference"
+        }, 
+        {
+            "doi": "n/a", 
+            "citationDetail": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+            "title": "The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics", 
+            "url": {
+                "meta": {
+                    "type": "cim.2.shared.OnlineResource"
+                }, 
+                "protocol": "http", 
+                "description": "n/a", 
+                "linkage": "http://www.geosci-model-dev.net/4/701/2011/gmd-4-701-2011.html", 
+                "name": "n/a"
+            }, 
+            "abstract": "n/a", 
+            "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
+            "meta": {
+                "createDate": "2019-01-31 13:11:50.731474", 
+                "project": "mohc", 
+                "source": "mohc", 
+                "version": 0, 
+                "type": "cim.2.shared.Citation", 
+                "id": "f05fba8f-816b-4241-8a4d-ab680ba83e0f"
+            }, 
+            "context": "reference"
+        }
+    ], 
+    "meta": {
+        "createDate": "2019-01-31 13:11:50.379523", 
+        "project": "mohc", 
+        "source": "mohc", 
+        "version": 0, 
+        "type": "cim.2.science.Model", 
+        "id": "c8e9139f-710a-45ca-aa75-0aa47fb2a500"
+    }, 
+    "modelType": "Process", 
+    "version": "UM10.7 VN4.8", 
+    "longName": "n/a", 
+    "name": "JULES-HadGEM3-GL7.1"
+}
