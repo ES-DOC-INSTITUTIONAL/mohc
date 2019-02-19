@@ -19,12 +19,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 12:58:37.150518", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:20.425632", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "5df90161-de61-4996-b69e-3acc2fdedeb3"
+                        "id": "28fbb161-285b-40e3-80dd-fd6dec0197a4"
                     }, 
                     "address": "Department of Meteorology Earley Gate PO Box 243 Reading Berks RG6 6BB UK", 
                     "email": "t.kuhlbrodt@reading.ac.uk"
@@ -50,12 +51,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 12:58:37.151084", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:20.426022", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "88f41726-c87e-49d4-bb04-cf43f54e4e15"
+                        "id": "85dd2896-9145-4bc6-834e-3d7b1b9e4eee"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "daley.calvert@metoffice.gov.uk"
@@ -254,12 +256,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Arakawa, A. and Lamb, V. R. A Potential Enstrophy and Energy Conserving Scheme for the Shallow Water Equations Monthly Weather Review, 109, 18-36", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.789455", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.139884", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "c68ce9f5-d336-47ae-8123-979f2c18ec41"
+                                "id": "4d2afc75-05cc-49a1-b710-bb8a47b41e0f"
                             }, 
                             "context": "reference"
                         }, 
@@ -279,12 +282,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hollingsworth, A., Kallberg, P., Renner, V., and Burridge, D. M. An internal symmetric computational instability,\r\n Quarterly Journal of the Royal Meteorological Society, 109, 417-428", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.789918", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.140216", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "1d532122-4659-4206-9970-c2962f0e5d82"
+                                "id": "2c0933c5-e073-4e39-9d9b-d764c5ee8a96"
                             }, 
                             "context": "reference"
                         }, 
@@ -304,12 +308,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Zalesak, S. T.\r\n Fully multidimensional flux corrected transport algorithms for fluids J. Comput. Phys., 31, 335-362", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.790338", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.140542", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "0f91ba27-b1dc-4982-9b41-8c01917f5b0e"
+                                "id": "0a5997c2-6238-4010-9cf4-67f2583f0fbf"
                             }, 
                             "context": "reference"
                         }
@@ -365,12 +370,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Arakawa, A. and Lamb, V. R. A Potential Enstrophy and Energy Conserving Scheme for the Shallow Water Equations Monthly Weather Review, 109, 18-36", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:36.737986", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.103673", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "036d29b5-1dee-4c6d-a8cb-23aaaedd8c62"
+                                        "id": "d811fb84-4543-42a3-abe3-2372b9547b06"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -390,12 +396,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hollingsworth, A., Kallberg, P., Renner, V., and Burridge, D. M. An internal symmetric computational instability,\r\n Quarterly Journal of the Royal Meteorological Society, 109, 417-428", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:36.743606", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.105854", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "15869d18-1597-47e8-974a-ecc1b5243e5f"
+                                        "id": "28b226c9-991c-4412-9feb-adf2abecd8f9"
                                     }, 
                                     "context": "reference"
                                 }
@@ -461,12 +468,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Zalesak, S. T.\r\n Fully multidimensional flux corrected transport algorithms for fluids J. Comput. Phys., 31, 335-362", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:36.759771", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.118465", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "79546b29-74fa-44ab-896e-99db8429084a"
+                                        "id": "5d4bd057-689e-4437-89d7-f71262d52ab9"
                                     }, 
                                     "context": "reference"
                                 }
@@ -559,12 +567,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Zalesak, S. T.\r\n Fully multidimensional flux corrected transport algorithms for fluids J. Comput. Phys., 31, 335-362", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:36.775144", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.130973", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "83cd7dc0-4f08-4418-a76d-a5ee8fb2551b"
+                                        "id": "7ea37af2-3813-4aa1-9c6c-dfc470291693"
                                     }, 
                                     "context": "reference"
                                 }
@@ -622,12 +631,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Held, I.M. and Larichev, V. D. A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n Journal of the Atmospheric Sciences, 53, 946-952", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.865011", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.191486", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "8902fae9-a0a4-417c-9a18-2fd634ee049f"
+                                "id": "778e5cab-04d1-45f3-a7ce-3b5141a74358"
                             }, 
                             "context": "reference"
                         }
@@ -804,12 +814,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Held, I.M. and Larichev, V. D. A scaling theory for horizontally homogeneous, baroclinically unstable flow on a beta plane\r\n\r\n Journal of the Atmospheric Sciences, 53, 946-952", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:36.837491", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.171023", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "7ca76a03-2560-4c65-adf6-cd51232b8821"
+                                        "id": "d9154dcc-0a4e-4216-82fd-c0abc8ad4c1f"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1016,12 +1027,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Simmons, H., Jayne, S., Laurent, L. S. and Weaver, A.\r\n Tidally driven mixing in a numerical model of the ocean general circulation Ocean Model., 6, 245-263", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.941220", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.243018", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "332d20ef-7950-4c12-8021-91830304af45"
+                                "id": "482fe6d6-b91e-4e86-8b3f-4029f1214dd5"
                             }, 
                             "context": "reference"
                         }, 
@@ -1041,12 +1053,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Rodgers, K. B., Aumont, O., Mikaloff Fletcher, S. E., Plancherel, Y., Bopp, L., de Boyer Mont\u00e9gut, C., Iudicone, D., Keeling, R. F., Madec, G. and Wanninkhof, R. Strong sensitivity of Southern Ocean carbon uptake and nutrient cycling to wind stirring Biogeosciences, 11, 4077-4098", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.941664", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.243304", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "5cd9f6a9-f8d2-4604-9758-39f2d03b886a"
+                                "id": "e67890fe-02ed-4b1e-a63c-849482c0f2ce"
                             }, 
                             "context": "reference"
                         }, 
@@ -1066,12 +1079,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Merryfield, W. J., Holloway, G. and Gargett, A. E. A global ocean model with double-diffusive mixing J. Phys. Ocean., 29, 1124-1142", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.942097", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.243564", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "57a92028-523b-4ec3-8a2d-562899989e71"
+                                "id": "464af664-e8e1-467b-a422-a45937b4cf77"
                             }, 
                             "context": "reference"
                         }, 
@@ -1091,12 +1105,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.942505", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.243793", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "1d3af062-823a-4426-93ce-61a4533f2c70"
+                                "id": "ab8a0380-1260-4b67-8807-e11cc4202d1e"
                             }, 
                             "context": "reference"
                         }, 
@@ -1116,12 +1131,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Koch-Larrouy, A., Madec, G., Blanke, B. and Molcard, R. Water mass transformation along the Indonesian throughflow in an OGCM Ocean Dynam., 58, 289-309", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.942913", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.244019", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "01ca8398-adca-4404-b014-6cc2cc4347da"
+                                "id": "c01f687f-9517-4d71-ab94-bcf3e77795d3"
                             }, 
                             "context": "reference"
                         }, 
@@ -1141,12 +1157,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Gregg, M. C., Sanford, T. B. and Winkel, D. P. Reduced mixing from the breaking of internal waves in equatorial waters Nature, 422, 513-515", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.943313", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.244295", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "f5a31442-8767-41ee-bed6-b25420507ba8"
+                                "id": "248f8dc5-d012-49b2-82b9-0bf4b078dc43"
                             }, 
                             "context": "reference"
                         }, 
@@ -1166,12 +1183,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Gaspar, P., Gr\u00e9goris, Y., and Lefevre, J.-M. A simple eddy kinetic energy model for simulations of the oceanic vertical mixing: tests at Station Papa and long-term upper ocean study site  J. Geophys. Res., 95, 16179-16193", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.943724", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.244527", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "6a021910-f5c9-460f-8a7d-3220df5d771b"
+                                "id": "59ba2e1b-ae5d-43a8-ba4f-57d64c8fb164"
                             }, 
                             "context": "reference"
                         }, 
@@ -1191,12 +1209,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Craig, P. D. and Banner, M. L. Layer Modelling Wave-Enhanced Turbulence in the Ocean Surface J. Phys. Oceanogr., 24, 2546-2559", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.944149", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.244801", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "058cd2e6-3f5b-495e-b178-1d3be847ff9e"
+                                "id": "82faeb0c-c24e-4cad-804a-6911a2c1a826"
                             }, 
                             "context": "reference"
                         }, 
@@ -1216,12 +1235,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Axell, L. B.\r\n Wind-driven Internal Waves and Langmuir Circulations in a Numerical Ocean Model of the Southern Baltic Sea J. Geophys. Res., 107, C11, 3204, 20pp", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.944556", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.245043", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "6ebbdad2-8e80-4eb3-adbc-b5a2240db35f"
+                                "id": "66b451ab-7497-48de-9d04-0bf99691fbda"
                             }, 
                             "context": "reference"
                         }, 
@@ -1241,12 +1261,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Storkey, D., Blaker, A. T., Mathiot, P., Megann, A., Aksenov, Y., Blockley, E. W., Calvert, D., Graham, T., Hewitt, H. T., Hyder, P., Kuhlbrodt, T., Rae, J. G. L. and B. Sinha.\r\n UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n Geoscientific Model Development (in review)", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.944979", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.245275", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "35363f49-6d31-4b6a-a8db-b571e7010ca0"
+                                "id": "381fcfe7-55a8-47de-925a-bc3397abd1ab"
                             }, 
                             "context": "reference"
                         }
@@ -1596,12 +1617,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Roullet, G. and Madec, G. Salt conservation, free surface, and varying levels: A new formulation for ocean general circulation models Journal of Geophysical Research, 105, C10, 23927-23942", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.958523", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.255449", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "020787b2-bc85-407b-9534-eb320c7465b2"
+                                "id": "173e4ce5-0b01-47c8-85a3-9b3f906480d4"
                             }, 
                             "context": "reference"
                         }, 
@@ -1621,12 +1643,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Beckmann, A. and Doscher, R. A method for improved representation of dense water spreading over topography in geopotential-coordinate models J. Phys. Oceanogr., 27, 581-591", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.958961", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.255711", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "40eba961-fc82-4873-94f7-8939e12c2534"
+                                "id": "a6b3a970-b9cc-4eef-8177-1d3865dade0a"
                             }, 
                             "context": "reference"
                         }, 
@@ -1646,12 +1669,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Adcroft, A. and Campin, J.-M. Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models Ocean Modelling, 7, 269 - 284", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:36.959367", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.255996", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "d7ec4120-6941-4bba-84dd-62ad85f617cf"
+                                "id": "2031368c-612f-4dd1-a4ef-208766269922"
                             }, 
                             "context": "reference"
                         }
@@ -1786,12 +1810,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Goutorbe, B., J. Poort, F. Lucazeau, and S. Raillard Global heat flow trends resolved from multiple\r\ngeological and geophysical proxies,  Geophys. J. Int., 187, 1405-1419.", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.023091", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.306589", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "41efcf8b-b4a1-4122-a994-506eac4bf00a"
+                                "id": "6dca7ab9-db4f-4b74-953e-fd4547a9f4ce"
                             }, 
                             "context": "reference"
                         }, 
@@ -1811,12 +1836,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Lengaigne, M., Menkes, C., Aumont, O., Gorgues, T., Bopp, L., Andr\u00e9, J.-M. and Madec, G. Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model Climate Dynamics, 28(5), 503-516.", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.023373", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.306843", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "278a4d70-3294-44a0-86f3-bdf19686d721"
+                                "id": "f2590ee9-31a8-4436-afb3-5012c0e04c2c"
                             }, 
                             "context": "reference"
                         }, 
@@ -1836,12 +1862,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Bigg, G. R., Wadley, M. R., Stevens, D. P., and Johnson, J. A. Modelling dynamics and thermodynamics of icebergs Cold Regions Science and Technology, 26, 113-135", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.023647", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.307075", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "b563264e-ef39-448e-885d-96f2d09af20b"
+                                "id": "3a471606-4125-4773-a3c9-46b10d9d37d0"
                             }, 
                             "context": "reference"
                         }, 
@@ -1861,12 +1888,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Beckmann, A. and Doscher, R. A method for improved representation of dense water spreading over topography in geopotential-coordinate models J. Phys. Oceanogr., 27, 581-591", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.023927", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.307298", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "31d2f920-acac-4a04-9174-beb890984003"
+                                "id": "fa440683-643b-45e1-95ec-7b437ab247c6"
                             }, 
                             "context": "reference"
                         }, 
@@ -1886,12 +1914,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Martin, T. and Adcroft, A. Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model Ocean Modelling, 34, 111-124", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.024199", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.307550", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "3ea53261-5cb1-42a3-9340-15f400aae90d"
+                                "id": "56f6fbc3-eb1a-45cf-bbc3-53ec06a22ba3"
                             }, 
                             "context": "reference"
                         }, 
@@ -1911,12 +1940,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
                             "meta": {
-                                "createDate": "2019-01-31 12:58:37.024454", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:20.307781", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "1403707c-b831-4275-bd71-5a96d32026c0"
+                                "id": "abef75db-bc39-482f-b82f-e66de9573503"
                             }, 
                             "context": "reference"
                         }
@@ -2080,12 +2110,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Martin, T. and Adcroft, A. Parameterizing the fresh-water flux from land ice to ocean with interactive icebergs in a coupled climate model Ocean Modelling, 34, 111-124", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:37.006918", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.291108", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1d1c9939-e830-4108-a239-4d4ad2494ca3"
+                                        "id": "3b846521-b6cf-413e-8d46-af52896449ab"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2105,12 +2136,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Lengaigne, M., Menkes, C., Aumont, O., Gorgues, T., Bopp, L., Andr\u00e9, J.-M. and Madec, G. Influence of the oceanic biology on the tropical Pacific climate in a coupled general circulation model Climate Dynamics, 28(5), 503-516.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:37.007171", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.291358", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "cbf1e8e2-8448-48b5-b222-fda2029e1720"
+                                        "id": "5a1cc720-da48-417e-ba42-84b1bc11f3e8"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2130,12 +2162,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:37.007395", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.291592", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "db43d4bc-deee-4413-a1b4-1fe5b3a648f8"
+                                        "id": "382dd2d3-004b-425c-9f3d-cd401b09357f"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2155,12 +2188,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Bigg, G. R., Wadley, M. R., Stevens, D. P., and Johnson, J. A. Modelling dynamics and thermodynamics of icebergs Cold Regions Science and Technology, 26, 113-135", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:37.007620", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.291826", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "cbb9b167-3d96-4da1-aaa0-00b93527b39d"
+                                        "id": "08a8eb9b-2491-4dab-bee6-eea578dce87d"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2180,12 +2214,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Beckmann, A. and Doscher, R. A method for improved representation of dense water spreading over topography in geopotential-coordinate models J. Phys. Oceanogr., 27, 581-591", 
                                     "meta": {
-                                        "createDate": "2019-01-31 12:58:37.007842", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:20.292103", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "dcc4a28c-a45c-4d5e-96fd-5cc3d0f5e9b2"
+                                        "id": "addb11b6-b122-4ba8-8b09-4f8f34e94c8a"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2295,12 +2330,13 @@
             "specializationID": "cmip6", 
             "canonicalName": "ocean", 
             "meta": {
-                "createDate": "2019-01-31 12:58:36.665890", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.055683", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Realm", 
-                "id": "4bc8011f-0f2b-4a53-afa4-12f8e20e25b1"
+                "id": "8ee08e98-37a9-4062-b3ad-02226eb815df"
             }, 
             "grid": {
                 "description": "The horizontal grid is based on the ORCA tripolar Arakawa C-grid (Madec, 2008). The vertical grid varies in thickness over time (the z* coordinate of Adcroft and Campin, 2004). Cells spanning partial model levels are allowed next to the bathymetry (Barnier et al., 2006).", 
@@ -2323,12 +2359,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.062304", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.339808", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "774c8c8b-4636-4662-9eb0-9631ee10b302"
+                            "id": "f0c0ef24-14c9-443f-8f8b-777919c859d5"
                         }, 
                         "context": "reference"
                     }, 
@@ -2348,12 +2385,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Barnier, B., Madec, G., Penduff, T., Molines, J.-M., Treguier, A.-M., Le Sommer, J., Beckmann, A., Biastoch, A., B\u00f6ning, C., Dengg, J., Derval, C., Durand, E., Gulev, S., Remy, E., Talandier, C., Theetten, S., Maltrud, M., McClean, J., and De Cuevas, B.\r\n Impact of partial steps and momentum advection schemes in a global ocean circulation model at eddy-permitting resolution. Ocean Dynamics, 56, 543-567.", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.062564", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.340061", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "6c768352-2611-4789-9293-3177527ea8d5"
+                            "id": "7897142c-509a-44a9-9ad0-6e1ffc442123"
                         }, 
                         "context": "reference"
                     }, 
@@ -2373,12 +2411,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Adcroft, A. and Campin, J.-M. Rescaled height coordinates for accurate representation of free-surface flows in ocean circulation models Ocean Modelling, 7, 269 - 284", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.062825", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.340323", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "d729cc3a-d951-49aa-9ba8-7a069d1cdea5"
+                            "id": "e5114c2d-66e8-4935-a54e-6403e8f69737"
                         }, 
                         "context": "reference"
                     }
@@ -2515,12 +2554,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Storkey, D., Blaker, A. T., Mathiot, P., Megann, A., Aksenov, Y., Blockley, E. W., Calvert, D., Graham, T., Hewitt, H. T., Hyder, P., Kuhlbrodt, T., Rae, J. G. L. and B. Sinha.\r\n UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n Geoscientific Model Development (in review)", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.106329", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.388249", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "e1ceaf31-1ff4-48e4-a0af-1fbc1ac5240a"
+                            "id": "c4ab8509-9b48-4885-be47-a938ec02c441"
                         }, 
                         "context": "reference"
                     }, 
@@ -2540,12 +2580,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Kuhlbrodt, T., Jones, C. G., Sellar, A., Storkey, D., Blockley, E., Stringer, M., Hill, R., Graham, T., Ridley, J., Blaker, A., Calvert, D., Copsey, D., Ellis, R., Hewitt, H., Hyder, P., Ineson, S., Mulcahy, J., Siahaan, A. and J. Walton.\r\n\r\n The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate Journal of Advances in Modeling Earth Systems\r\n(in review)", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.106595", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.388500", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "2283c3bb-a5c3-4bfb-9f6b-2ce5fd3e54a8"
+                            "id": "bf732c0c-fdd4-47d3-9781-c329eb82385c"
                         }, 
                         "context": "reference"
                     }, 
@@ -2565,12 +2606,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "NOAA ETOPO2v2 NOAA online information", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.106859", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.388774", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "e32b1a6b-aa17-46a0-b843-65f455276be7"
+                            "id": "7c9c8804-d7b7-49fa-ad6f-a95cda2b95c4"
                         }, 
                         "context": "reference"
                     }, 
@@ -2590,12 +2632,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Arndt, J. E., Schenke, H. W., Jakobsson, M., Nitsche, F. O., Buys, G., Goleby, B., Rebesco, M., Bohoyo, F., Hong, J., Black, J., Greku, R.,\r\nUdintsev, G., Barrios, F., Reynoso-Peralta, W., Taisei, M. and R. Wigley.\r\n The International Bathymetric Chart of the Southern Ocean (IBCSO) Version 1.0\u2014A new bathymetric compilation covering circum-Antarctic waters Geophysical Research Letters, 40, 3111-3117", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.107107", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.389016", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "fcb30223-dd4a-4240-99b3-d24b73823c84"
+                            "id": "57a263cf-d1f7-45b2-81e7-782d771365c6"
                         }, 
                         "context": "reference"
                     }, 
@@ -2615,12 +2658,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.107354", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.389245", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "3c9aa7aa-ba38-4bb9-a896-055f7a1bdb46"
+                            "id": "4612823c-2d23-4158-a642-6ea0842e8de0"
                         }, 
                         "context": "reference"
                     }, 
@@ -2640,12 +2684,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
                         "meta": {
-                            "createDate": "2019-01-31 12:58:37.107729", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:20.389650", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "97a6673a-3599-43cc-ac29-cc55eba88c1e"
+                            "id": "12787d54-be1d-4fc7-9021-68badcc40fb7"
                         }, 
                         "context": "reference"
                     }
@@ -2952,12 +2997,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
                                 "meta": {
-                                    "createDate": "2019-01-31 12:58:37.078156", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:20.355176", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "dbf8a5ef-4780-44fc-9105-9749ef025676"
+                                    "id": "370b883a-fc0a-4ef7-b5db-625f90da2256"
                                 }, 
                                 "context": "reference"
                             }, 
@@ -2977,12 +3023,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
                                 "meta": {
-                                    "createDate": "2019-01-31 12:58:37.078420", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:20.355423", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "4acc7612-bf09-473e-9624-37a3c3b2e19c"
+                                    "id": "461f31f4-fdfb-4c15-9f20-e35cf4d07f1f"
                                 }, 
                                 "context": "reference"
                             }
@@ -3211,12 +3258,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P.,\r\nIneson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations Journal of Advances in Modeling Earth Systems, 10, 357-380\r\n", 
             "meta": {
-                "createDate": "2019-01-31 12:58:37.154322", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.428360", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "98b0365e-e484-4fdd-a64a-5a1a714e79d5"
+                "id": "3f97069e-2cf7-4d72-bdff-ddec3ded45bb"
             }, 
             "context": "reference"
         }, 
@@ -3236,12 +3284,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Madec G. (2008) NEMO ocean engine  Note du Pole de mod\u00e9lisation, Institut Pierre-Simon Laplace (IPSL), France, No 27 ISSN No 1288-1619", 
             "meta": {
-                "createDate": "2019-01-31 12:58:37.154639", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.428652", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "a476b3a8-0eaf-43e5-ab88-26d462006dca"
+                "id": "3e95a7f1-d403-45e1-9cae-98643f23ac2e"
             }, 
             "context": "reference"
         }, 
@@ -3261,12 +3310,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Storkey, D., Blaker, A. T., Mathiot, P., Megann, A., Aksenov, Y., Blockley, E. W., Calvert, D., Graham, T., Hewitt, H. T., Hyder, P., Kuhlbrodt, T., Rae, J. G. L. and B. Sinha.\r\n UK Global Ocean GO6 and GO7: a traceable hierarchy of model resolutions.\r\n Geoscientific Model Development (in review)", 
             "meta": {
-                "createDate": "2019-01-31 12:58:37.154932", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.428895", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "50e7905d-7e1b-4799-894a-047b03f76da0"
+                "id": "cca7e2dc-d50f-4f40-873a-355f6ccb47df"
             }, 
             "context": "reference"
         }, 
@@ -3286,12 +3336,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Kuhlbrodt, T., Jones, C. G., Sellar, A., Storkey, D., Blockley, E., Stringer, M., Hill, R., Graham, T., Ridley, J., Blaker, A., Calvert, D., Copsey, D., Ellis, R., Hewitt, H., Hyder, P., Ineson, S., Mulcahy, J., Siahaan, A. and J. Walton.\r\n\r\n The low-resolution version of HadGEM3 GC3.1: Development and evaluation for global climate Journal of Advances in Modeling Earth Systems\r\n(in review)", 
             "meta": {
-                "createDate": "2019-01-31 12:58:37.155229", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.429171", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "d6e5ad78-cc19-4544-a8e9-ded0c281211b"
+                "id": "9bbd59ac-8d4c-4d69-b750-3ef178485c1e"
             }, 
             "context": "reference"
         }, 
@@ -3311,23 +3362,25 @@
             "abstract": "n/a", 
             "collectiveTitle": "Mathiot, P., Jenkins, A., Harris, C., and G. Madec. Explicit representation and parametrised impacts of under ice shelf seas in the z\u2217 coordinate ocean model NEMO 3.6  Geoscientific Model Development, 10, 2849-2874", 
             "meta": {
-                "createDate": "2019-01-31 12:58:37.155526", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:20.429407", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "57ae06b7-9b21-46bf-9a24-1321079881af"
+                "id": "6b4ffa6e-4af3-423d-b43f-58b3bf2226f7"
             }, 
             "context": "reference"
         }
     ], 
     "meta": {
-        "createDate": "2019-01-31 12:58:36.656766", 
-        "project": "mohc", 
-        "source": "mohc", 
-        "version": 0, 
+        "institute": "mohc", 
+        "createDate": "2019-02-19 10:04:20.050137", 
+        "project": "cmip6", 
+        "source": "pyesdoc", 
+        "version": 1, 
         "type": "cim.2.science.Model", 
-        "id": "04530ef4-f3ae-421f-b202-c954978b6a98"
+        "id": "42a034c4-fe42-4176-85fd-4406348b834d"
     }, 
     "modelType": "Ocean Only", 
     "version": "3.6 stable", 

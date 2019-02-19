@@ -19,12 +19,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 11:59:22.208738", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:07.526509", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "029a5054-f762-4d0a-ac11-d53fb27f206b"
+                        "id": "9f07d389-599c-463c-8ff4-5dc7414cfb9b"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "alistair.sellar@metoffice.gov.uk"
@@ -50,12 +51,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
             "meta": {
-                "createDate": "2019-01-31 11:59:22.211586", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:07.529233", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "feeea692-1048-490a-98c5-706f1a4bc804"
+                "id": "303a782a-9202-47e1-87e7-d18b86b051b0"
             }, 
             "context": "reference"
         }, 
@@ -75,12 +77,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
             "meta": {
-                "createDate": "2019-01-31 11:59:22.211900", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:07.529533", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "fec36559-896c-4a4c-b8e1-da0f53e8c9a5"
+                "id": "e2283b8e-6e89-415a-baad-627bb051571a"
             }, 
             "context": "reference"
         }
@@ -89,12 +92,13 @@
     "releaseDate": "2016-12-01 00:00:00", 
     "version": "7.1", 
     "meta": {
-        "createDate": "2019-01-31 11:59:21.509997", 
-        "project": "mohc", 
-        "source": "mohc", 
-        "version": 0, 
+        "institute": "mohc", 
+        "createDate": "2019-02-19 10:04:06.887103", 
+        "project": "cmip6", 
+        "source": "pyesdoc", 
+        "version": 1, 
         "type": "cim.2.science.Model", 
-        "id": "c4c4d0d8-2759-4052-953d-b1afb004d62d"
+        "id": "71a53ca8-4837-4108-8270-511619fb111a"
     }, 
     "modelType": "Atm Only", 
     "realms": [
@@ -121,12 +125,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Bodas-Salcedo, A. et al.  (2011) COSP: satellite simulation software for model assessment. Bull. Am. Meteorol. Soc. submitted,", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.621893", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:06.986109", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "2d63588a-7547-424d-8177-e76cab486694"
+                                "id": "d39d627e-dd7a-4e46-b6a0-5e1ec9d10640"
                             }, 
                             "context": "reference"
                         }, 
@@ -146,12 +151,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Swales, D. J., Pincus, R. and A. Bodas-Salcedo Cloud Feedback Model Intercomparison Project Observational Simulator Package: version 2 Geosci. Model Devel., 11, 77-81", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.622169", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:06.986474", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "70e83d23-0853-4f5f-b62f-5604249ae550"
+                                "id": "cb2e9bd0-e0fb-4e8d-b290-74b722a04432"
                             }, 
                             "context": "reference"
                         }
@@ -215,12 +221,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Klein, S.A., and C. Jakob (1999) Validation and sensitivities of frontal clouds simulated by the ECMWF model. Mon. Weather Rev., 127 (10), 2514-2531", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.541087", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:06.920206", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "f0307890-ffd6-42df-b942-945a9ead7b81"
+                                        "id": "6e8b7913-8752-40c3-9ef7-5e5f27e72dc9"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -240,12 +247,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Webb, M. et al., (2001) Combining ERBE and ISCCP data to assess clouds in the Hadley Centre, ECMWF and LMD atmospheric climate models.  Clim. Dyn., 17, 905-922", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.557147", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:06.924177", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "cd46e80f-482c-424e-8161-b9ceb10a70eb"
+                                        "id": "ddd54fe0-ff1c-4e31-b549-49e29b5a7399"
                                     }, 
                                     "context": "reference"
                                 }
@@ -353,12 +361,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Haynes, J.M (2007) A multipurpose radar simulation package: Quickbeam Bull. Am. Meteorol. Soc., 88 (11), 1723-1727", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.599091", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:06.959858", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "779b7218-2915-4be9-9270-a7402c2115e8"
+                                        "id": "c78ee581-2535-4e01-a2a4-19896a8bc19e"
                                     }, 
                                     "context": "reference"
                                 }
@@ -435,12 +444,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Chepfer, H. et al. (2008) Use of CALIPSO lidar observations to evaluate the cloudiness simulated by a climate model Geophys. Res. Lett., 35, L15 704", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.612020", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:06.975154", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "14d26a18-5900-4c3b-aebb-12597ed2fee4"
+                                        "id": "f6bf3f9a-4ffe-46b0-8a96-8b839d1cfd3d"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -460,12 +470,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Cesana, G. and H. Chepfer Evaluation of the cloud thermodynamic phase in a climate model using CALIPSO-GOCCP\r\n J. Geophys. Res., 118, 7922-7937", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.612313", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:06.975572", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "9617238f-7e39-4d70-9152-e3e77debcf42"
+                                        "id": "c162a5df-592b-4e6a-8daa-d6384239e21d"
                                     }, 
                                     "context": "reference"
                                 }
@@ -585,12 +596,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Palmer, T. N., Shutts, G. J. and R. Swinbank Alleviation of a systematic westerly bias in general circulation and numerical weather prediction models through an orographic gravity wave drag parametrization Quart. J. R. Met. SOC., 112. 474, 1001-1039", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.636156", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.002272", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "66275502-6fe6-464b-8374-0f09330e3ca8"
+                                        "id": "483e1920-6962-47af-801c-eb566eb3063b"
                                     }, 
                                     "context": "reference"
                                 }
@@ -679,12 +691,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Walters, D. N., Best, M. J., Bushell, A. C., Copsey, D., Edwards, J. M., Falloon, P. D., Harris, C. M., Lock, A. P., Manners, J. C., Morcrette,\r\nC. J., Roberts, M. J., Stratton, R. A., S. Webster, J. M. W., Willett, M. R., Boutle, I. A., Earnshaw, P. D., Hill, P. G., MacLachlan, C., Martin,\r\nG. M., Moufouma-Okia, W., Palmer, M. D., Petch, J. C., Rooney, G. G., Scaife, A. A., and K. D. Williams The Met Office Unified Model\r\nGlobal Atmosphere 3.0/3.1 and JULES Global Land 3.0/3.1 configurations Geosci. Model Dev., 4, 919-941", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.647856", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.015299", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1883c60e-63b0-4170-94b6-85e25c1843f7"
+                                        "id": "28c26ed1-4c0e-4f6c-94f1-94c83bfbfce5"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -704,12 +717,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Warner, C. D. and McIntyre, M. E. An ultra-simple spectral parameterization for   non-orographic gravity waves\r\n J. Atmos. Sci., 58, 1837-1857", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.648313", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.015719", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "87f31179-e7e5-4047-abf5-8aa5a154225a"
+                                        "id": "71edb250-2138-47b2-8104-f53caf3b88d6"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -729,12 +743,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Scaife, A. A., N. Butchart, C. D. Warner and R. Swinbank (2002) Impact of a spectral gravity wave parameterization on the stratosphere in the Met Office Unified Model.  J. Atmos. Sci., 59, 1473\u20131489.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.648634", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.016097", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "de50a880-8255-4c90-aa96-e838204f2d4b"
+                                        "id": "fd00608a-0097-4afb-ba8e-e61132dacbb3"
                                     }, 
                                     "context": "reference"
                                 }
@@ -873,12 +888,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Dentener, F., Kinne, S., Bond, T., Boucher, O., Cofala, J., Generoso, S., Ginoux, P., Gong, S., Hoelzemann, J. J., Ito, A., Marelli, L., Penner, J. E., Putaud, J. P., Textor, C., Schulz, M., Van Der Werf, G. R. and  J. Wilson Emissions of primary aerosol and precursor gases in the years 2000\r\nand 1750 prescribed data-sets for AeroCom\r\n Atmos. Chem. Phys., 6, 4321-4344", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.682766", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.050094", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "ed991106-c648-4517-8341-acec460e48f0"
+                                        "id": "02f4068e-e678-4f59-af5d-316d4e0d8e41"
                                     }, 
                                     "context": "reference"
                                 }
@@ -936,12 +952,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Berger, A. Long-term variations of daily insolation and Quaternary climatic changes\r\n J. Atmos. Sci., 35, 2362-2367", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.694047", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.061201", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "ffb7dacf-bc51-4e4c-9f90-8f5315af0bb8"
+                                        "id": "de1b824c-70dc-4e22-ad3b-4ea22f46f440"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1014,12 +1031,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Matthes, K., Funke, B., Andersson, M. E., Barnard, L., Beer, J., Charbonneau, P., Clilverd, M. A., Dudok de Wit, T., Haberreiter, M., Hendry, A., Jackman, C. H., Kretzschmar, M., Kruschke, T., Kunze, M., Langematz, U., Marsh, D. R., Maycock, A. C., Misios, S., Rodger, C. J., Scaife, A. A., Sepp\u00e4l\u00e4, A., Shangguan, M., Sinnhuber, M., Tourpali, K., Usoskin, I., van de Kamp, M., Verronen, P. T., and S. Versick Solar forcing for CMIP6 (v3.2) Geosci. Model Dev., 10, 2247-2302", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.706567", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.071253", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "602ada66-6a4c-4ab4-a301-bbe04538c154"
+                                        "id": "81e654fb-42ef-45d2-a640-99eb6d645ae1"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1105,12 +1123,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Wilson, D. R., Bushell, A. C., Kerr-Munslow, A. M., Price, J. D. and C. J. Morcrette (2008) A prognostic cloud fraction and condensation scheme. I: Scheme description Q.J.R. Meteorol. Soc., 134: 2093\u20132107", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.768827", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.136948", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "bdd9edbb-03f4-4823-a93e-c2db669cd2f3"
+                                "id": "88128412-6b69-4476-bb52-3c95488ff0ab"
                             }, 
                             "context": "reference"
                         }, 
@@ -1130,12 +1149,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Wilson, D. R., Bushell, Andrew. C., Kerr-Munslow, A. M., Price, J. D., Morcrette, C. J. and A. Bodas-Salcedo (2008) PC2: A prognostic cloud fraction and condensation scheme. II: Climate model simulations  Q.J.R. Meteorol. Soc., 134: 2109\u20132125", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.769152", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.137192", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "ee4e3188-447b-4e50-a575-a9645da33d62"
+                                "id": "e44954fc-1e43-4063-846c-2c8939f8a577"
                             }, 
                             "context": "reference"
                         }, 
@@ -1155,12 +1175,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Morcrette,  C.  J.  Improvements  to  a  prognostic  cloud  scheme\r\nthrough changes to its cloud erosion parametrization Atmos. Sci. Let., 13, 95-102", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.769448", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.137460", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "f911dd81-d382-431d-ad7c-9dfe4ce6cdc9"
+                                "id": "08cc0109-e0c6-4391-b68f-1c2c8a794b4d"
                             }, 
                             "context": "reference"
                         }, 
@@ -1180,12 +1201,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Van Weverberg, K., Boutle, I. A., Morcrette, C. J., and R. K. Newsom Towards retrieving critical relative humidity from ground-based remote-sensing observations  Q. J. R. Meteorol. Soc., 142, 2867-2881", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.769679", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.137676", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "ac4919fd-a234-474a-a716-6332c90066dd"
+                                "id": "5406b776-c257-4645-a054-24fc4280816c"
                             }, 
                             "context": "reference"
                         }
@@ -1300,12 +1322,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Field, P. R., Heymsfield, A. J., and A. Bansemer Snow Size Distribution Parameterization for Midlatitude and Tropical Ice Clouds\r\n J. Atmos. Sci., 64, 4346-4365", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.738928", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.104056", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1c1c2092-c84b-47a7-8419-59e4c8fbb83e"
+                                        "id": "461056dc-44e4-419d-a946-9335c2b58a3d"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1325,12 +1348,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Cotton, R. J., Field, P. R., Ulanowski, Z., Kaye, P. H., Hirst, E., Greenaway, R. S., Crawford, I., Crosier, J., and J. Dorsey The effective density of small ice particles obtained from in situ aircraft observations of mid-latitude cirrus\r\n Q. J. R. Meteorol. Soc., 139, 1923-1934", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.739290", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.104337", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "b9a60c0c-52b4-4b7c-8f35-8b251abf9ccd"
+                                        "id": "f5c41bf6-6fa4-4315-ac2b-14a7d9014213"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1350,12 +1374,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Furtado, K., Field, P. R., Boutle, I. A., Morcrette, C. J., and J. M. Wilkinson A physically based subgrid parameterization for the production and maintenance of mixed-phase clouds in a general circulation model, J. Atmos. Sci., 73, 279-291", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.739537", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.104725", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "b6fdcd5b-8df1-4b87-a177-4de12e4842ae"
+                                        "id": "c00a05e7-806c-4e90-b5fe-dc9fac10ed35"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1429,12 +1454,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Baran, A. J., Hill, P., Walters, D., Hardman, S. C., Furtado, K., Field, P. R., and J. Manners  The impact of two coupled cirrus microphysics-radiation parameterizations on the temperature and specific humidity biases in the tropical tropopause layer in a climate model J. Climate, 29, 5299-5316", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.749307", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.114829", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "8bc6bc6e-2ef3-41a2-bbc3-ac79e75fedf6"
+                                        "id": "b4870498-0de9-46ed-86ac-3b960ceb9d27"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1454,12 +1480,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hill, P. G., Manners, J., and J. C. Petch Reducing noise associated with the Monte Carlo Independent Column Approximation for weather forecasting models\r\n Q. J. R. Meteorol. Soc., 137, 219-228", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.749559", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.115223", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "56b8e68a-f713-41e1-961f-f10d74aca98f"
+                                        "id": "1282c05d-b16f-4662-a290-21da5168026d"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1479,12 +1506,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.749788", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.115475", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "4979b7a6-a2bb-4868-b2d9-9e0d0593b1ac"
+                                        "id": "30d92f66-e019-4187-b77c-2d6b784faa97"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1540,12 +1568,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "West R.E.L, Stier P., Jones, A., Johnson, C. E., Mann, G. W., Bellouin, N., Partridge, D. G., and Z. Kipling\r\n The importance of vertical velocity variability for estimates of the indirect aerosol effects Atmospheric Chemistry and Physics, 14, 6369-6393", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.760051", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.127762", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "53e0e0fb-67b1-476b-b0b6-19f40b8bbedd"
+                                        "id": "28936438-7522-4b86-bba3-47195091c4a1"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1565,12 +1594,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Yangang Liu, Daum, P. H., Huan Guo and Yiran Peng Dispersion bias, dispersion effect, and the aerosol-cloud conundrum Environmental Research Letters, Volume 3, 045021, 8pp", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.760363", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.128085", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "e4e9c5f8-f8ab-4a5a-ab36-9bbf3bce3e06"
+                                        "id": "daa562ed-03f0-40dd-9aa3-793406e069d4"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1590,12 +1620,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Khairoutdinov, M. and Kogan, Y. A new cloud physics parameterization in a large-eddy simulation model of marine stratocumulus Mon. Weather Rev., 128, 229-243", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.760601", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.128474", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "9f436cd2-ec29-44b7-9c2a-8e2795f097e1"
+                                        "id": "3c3c92f9-408d-4e5f-a233-08e8201ca75b"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1671,12 +1702,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Wilson D. R., and S. P. Ballard (1999) A microphysically based precipitation scheme for the Met Office Unified Model.. Quarterly Journal of Royal Meteorological Society, 125, 1607-1636.", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.798375", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.169442", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "137445ef-d02c-4118-979c-0eeaa4bb9cc0"
+                                "id": "df9a91d2-18a9-4dd7-8ab8-39f02abe4d12"
                             }, 
                             "context": "reference"
                         }, 
@@ -1696,12 +1728,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Field, P. R., Heymsfield, A. J., and A. Bansemer Snow Size Distribution Parameterization for Midlatitude and Tropical Ice Clouds\r\n J. Atmos. Sci., 64, 4346-4365", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.798649", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.169752", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "28e7e80c-8d0d-4db3-a2c9-fa84a1ea3017"
+                                "id": "98128115-874f-43eb-83cf-550104aff3ef"
                             }, 
                             "context": "reference"
                         }, 
@@ -1721,12 +1754,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Abel S.J. and Boutle I. A.\r\n An improved representation of the raindrop size distribution for single-moment microphysics schemes. Q. J. R. Meteorol. Soc., 138, 2151-2162", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.798937", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.170008", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "278c138a-c248-482b-82fe-879ff0c9c5fb"
+                                "id": "b829de77-20b1-41c4-82cc-b8d0e141f5c1"
                             }, 
                             "context": "reference"
                         }
@@ -1850,12 +1884,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Lock A.P., A.R. Brown, M.R. Bush, G.M. Martin, R.N.B. Smith et al.  (2000) A new boundary layer mixing scheme. Part I: scheme description and single column model tests.. Monthly Weather Review, American Meteorological Society, 128, 3187-3199.", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.841701", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.212687", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "ca772dc4-953c-4408-aedc-1b94fc72452e"
+                                "id": "1743f5db-b901-4abb-962c-6b7939841efd"
                             }, 
                             "context": "reference"
                         }, 
@@ -1875,12 +1910,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Lock, A. P. The Numerical Representation of Entrainment in Parameterizations of Boundary Layer Turbulent Mixing Monthly Weather Review, 129, 1148-1163", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.842042", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.212930", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "ef45e057-eb35-4a88-bed4-bb96b75e0109"
+                                "id": "f72c1901-039b-4d96-a0e1-300d8f403e91"
                             }, 
                             "context": "reference"
                         }, 
@@ -1900,12 +1936,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Brown, A., Beare, B., Edwards, J.M., Lock, A., Keogh S.J., Milton, S.F. and D. N. Walters Upgrades to the boundary-layer scheme in the Met Office numerical weather prediction model\r\n Boundary-Layer Meteorol, 128, 117-132 ", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.842257", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.213282", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "f6dc4ea2-4396-4a11-8ad9-bbaac9ed95b9"
+                                "id": "d3f6439d-5981-4b64-bb0b-1f52e0c711ee"
                             }, 
                             "context": "reference"
                         }, 
@@ -1925,12 +1962,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Gregory J., and P.R. Rowntree  (1990) A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.. Monthly Weather Review, 118, 1483-1506.", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:21.842466", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.213514", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "49fa482c-bc90-4edb-b866-4410050cd507"
+                                "id": "1c7f01a4-9628-4a69-9998-4561c95e8e62"
                             }, 
                             "context": "reference"
                         }
@@ -1986,12 +2024,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Derbyshire, S. H., Maidens, A. V., Milton, S. F., Stratton, R. A. and M. R. Willett\r\n Adaptive detrainment in a convective parametrization  Q. J. R. Meteorol. Soc. 137: 1856-1871", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.810287", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.182878", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "74e01c1a-e6b0-4fc2-a560-b66ca276a5b9"
+                                        "id": "871db5c0-3597-4712-a556-201e165a0cd2"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2011,12 +2050,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Gregory J., and P.R. Rowntree  (1990) A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.. Monthly Weather Review, 118, 1483-1506.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.810570", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.183192", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "905bb7b5-3174-4a0c-bbbe-e1b50d979e7f"
+                                        "id": "59bda49d-d842-4e7a-a25d-2e45a080aaff"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2101,12 +2141,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Lock A.P., A.R. Brown, M.R. Bush, G.M. Martin, R.N.B. Smith et al.  (2000) A new boundary layer mixing scheme. Part I: scheme description and single column model tests.. Monthly Weather Review, American Meteorological Society, 128, 3187-3199.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.821261", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.194020", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "d377757d-9445-4946-a522-8b8e2364ed56"
+                                        "id": "21badff5-d07d-4154-a3cd-d0427ea6efb3"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2126,12 +2167,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Lock, A. P. The Numerical Representation of Entrainment in Parameterizations of Boundary Layer Turbulent Mixing Monthly Weather Review, 129, 1148-1163", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.821496", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.194290", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "faf60a50-7cb8-48ff-9577-50c7db596bb3"
+                                        "id": "780670a8-d7bc-4d55-be9a-649f71bb5131"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2151,12 +2193,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Brown, A., Beare, B., Edwards, J.M., Lock, A., Keogh S.J., Milton, S.F. and D. N. Walters Upgrades to the boundary-layer scheme in the Met Office numerical weather prediction model\r\n Boundary-Layer Meteorol, 128, 117-132 ", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.821810", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.194524", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "6b0d7700-e9b6-47ac-9fd1-83e1bff1d40c"
+                                        "id": "3ca3e798-bcd5-49fa-8996-a77e4a6dc788"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2176,12 +2219,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.822031", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.194863", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "7e7779ed-1fd5-46f8-8bf9-325fbf94bce4"
+                                        "id": "f931493f-b920-4706-b10b-8b51127e65db"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2259,12 +2303,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Derbyshire, S. H., Maidens, A. V., Milton, S. F., Stratton, R. A. and M. R. Willett\r\n Adaptive detrainment in a convective parametrization  Q. J. R. Meteorol. Soc. 137: 1856-1871", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.832749", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.204744", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "dc23f3ee-3605-4f39-b588-86f33d7ecafc"
+                                        "id": "2f3d4093-c851-403d-a3ce-f7b56d932f58"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2284,12 +2329,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Gregory J., and P.R. Rowntree  (1990) A mass flux convection scheme with representation of cloud ensemble characteristics and stability - dependent closure.. Monthly Weather Review, 118, 1483-1506.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.833007", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.204991", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "910fcaa9-70e1-4040-a57d-43fa8b98a7f7"
+                                        "id": "8cf1745b-4caa-4f70-bb01-4f898e454e3f"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2380,12 +2426,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Rothman, L. S., Gordon, I. E., Babikov, Y., Barbe, A., Chris Benner, D., Bernath, P. F., Birk, M., Bizzocchi, L., Boudon, V., Brown, L. R.,\r\nCampargue, A., Chance, K., Cohen, E. A., Coudert, L. H., Devi, V. M., Drouin, B. J., Fayt, A., Flaud, J.-M., Gamache, R. R., Har-\r\nrison, J. J., Hartmann, J.-M., Hill, C., Hodges, J. T., Jacquemart, D., Jolly, A., Lamouroux, J., Le Roy, R. J., Li, G., Long, D. A.,\r\nLyulin, O. M., Mackie, C. J., Massie, S. T., Mikhailenko, S., M\u00fcller, H. S. P., Naumenko, O.  The HITRAN2012 molecular spectroscopic database J. Quant. Spectrosc. Radiat. Transfer, 130, 4-50", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.011716", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.357122", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "09432805-580f-4f83-af74-0e65d0e10afd"
+                                "id": "d9da62f8-f48f-49a1-a4fd-dd299d22dc7b"
                             }, 
                             "context": "reference"
                         }, 
@@ -2405,12 +2452,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Edwards, J. M. Efficient calculation of infrared fluxes and cooling rates using the two-stream equations\r\n J. Atmos. Sci., 53, 1921-1932", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.012028", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.357371", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "42ddfdb6-e548-4449-9bc4-514acce4d843"
+                                "id": "3c53abea-5130-4d9d-b134-99e751b7de42"
                             }, 
                             "context": "reference"
                         }, 
@@ -2430,12 +2478,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Amundsen, D. S., Tremblin, P., Manners, J., Baraffe, I., and N. J. Mayne Treatment of overlapping gaseous absorption with the correlated-k method in hot Jupiter and brown dwarf atmosphere models\r\n Astron. Astrophys., 598, A97, 10pp", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.012333", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.357604", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "519e5d3b-e827-42ba-b401-83bd4a672497"
+                                "id": "7f6457fd-4321-48be-8249-19b9d5abb904"
                             }, 
                             "context": "reference"
                         }, 
@@ -2455,12 +2504,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.012701", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.357839", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "d4715960-920b-4aa1-814c-79491db6eb0b"
+                                "id": "856b857c-80f9-4d3b-91b5-95977616f1db"
                             }, 
                             "context": "reference"
                         }
@@ -2547,12 +2597,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Baran, A. J., Hill, P., Walters, D., Hardman, S. C., Furtado, K., Field, P. R., and J. Manners  The impact of two coupled cirrus microphysics-radiation parameterizations on the temperature and specific humidity biases in the tropical tropopause layer in a climate model J. Climate, 29, 5299-5316", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.864240", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.234646", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "b13c63b1-890e-4a5e-b735-241aa0bb6fec"
+                                        "id": "1e5cf18f-1033-449e-8cc1-592dd928e02c"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2605,12 +2656,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Yangang Liu, Daum, P. H., Huan Guo and Yiran Peng Dispersion bias, dispersion effect, and the aerosol-cloud conundrum Environmental Research Letters, Volume 3, 045021, 8pp", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.874774", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.243720", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "191022ee-94e8-4cd3-8ed2-c8da489e5a16"
+                                        "id": "c971feb9-0d46-493e-b292-ea71d0b40ab7"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2630,12 +2682,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.875007", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.243984", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "30314859-1ea5-45e2-8503-4f49d3658023"
+                                        "id": "bf5b2558-dcf8-4b3e-a99b-2a5041ca4dde"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2690,12 +2743,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hill, P. G., Manners, J., and J. C. Petch Reducing noise associated with the Monte Carlo Independent Column Approximation for weather forecasting models\r\n Q. J. R. Meteorol. Soc., 137, 219-228", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.885890", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.253544", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "dad042a6-ead6-4299-acbe-ca3a5ac47101"
+                                        "id": "f839312e-7770-4317-b72c-b5e75fd443da"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -2715,12 +2769,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hill, P. G., Morcrette, C. J., and I. A. Boutle A regime-dependent parametrization of subgrid-scale cloud water content variability  Q. J. R. Meteorol. Soc., 141, 1975-1986", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.886133", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.254207", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "d3187857-ab2e-4702-a209-c9d61ab17b3f"
+                                        "id": "e373e8a4-20da-45e7-9ebc-8ad74080771d"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2766,12 +2821,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Bellouin, N., Mann, G. W., Woodhouse, M. T., Johnson, C., Carslaw, K. S. and M. Dalvi Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model Atmos. Chem. Phys., 13, 3027-3044", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.896732", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.266002", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "14fb3720-bc57-4eed-a460-9f2021fed26a"
+                                        "id": "cc2acc49-69f4-408a-8878-edcedbbc32f5"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2877,12 +2933,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.929032", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.293676", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "4cc5ec10-45a1-4ebc-a17a-08d79b91d816"
+                                        "id": "82c6417f-8660-44ac-811e-4ee91f5732cc"
                                     }, 
                                     "context": "reference"
                                 }
@@ -3058,12 +3115,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Baran, A. J., Hill, P., Walters, D., Hardman, S. C., Furtado, K., Field, P. R., and J. Manners  The impact of two coupled cirrus microphysics-radiation parameterizations on the temperature and specific humidity biases in the tropical tropopause layer in a climate model J. Climate, 29, 5299-5316", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.967844", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.321523", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "22fde765-5a4f-487d-ab22-d2ba55d4c99f"
+                                        "id": "eff16a0a-a1b3-42ea-84ce-09a08988ba2f"
                                     }, 
                                     "context": "reference"
                                 }
@@ -3116,12 +3174,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.979300", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.330716", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "78762e81-d0a6-44d9-a1dd-3e00ddee6abc"
+                                        "id": "cd8ede16-6d31-4ff4-9038-5a0f917dcbdb"
                                     }, 
                                     "context": "reference"
                                 }
@@ -3176,12 +3235,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Edwards, J.M. and A. Slingo (1996) Studies with a flexible new radiation code. I: choosing a configuration for a large-scale model Q. J. R. Meteorol. Soc., 122, 689-720", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.990788", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.340271", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "3be52efc-f6a4-45c4-b0bc-8d1460ebad0a"
+                                        "id": "6dd7207b-4b54-4567-98f6-a8bf321b63ae"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -3201,12 +3261,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hill, P. G., Manners, J., and J. C. Petch Reducing noise associated with the Monte Carlo Independent Column Approximation for weather forecasting models\r\n Q. J. R. Meteorol. Soc., 137, 219-228", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.991168", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.340513", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "eb739e3c-126f-490d-bc49-87a510a8ebf8"
+                                        "id": "5380187c-601a-47f5-b034-1b79277ae8ab"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -3226,12 +3287,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hill, P. G., Morcrette, C. J., and Boutle, I. A. A regime-dependent parametrization of subgrid-scale cloud water content variability Q. J. R. Meteorol. Soc., 141, 1975-1986", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:21.991522", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.340756", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "aaceb05e-805d-4005-a77a-33170fe4287a"
+                                        "id": "d2b28986-38c2-4f7b-aae4-2e294ffeea02"
                                     }, 
                                     "context": "reference"
                                 }
@@ -3341,12 +3403,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.081046", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.414810", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "07a3ac19-53dc-4717-8c89-55361329b531"
+                                "id": "b4ad4e79-4b99-4d0d-a52e-512963a86ffd"
                             }, 
                             "context": "reference"
                         }, 
@@ -3366,12 +3429,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Wood,  N.,  Staniforth,  A.,  White,  A.,  Allen,  T.,  Diamantakis,  M., Gross, M., Melvin, T., Smith, C., Vosper, S., Zerroukat, M., and Thuburn, J. An inherently mass-conserving semi-implicit semi-Lagrangian  discretization  of  the  deep-atmosphere  global  non-hydrostatic  equations Q.  J.  Roy.  Meteorol.  Soc.,  140,  1505-1520", 
                             "meta": {
-                                "createDate": "2019-01-31 11:59:22.081334", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:07.415080", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "00a29439-1bbe-4c63-8936-5a4637a4d699"
+                                "id": "3bedcc2b-ee3b-4afd-945f-91f1bb4fd337"
                             }, 
                             "context": "reference"
                         }
@@ -3500,12 +3564,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
                                     "meta": {
-                                        "createDate": "2019-01-31 11:59:22.050068", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:07.389753", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "e05d706e-de21-4502-8995-e948ceb34520"
+                                        "id": "73515be8-6be8-4031-a98f-45aa7160d803"
                                     }, 
                                     "context": "reference"
                                 }
@@ -3678,12 +3743,13 @@
             "specializationID": "cmip6", 
             "canonicalName": "atmos", 
             "meta": {
-                "createDate": "2019-01-31 11:59:21.525511", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:06.902540", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Realm", 
-                "id": "f796a3a5-aa93-40b7-9694-3920a4b3d051"
+                "id": "990d116e-f439-44ba-bf81-86c8a2c76191"
             }, 
             "grid": {
                 "description": "Horizontal grid is 1.25 x 1.875 degrees lat-lon, denoted N96. Horizontal grid staggering uses an Arakawa C-grid. Vertical grid uses 85 levels with a Charney-Phillips staggering and terrain-following hybrid height coordinates.", 
@@ -3964,12 +4030,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Wood,  N.,  Staniforth,  A.,  White,  A.,  Allen,  T.,  Diamantakis,  M., Gross, M., Melvin, T., Smith, C., Vosper, S., Zerroukat, M., and Thuburn, J. An inherently mass-conserving semi-implicit semi-Lagrangian  discretization  of  the  deep-atmosphere  global  non-hydrostatic  equations Q.  J.  Roy.  Meteorol.  Soc.,  140,  1505-1520", 
                                 "meta": {
-                                    "createDate": "2019-01-31 11:59:22.148704", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:07.471706", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "b2fae8f3-60b5-48ab-bb59-c6b12183552f"
+                                    "id": "9ccd0d6f-541f-4e0f-92bf-c40c2af5754d"
                                 }, 
                                 "context": "reference"
                             }
@@ -4032,12 +4099,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Hastings, D. A., Dunbar, P. K., Elphingstone, G. M., Bootz, M., Hiroshi Murakami, Hiroshi Maruyama, Hiroshi Masaharu, Holland, P., Payne, J., Bryant, N. A., Logan, T. L., Muller, J.-P., Schreier, G., and  J. S. MacDonald), eds., The Global Land One-kilometer Base Elevation (GLOBE) Digital Elevation Model, Version 1.0.  National Oceanic and Atmospheric Administration, National Geophysical Data Center, 325 Broadway, Boulder, Colorado 80305-3328, U.S.A.", 
                                 "meta": {
-                                    "createDate": "2019-01-31 11:59:22.160409", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:07.482946", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "bb05a63b-a8f7-4f61-9762-11d8f7a96782"
+                                    "id": "c46704b6-2f66-4dfe-b3fe-9407316aff75"
                                 }, 
                                 "context": "reference"
                             }
@@ -4100,12 +4168,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Walters, D., Baran, A., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., Furtado, K., Hill, P., Lock, A., Manners, J., Morcrette, C., Mulcahy, J., Sanchez, C., Smith, C., Stratton, R., Tennant, W., Tomassini, L., Van Weverberg, K., Vosper, S., Willett, M., Browse, J., Bushell, A., Dalvi, M., Essery, R., Gedney, N., Hardiman, S., Johnson, B., Johnson, C., Jones, A., Mann, G., Milton, S., Rumbold, H., Sellar, A., Ujiie, M., Whitall, M., Williams, K., and M. Zerroukat\r\n The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations Geosci. Model Dev. Discuss., in review, 2017. ", 
                                 "meta": {
-                                    "createDate": "2019-01-31 11:59:22.171275", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:07.493017", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "7fb26b05-0ba2-4f83-9379-3bc30bd6bde3"
+                                    "id": "1ee9aa0f-7101-41e1-8661-89a763903997"
                                 }, 
                                 "context": "reference"
                             }, 
@@ -4125,12 +4194,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P.,\r\nIneson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3.0 and GC3.1) configurations Journal of Advances in Modeling Earth Systems, 10, 357-380\r\n", 
                                 "meta": {
-                                    "createDate": "2019-01-31 11:59:22.171514", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:07.493271", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "221a5953-4965-4586-84bb-74e0b663088f"
+                                    "id": "4743a06c-7d37-48a5-a1a1-f570f4c42cea"
                                 }, 
                                 "context": "reference"
                             }, 
@@ -4150,12 +4220,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson,B.,  Boutle, I., Jones, A., Andrews, T., Rumbold, S., Mollard, J., Bellouin, N., Johnson, C., Williams, K., Grosvenor, D. and D. T. McCoy Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1  in prep 2018", 
                                 "meta": {
-                                    "createDate": "2019-01-31 11:59:22.171736", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:07.493521", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "4cfd39fc-f8e5-42ec-a581-75924cfb6b88"
+                                    "id": "b648ab7e-ac2a-4cfe-8e3c-f01315d84561"
                                 }, 
                                 "context": "reference"
                             }

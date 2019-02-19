@@ -19,12 +19,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 13:11:16.220693", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:29.021152", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "789bd68a-cd9e-47fd-afe6-b4e4ec40aed7"
+                        "id": "0f1eeae7-d432-404b-900c-b23a1a4b20de"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "alex.west@metoffice.gov.uk"
@@ -50,12 +51,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 13:11:16.221448", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:29.021480", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "b8279104-5617-486e-98b6-22f7d3b16423"
+                        "id": "211bbe92-39f5-4ff5-9fa3-dcf3dce256fb"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "ed.blockley@metoffice.gov.uk"
@@ -81,12 +83,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 13:11:16.222150", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:29.021793", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "d6cf1ead-c743-47ae-9b37-4f3d1e0c75f2"
+                        "id": "0522479a-9965-4f5c-b044-689b96b49b3f"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "Jamie.Rae@metoffice.gov.uk"
@@ -118,12 +121,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hunke E., and J. Dukowicz (1997) An elastic-viscous-plastic model for sea-ice dynamics.. Journal of Physical Oceanography, 27, 1849-1867.", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:15.848476", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.759310", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "91a781ff-4fe9-453c-8ceb-3783e064e8a2"
+                                "id": "7787e6a7-c6d7-4f80-aca7-7da50cb3b6be"
                             }, 
                             "context": "reference"
                         }
@@ -226,12 +230,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Bitz, C. M. and Lipscomb, W. H.\r\n An energy-conserving thermodynamic sea ice model for climate study J. Geophys. Res.-Oceans, 104:15669-15677", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:15.993215", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.860992", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "796381e6-8d2e-48c3-9dca-3c81d07d432f"
+                                "id": "768d03c8-c0f1-4567-9b47-efc654ddefbc"
                             }, 
                             "context": "reference"
                         }, 
@@ -251,12 +256,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Ridley, J. K., Blockley, E. W., Keen, A. B., Rae., J. G. L., West, A. E. and Schroeder, D. The sea ice model component of HadGEM3-GC3.1, \r\n\r\n Geosci. Model Dev., 11, 713-723", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:15.993680", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.861396", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "6b7749f6-adc8-495a-bb0c-a179fc1de1a6"
+                                "id": "86d323e2-61e6-470f-bced-eea13fcac29c"
                             }, 
                             "context": "reference"
                         }, 
@@ -276,12 +282,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "West, A. E, McLaren, A. J., Hewitt, H. T. and Best, M. J.\r\n The location of the thermodynamic atmosphere-ice interface in fully coupled models - a case study using JULES and CICE Geosci. Mod. Dev., 9, 1125-1141", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:15.994136", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.861682", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "5232ca48-c26e-46e6-9a7d-dfeaa5b27f71"
+                                "id": "e70cfcfe-5bb4-4c5b-8dae-c83b9d9bd722"
                             }, 
                             "context": "reference"
                         }
@@ -324,12 +331,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Bitz, C. M. and Lipscomb, W. H.\r\n An energy-conserving thermodynamic sea ice model for climate study J. Geophys. Res.-Oceans, 104:15669-15677", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.878573", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.788254", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1e02bc9c-e0bc-42f1-be9b-bae7dfb8e12b"
+                                        "id": "013ec19d-b7be-41d4-bce0-0e6208638355"
                                     }, 
                                     "context": "reference"
                                 }
@@ -432,12 +440,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Steele, M. Sea Ice Melting and Floe Geometry in a Simple Ice-Ocean Model \r\n Journal of Geophysical Research, 97, C11, 17,729-17,738", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.893859", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.798646", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "912523d2-2524-4b5d-bc0d-59778dc09037"
+                                        "id": "e313e711-8fd6-4eb9-854f-5293c4e85dc4"
                                     }, 
                                     "context": "reference"
                                 }
@@ -520,12 +529,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Bitz, C. M. and Lipscomb, W. H.\r\n An energy-conserving thermodynamic sea ice model for climate study J. Geophys. Res.-Oceans, 104:15669-15677", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.908859", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.808627", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "bd7fbb1b-97de-4ed0-b7b9-3eecae1c655f"
+                                        "id": "e7bee5ff-fee4-43a9-aa08-d93278925e72"
                                     }, 
                                     "context": "reference"
                                 }
@@ -681,12 +691,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Ridley, J. K., Blockley, E. W., Keen, A. B., Rae., J. G. L., West, A. E. and Schroeder, D. The sea ice model component of HadGEM3-GC3.1, \r\n\r\n Geosci. Model Dev., 11, 713-723", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.946380", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.833853", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "6cd4f24b-2ddc-453e-a22c-d4267d03d889"
+                                        "id": "4cb6a939-69e3-49fc-9387-7ec6f10af21f"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -706,12 +717,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Flocco, D., D.L. Feltham, and A.K. Turner Incorporation of a physically based melt pond scheme into the sea ice component of a climate model J. Geophys. Res., 115, C08012", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.946764", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.834105", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1d4cea8c-2471-487e-838e-28313546a1aa"
+                                        "id": "03697bdf-f532-4dbb-926d-4efe8ae0278a"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -731,12 +743,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Flocco, D., Schroeder, D., Feltham, D. L. and Hunke, E. C.  Impact of melt ponds on Arctic sea ice simulations from 1990 to 2007 J. Geophys. Res., 117, C09032", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.947137", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.834352", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "52fab9c0-2c28-4e79-9763-4d326dc3022b"
+                                        "id": "2c43b03c-4461-4beb-93b8-fa4a35a19d11"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -756,12 +769,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Hunke, E.C.  W.H. Lipscomb, A.K. Turner, N. Jeffery, and Elliott, S. CICE: the Los Alamos Sea Ice Model Documentation and Software User\u2019s Manual  Version 5.1,  LA-CC-06-012, Los Alamos National Laboratory, N.M.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:15.947505", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:28.834576", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "ddfd19a3-17d1-4e9f-b2d5-cd9f89807c5d"
+                                        "id": "2c89d356-f4df-4a29-b98a-92440fa9c0b8"
                                     }, 
                                     "context": "reference"
                                 }
@@ -928,12 +942,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hunke, E.C.  W.H. Lipscomb, A.K. Turner, N. Jeffery, and Elliott, S. CICE: the Los Alamos Sea Ice Model Documentation and Software User\u2019s Manual  Version 5.1,  LA-CC-06-012, Los Alamos National Laboratory, N.M.", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:16.009234", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.870970", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "637bfdf3-10e3-4fb0-91dd-3fead02b1f22"
+                                "id": "3ad8af4d-cfc1-4e4d-a382-67d58c92d034"
                             }, 
                             "context": "reference"
                         }, 
@@ -953,12 +968,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Ridley, J. K., Blockley, E. W., Keen, A. B., Rae., J. G. L., West, A. E. and Schroeder, D. The sea ice model component of HadGEM3-GC3.1, \r\n\r\n Geosci. Model Dev., 11, 713-723", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:16.009828", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.871258", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "c4602a4f-7320-40d4-9353-7203c80f3e07"
+                                "id": "59956386-ebce-459f-856e-e4eaf3fc8c46"
                             }, 
                             "context": "reference"
                         }, 
@@ -978,12 +994,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Semtner A., (1976) A model for the thermodynamic growth of sea ice in numerical investigations of climate.. Journal of Physical Oceanography, 6, 379-389", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:16.010299", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:28.871503", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "f1a7f5df-622c-4097-a259-a94708401679"
+                                "id": "e40df616-bc8c-4d58-a7af-10cd9d9183c0"
                             }, 
                             "context": "reference"
                         }
@@ -1044,12 +1061,13 @@
             "specializationID": "cmip6", 
             "canonicalName": "seaice", 
             "meta": {
-                "createDate": "2019-01-31 13:11:15.835382", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:28.747681", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Realm", 
-                "id": "7acb1d4d-58da-4272-84b7-22a0d1306ad2"
+                "id": "3ad2fd2a-687e-4cd2-9109-46c9a0384d74"
             }, 
             "grid": {
                 "description": "The sea ice model CICE uses ORCA1, a tripolar grid with poles located in Canada, Russia and Antarctica. It has resolution of roughly 1 degree over most of the world, but latitudinal resolution is higher in the tropics. Ice velocities, forces and stresses are calculated at the corners of grid cells. The model has four vertical layers of ice, equally-spaced, and one vertical layer of snow which is used in thermodynamic calculations only if the snow is greater than 10 cm thick.", 
@@ -1224,12 +1242,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Thorndike, A. S., D. A. Rothrock, G. A. Maykut and R. Colony (1975) The thickness distribution of sea ice Journal of Geophysical Research, 80, 4501-4513.", 
                                 "meta": {
-                                    "createDate": "2019-01-31 13:11:16.060247", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:28.903664", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "c493b4c4-e3af-4406-8955-d3c5575fabb3"
+                                    "id": "c412c012-833a-448d-ad8d-f35bf17f5237"
                                 }, 
                                 "context": "reference"
                             }
@@ -1518,12 +1537,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Schweiger, A., R. Lindsay, J. Zhang, M. Steele, H. Stern Uncertainty in modeled arctic sea ice volume J. Geophys. Res., 116, C00D06", 
                                 "meta": {
-                                    "createDate": "2019-01-31 13:11:16.138435", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:28.961439", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "45f5475d-a47e-4a79-83b1-5362be7a7270"
+                                    "id": "4594e756-4d42-41b9-91a2-437635b838f2"
                                 }, 
                                 "context": "reference"
                             }, 
@@ -1543,12 +1563,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Titchner, H. A., and N. A. Rayner The Met Office Hadley Centre sea ice and sea surface temperature data set, version 2: 1. Sea ice concentrations J. Geophys. Res. Atmos., 119, 2864-2889", 
                                 "meta": {
-                                    "createDate": "2019-01-31 13:11:16.138837", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:28.961706", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "54519f60-d002-4e73-bcc4-173a8b26c348"
+                                    "id": "a7427dbb-8000-4857-a750-3ade25f55537"
                                 }, 
                                 "context": "reference"
                             }, 
@@ -1568,12 +1589,13 @@
                                 "abstract": "n/a", 
                                 "collectiveTitle": "Laxon, S. W., Giles, K. A., Ridout, A. L., Wingham, D. J. Willatt, R., Cullen, R., Kwok, R., Schweiger, A., Zhang, J., Haas, C.,Hendricks, S., Krishfield, R., Kurtz, N., Farrell, S. and M. Davidson CryoSat-2 estimates of Arctic sea ice thickness and volume Geophysical Research Letters, 40, 732-737", 
                                 "meta": {
-                                    "createDate": "2019-01-31 13:11:16.139203", 
-                                    "project": "mohc", 
-                                    "source": "mohc", 
-                                    "version": 0, 
+                                    "institute": "mohc", 
+                                    "createDate": "2019-02-19 10:04:28.961928", 
+                                    "project": "cmip6", 
+                                    "source": "pyesdoc", 
+                                    "version": 1, 
                                     "type": "cim.2.shared.Citation", 
-                                    "id": "36a9beca-bf89-44c1-82b1-bb2460b5ca4f"
+                                    "id": "5bf4613b-4e0d-4a42-bac3-4bc4ea4b6119"
                                 }, 
                                 "context": "reference"
                             }
@@ -1822,12 +1844,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Ridley, J. K., Blockley, E. W., Keen, A. B., Rae., J. G. L., West, A. E. and Schroeder, D. The sea ice model component of HadGEM3-GC3.1, \r\n\r\n Geosci. Model Dev., 11, 713-723", 
             "meta": {
-                "createDate": "2019-01-31 13:11:16.226516", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:29.024049", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "092a3543-1c61-4c9c-a411-6e2b1c433a5c"
+                "id": "5618cf05-fb35-4b6b-9ec1-accbc96f3025"
             }, 
             "context": "reference"
         }, 
@@ -1847,23 +1870,25 @@
             "abstract": "n/a", 
             "collectiveTitle": "West, A. E, McLaren, A. J., Hewitt, H. T. and Best, M. J.\r\n The location of the thermodynamic atmosphere-ice interface in fully coupled models - a case study using JULES and CICE Geosci. Mod. Dev., 9, 1125-1141", 
             "meta": {
-                "createDate": "2019-01-31 13:11:16.227043", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:29.024290", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "6f2aafc8-52b5-496c-b12e-204da8a1c1be"
+                "id": "2c88a7c1-52e2-4d7c-8a7b-e8c4ca20882c"
             }, 
             "context": "reference"
         }
     ], 
     "meta": {
-        "createDate": "2019-01-31 13:11:15.828249", 
-        "project": "mohc", 
-        "source": "mohc", 
-        "version": 0, 
+        "institute": "mohc", 
+        "createDate": "2019-02-19 10:04:28.741306", 
+        "project": "cmip6", 
+        "source": "pyesdoc", 
+        "version": 1, 
         "type": "cim.2.science.Model", 
-        "id": "227c7b9b-2203-4c1c-8007-98bed7b9face"
+        "id": "93c0f52f-d500-4243-a459-41b085145fca"
     }, 
     "modelType": "Process", 
     "version": "5.1.2", 

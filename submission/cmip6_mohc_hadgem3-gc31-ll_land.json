@@ -19,12 +19,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-31 13:11:50.727125", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:04:46.312119", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "e1016083-985a-4aee-8d7e-c7ee7ae17d68"
+                        "id": "21c36b23-6045-4002-b28e-c4f7c1ca5166"
                     }, 
                     "address": "Maclean Building, Benson Lane Crowmarsh Gifford   Wallingford Oxfordshire OX10 8BB", 
                     "email": "rjel@ceh.ac.uk"
@@ -282,12 +283,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:50.436621", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:46.035323", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "d43bccb1-8aab-4dbf-89c4-7f04ed4dc8a6"
+                                "id": "85b089f9-ad36-479a-b4c2-6b7ecd9bc101"
                             }, 
                             "context": "reference"
                         }
@@ -966,12 +968,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:50.529276", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:46.136920", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "5cfe2e3c-3c9a-4023-aa87-973ac44246d3"
+                                "id": "f61b58ff-0c58-4b64-a423-ec7a0fd7afb8"
                             }, 
                             "context": "reference"
                         }
@@ -1118,7 +1121,7 @@
                                         "type": "cim.2.science.TopicProperty"
                                     }, 
                                     "values": [
-                                        "nil:inapplicable"
+                                        "snow grain type"
                                     ], 
                                     "qcStatus": 0
                                 }, 
@@ -1128,7 +1131,7 @@
                                         "type": "cim.2.science.TopicProperty"
                                     }, 
                                     "values": [
-                                        "nil:inapplicable"
+                                        "prognostic"
                                     ], 
                                     "qcStatus": 0
                                 }
@@ -1157,12 +1160,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Jacobs, C. M. J. Direct impact of atmospheric CO2 enrichment on regional transpiration PhD Thesis, Wageningen Agric. Univ., Wageningen, Netherlands", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:50.539930", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:46.147215", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "07e9936b-80f2-4771-b57e-d228921c85d3"
+                                "id": "68adf799-2ad0-4c63-890b-f09bbc92547d"
                             }, 
                             "context": "reference"
                         }
@@ -1421,12 +1425,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "van Genuchten, M. Th (1980) A closed-form equation for predicting the hydraulic conductivity of unsaturated soils Soil Science Society of America Journal, 44:892\u2013898", 
                             "meta": {
-                                "createDate": "2019-01-31 13:11:50.595820", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:04:46.206108", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "c2e3bb45-e0fb-4b38-a04e-3402aaf1e146"
+                                "id": "09045efa-e366-4e98-8bbf-d4ca2e132b90"
                             }, 
                             "context": "reference"
                         }
@@ -1668,12 +1673,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Johansen, O.\r\n Thermal Conductivity of Soils PhD Thesis, Trondheim University, Norway", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:50.568912", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:46.177205", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "d20e4603-848f-4659-82dd-0d86afbc675c"
+                                        "id": "0efed7ed-5fb3-4430-85b3-c54e2c38055c"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1693,12 +1699,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Dharssi, I., P. L. Vidale, A. Verhoef, B. Macpherson, C. Jones and M. Best  New soil physical properties implemented in the Unified Model at PS18  Met R&D Tech. Rep. 528, 34 p, Met Office, Exeter, UK ", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:50.569146", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:46.177455", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "1fb53df1-ac1d-4fee-82be-57484515c159"
+                                        "id": "1f67493e-7c6d-4517-9ad5-1383922c3f79"
                                     }, 
                                     "context": "reference"
                                 }
@@ -1886,12 +1893,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:50.588142", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:46.198062", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "8ed7a36c-6833-4a9c-848d-0b992e6d5d49"
+                                        "id": "237f3ba8-64d6-4ae2-868b-c66258f130b5"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1911,12 +1919,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Essery R., M. Best, and P. Cox (2001) MOSES 2.2 technical documentation.. Hadley Centre Technical Note 30, 30 pp.", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:50.588357", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:46.198300", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "79c11ea8-2845-4c6f-8ddc-cf22e85c345c"
+                                        "id": "01e4a691-cfa3-42b1-b750-9c63240cc5e3"
                                     }, 
                                     "context": "reference"
                                 }, 
@@ -1936,12 +1945,13 @@
                                     "abstract": "n/a", 
                                     "collectiveTitle": "Sellers, P. J. Canopy reflectance, photosynthesis and transpiration.  International Journal of Remote Sensing, 6(8), pp.1335-1372.\r\n", 
                                     "meta": {
-                                        "createDate": "2019-01-31 13:11:50.588566", 
-                                        "project": "mohc", 
-                                        "source": "mohc", 
-                                        "version": 0, 
+                                        "institute": "mohc", 
+                                        "createDate": "2019-02-19 10:04:46.198515", 
+                                        "project": "cmip6", 
+                                        "source": "pyesdoc", 
+                                        "version": 1, 
                                         "type": "cim.2.shared.Citation", 
-                                        "id": "010d1d0f-0c1b-4b67-978c-e59441ddb79c"
+                                        "id": "b07d2e26-889e-4e79-bc62-63d9980a93e2"
                                     }, 
                                     "context": "reference"
                                 }
@@ -2002,12 +2012,13 @@
             "specializationID": "cmip6", 
             "canonicalName": "land", 
             "meta": {
-                "createDate": "2019-01-31 13:11:50.382344", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:45.979253", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Realm", 
-                "id": "b6b97282-ab1e-42a6-a398-3e2261883234"
+                "id": "11616e04-1018-4926-b84e-975143f25879"
             }, 
             "grid": {
                 "description": "The land-surface grid maps to the atmospheric model grid.", 
@@ -2126,12 +2137,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
                         "meta": {
-                            "createDate": "2019-01-31 13:11:50.706550", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:46.295265", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "1056652d-1e1f-428c-94e7-8f2a7cf2732f"
+                            "id": "ad0f0a75-12c8-460b-9877-3f664febdaf8"
                         }, 
                         "context": "reference"
                     }, 
@@ -2151,12 +2163,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
                         "meta": {
-                            "createDate": "2019-01-31 13:11:50.706969", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:04:46.295630", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "45101b43-489b-4e26-8bed-7f9b99f6975c"
+                            "id": "198739e7-28cd-43f4-94d8-4e555e519a77"
                         }, 
                         "context": "reference"
                     }
@@ -2443,12 +2456,13 @@
             "abstract": "n/a", 
             "collectiveTitle": "Best, M. J., Pryor, M., Clark, D. B., Rooney, G. G., Essery, R. L. H., Menard, C. B., Edwards, J. M., Hendry, M. A., Gedney, N., Mercado, L. M., Sitch, S., Blyth, E., Boucher, O., Cox, P. M., Grimmond, C. S. B., and R. J. Harding (2011) The Joint UK Land Environment Simulator (JULES), model\r\ndescription \u2013 Part 1: Energy and water fluxes Geosci. Model Dev., 4, 677\u2013\r\n699", 
             "meta": {
-                "createDate": "2019-01-31 13:11:50.730939", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:46.314294", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "25a22490-dc7a-4307-bf1d-e1bd20fe398f"
+                "id": "4e4993c0-353a-4f24-8f84-f9f638f39804"
             }, 
             "context": "reference"
         }, 
@@ -2468,23 +2482,25 @@
             "abstract": "n/a", 
             "collectiveTitle": "Clark, D. B., Mercado, L. M., Sitch, S., Jones, C. D., Gedney, N., Best, M. J., Pryor, M., Rooney, G. G., Essery, R. L. H., Blyth, E., Boucher, O., Harding, R. J., Huntingford, C., and Cox, P. M (2011) The Joint UK Land Environment Simulator (JULES), model description \u2013 Part 2: Carbon fluxes and vegetation dynamics Geosci. Model Dev., 4, 701-722", 
             "meta": {
-                "createDate": "2019-01-31 13:11:50.731474", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:04:46.314640", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.shared.Citation", 
-                "id": "f05fba8f-816b-4241-8a4d-ab680ba83e0f"
+                "id": "185c204c-20dd-48bb-b2a7-82f7cb6fa778"
             }, 
             "context": "reference"
         }
     ], 
     "meta": {
-        "createDate": "2019-01-31 13:11:50.379523", 
-        "project": "mohc", 
-        "source": "mohc", 
-        "version": 0, 
+        "institute": "mohc", 
+        "createDate": "2019-02-19 10:04:45.975823", 
+        "project": "cmip6", 
+        "source": "pyesdoc", 
+        "version": 1, 
         "type": "cim.2.science.Model", 
-        "id": "c8e9139f-710a-45ca-aa75-0aa47fb2a500"
+        "id": "2b88514b-4008-40e8-8f13-fb791c2e101a"
     }, 
     "modelType": "Process", 
     "version": "UM10.7 VN4.8", 

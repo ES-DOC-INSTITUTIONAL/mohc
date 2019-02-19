@@ -19,12 +19,13 @@
                         "name": "n/a"
                     }, 
                     "meta": {
-                        "createDate": "2019-01-28 12:11:50.362857", 
-                        "project": "mohc", 
-                        "source": "mohc", 
-                        "version": 0, 
+                        "institute": "mohc", 
+                        "createDate": "2019-02-19 10:01:40.397853", 
+                        "project": "cmip6", 
+                        "source": "pyesdoc", 
+                        "version": 1, 
                         "type": "cim.2.shared.Party", 
-                        "id": "8d422dff-4ae8-4435-8064-a141c42de436"
+                        "id": "c13d6839-8061-44f6-894e-ab3473083be2"
                     }, 
                     "address": "Fitzroy Road Exeter Devon EX1 3PB UK", 
                     "email": "alistair.sellar@metoffice.gov.uk"
@@ -37,12 +38,13 @@
     "coupledComponents": [
         {
             "meta": {
-                "createDate": "2019-01-28 12:11:50.345802", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:01:40.322505", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Model", 
-                "id": "463c2783-ecc5-440d-9d2e-baa378877469"
+                "id": "1e3554ea-7f19-4b58-b1d3-07a67c7eca73"
             }, 
             "modelType": "Atm Only", 
             "canonicalID": "MetUM-HadGEM3-GA7.1", 
@@ -50,12 +52,13 @@
         }, 
         {
             "meta": {
-                "createDate": "2019-01-28 12:11:50.348597", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:01:40.356037", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Model", 
-                "id": "959834d6-24a0-40f2-a515-8764ec73cb7c"
+                "id": "04c7ffed-6f92-4f39-9bd3-d546291dc713"
             }, 
             "modelType": "Process", 
             "canonicalID": "UKCA-GLOMAP-mode", 
@@ -63,12 +66,13 @@
         }, 
         {
             "meta": {
-                "createDate": "2019-01-28 12:11:50.349054", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:01:40.356363", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Model", 
-                "id": "8326cb54-5027-4e20-bf30-97bd38e5b81c"
+                "id": "6bdcca67-02b6-4e68-afeb-fd79180b36fa"
             }, 
             "modelType": "Process", 
             "canonicalID": "JULES-HadGEM3-GL7.1", 
@@ -76,12 +80,13 @@
         }, 
         {
             "meta": {
-                "createDate": "2019-01-28 12:11:50.349274", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:01:40.356648", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Model", 
-                "id": "0bf7a440-52aa-4c75-a449-f139983af3aa"
+                "id": "60de8a2c-4976-487f-afe9-31b4e16fa542"
             }, 
             "modelType": "Process", 
             "canonicalID": "CICE-HadGEM3-GSI8", 
@@ -89,12 +94,13 @@
         }, 
         {
             "meta": {
-                "createDate": "2019-01-28 12:11:50.349503", 
-                "project": "mohc", 
-                "source": "mohc", 
-                "version": 0, 
+                "institute": "mohc", 
+                "createDate": "2019-02-19 10:01:40.356967", 
+                "project": "cmip6", 
+                "source": "pyesdoc", 
+                "version": 1, 
                 "type": "cim.2.science.Model", 
-                "id": "a38b8f21-906c-44af-8f1b-02e059b0bef0"
+                "id": "0d7fb49e-38f0-4f80-8641-82cd93c510ea"
             }, 
             "modelType": "Ocean Only", 
             "canonicalID": "NEMO-HadGEM3-GO6.0", 
@@ -154,12 +160,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Meinshausen, M., Vogel, E., Nauels, A., Lorbacher, K., Meinshausen, N., Etheridge, D. M., Fraser, P. J., Montzka, S. A., Rayner, P. J., Trudinger, C. M., Krummel, P. B., Beyerle, U., Canadell, J. G., Daniel, J. S., Enting, I. G., Law, R. M., Lunder, C. R., O'Doherty, S., Prinn, R. G., Reimann, S., Rubino, M., Velders, G. J. M., Vollmer, M. K., Wang, R. H. J. and Weiss, R. Historical greenhouse gas concentrations for climate modelling (CMIP6) Geosci. Model Dev., 10, 2057-2116", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.240189", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.094753", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "6baa9cbd-82e5-414c-8b1f-316efc72cc74"
+                                "id": "6b574927-17cb-4c0f-8e12-85ce4049a7a3"
                             }, 
                             "context": "reference"
                         }, 
@@ -179,12 +186,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hegglin, M. I., Kinnison, D., Plummer, D., et al., \r\n Historical and future ozone database (1850-2100) in support of CMIP6 GMD, in preparation.", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.249842", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.119958", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "c968e052-1478-443f-9072-6335ef2b94b7"
+                                "id": "dcd3aa95-32c7-4454-b704-126ecdeea302"
                             }, 
                             "context": "reference"
                         }, 
@@ -204,12 +212,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Rubino, M., Velders, G. J. M., Vollmer, M. K., Wang, R. H. J. and Weiss, R. Historical greenhouse gas concentrations for climate modelling (CMIP6) Geosci. Model Dev., 10, 2057-2116", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.250279", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.120344", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "a32c4abc-c154-4025-8ec8-f92506135a5a"
+                                "id": "e98a170d-7b26-42a9-9b4b-9c5387e1d183"
                             }, 
                             "context": "reference"
                         }
@@ -432,12 +441,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "van Marle, M. J. E., Kloster, S., Magi, B. I., Marlon, J. R., Daniau, A-L., Field, R. D., Arneth, A., Forrest, M., Hantson, S., Kehrwald, N. M., Knorr, W., Lasslop, G., Li, F., Mangeon, S., Yue, C., Kaiser, J. W. and van der Werf, G. R. Historic global biomass burning emissions for CMIP6 (BB4CMIP) based on merging satellite observations with proxies and fire models (1750-2015) Geosci. Model Dev., 10, 3329-3357", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.287568", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.221487", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "47194dbc-7805-4ffe-b6d2-cf4487c47f3d"
+                                "id": "aa6369fb-1037-4e8a-8922-b1669387845e"
                             }, 
                             "context": "reference"
                         }, 
@@ -457,12 +467,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Liss P.S., and L. Merlivat Air-Sea Gas Exchange Rates: Introduction and Synthesis.  In: Buat-M\u00e9nard P. (eds) The Role of Air-Sea Exchange in Geochemical Cycling. NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 185. Springer, Dordrecht. \r\n", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.287808", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.221762", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "89172b64-d3b4-4140-9616-2a2ba5b5a194"
+                                "id": "0cb3f2dd-97e9-412a-8c6c-0e16c0563e4d"
                             }, 
                             "context": "reference"
                         }, 
@@ -482,12 +493,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Sindelarova, K., Granier, C., Bouarar, I., Guenther, A., Tilmes, S., Stavrakou, T., M\u00fcller, J.-F., Kuhn, U., Stefani, P.  and Knorr, W.  Global dataset of biogenic VOC emissions calculated by the MEGAN model over the last 30 years Atmos. Chem. Phys. 14, 10725-10788", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.288047", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.221991", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "1c4db368-c9b6-46dd-b993-45b18ba0d7df"
+                                "id": "9223e06a-5a80-4a25-9c30-854de5413ae4"
                             }, 
                             "context": "reference"
                         }, 
@@ -507,12 +519,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Lana, A., Bell, T. G., Simo, R., Vallina, S. M., Ballabrera-Poy, J., Kettle, A. J., Dachs, J., Bopp, L., Saltzman, E. S., Stefels, J., Johnson, J. E., Liss, P. S. An updated climatology of surface dimethlysulfide concentrations and emission fluxes in the global ocean Global Biogeochemical Cycles, 25(1):GB1004", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.288265", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.222206", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "9b608725-3314-4ad6-94d1-c6684311c779"
+                                "id": "7d01014b-d53a-498b-9327-f04484db0cd7"
                             }, 
                             "context": "reference"
                         }, 
@@ -532,12 +545,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Gong, S. L.  A parametrization of sea-salt aerosol source function for sub- and super-micron particles Global Biogeochemical Cycles, 17, 4, 1097", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.288482", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.222449", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "cbe980b7-04dc-4358-bb7e-08e9e40ed4c9"
+                                "id": "48ccb0b8-7345-4ccf-973b-d865b5763347"
                             }, 
                             "context": "reference"
                         }, 
@@ -557,12 +571,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Dentener, F., Kinne, S., Bond, T., Boucher, O., Cofala, J., Generoso, S., Ginoux, P., Gong, S., Hoelzemann, J. J., Ito, A., Marelli, L., Penner, J. E., Putaud, J. P., Textor, C., Schulz, M., Van Der Werf, G. R. and  J. Wilson Emissions of primary aerosol and precursor gases in the years 2000\r\nand 1750 prescribed data-sets for AeroCom\r\n Atmos. Chem. Phys., 6, 4321-4344", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.288698", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.222667", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "718bff07-b870-4834-bc27-a5953ff567b5"
+                                "id": "b6a731c3-ccdf-429a-8999-3a6644621f6e"
                             }, 
                             "context": "reference"
                         }, 
@@ -582,12 +597,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Spiro, P.A., Jacob, D.J., and Logan, J.A. (1992) Global inventory of sulfur emissions with 1x1 resolution. J. Geophys. Res., 97, 6023-6036, 1992.", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.289447", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.222952", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "69d513fb-27b0-4029-b5c4-313a82d94fa6"
+                                "id": "2a72bafa-5796-4af8-be80-cf8e633787d9"
                             }, 
                             "context": "reference"
                         }, 
@@ -607,12 +623,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "West R.E.L, Stier P., Jones, A., Johnson, C. E., Mann, G. W., Bellouin, N., Partridge, D. G., and Z. Kipling\r\n The importance of vertical velocity variability for estimates of the indirect aerosol effects Atmospheric Chemistry and Physics, 14, 6369-6393", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.289688", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.223182", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "bcf4e910-1892-4d3c-906f-590a20a74fd9"
+                                "id": "9db86332-2d06-4904-a427-782a2fec040d"
                             }, 
                             "context": "reference"
                         }, 
@@ -632,12 +649,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Woodward, S. Mineral dust in HadGEM2 Tech. Rep. 87, Hadley Centre, Met Office, Exeter, UK", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.289911", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.223396", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "d46e2c64-5deb-4293-ad11-403a0275c8b8"
+                                "id": "e3c3e937-b523-447a-9cd1-cfa90eeed833"
                             }, 
                             "context": "reference"
                         }, 
@@ -657,12 +675,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hoesly, R. M., Smith, S. J., Feng, L., Klimont, Z., Janssens-Maenhout, G., Pitkanen, T., Seibert, J. J. Vu, L., Andres, R. J., Bolt, R. M., Bond, T. C., Dawidowski, L., Kholod, N., Kurokawa, J-i., Li, M. Liu, L., Lu, Z., Moura, M. C. P., O'Rourke, P. R. and Zhang, Q. Historical (1750-2014) anthropogenic emissions of reactive gases and aerosols from the Community Emissions Data System (CEDS) Geosci. Model Dev., 11, 369-408", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.290177", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.223606", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "672d83a3-6e53-459c-a978-5eb8a946a83f"
+                                "id": "f2b09d63-142c-4270-a475-5201753f057e"
                             }, 
                             "context": "reference"
                         }
@@ -1032,7 +1051,7 @@
                                         "type": "cim.2.science.TopicProperty"
                                     }, 
                                     "values": [
-                                        "A constant background 3D emission of SO2 is\r\nused to represent the tropospheric source from both \r\ncontinuously degassing and explosive volcanoes, using\r\nthe dataset of Dentener et al. (2006). This SO2 feeds\r\ninto the interactive tropospheric aerosol simulation (see \r\naerosol component description). The tropospheric aerosol \r\nresponse to volcanoes has no time-varying component."
+                                        "A constant background 3D emission of SO2 is\r\nused to represent the tropospheric source from both \r\ncontinuously degassing and explosive volcanoes, using\r\nthe dataset of Dentener et al. (2006). This SO2 feeds\r\ninto the interactive tropospheric aerosol simulation (see \r\naerosol component description)."
                                     ], 
                                     "qcStatus": 0
                                 }
@@ -1065,12 +1084,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Hurtt, G., Chini, L., Sahajpal, R., Frolking, S., et al., Harmonization of global land-use change and management for the period 850-2100\r\n Geoscientific Model Development (In prep).", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.325805", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.267877", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "f4d8f9d1-fb89-46fc-9a89-93dbd01bb2ac"
+                                "id": "dbef4324-784a-44d2-b061-d600b74ca186"
                             }, 
                             "context": "reference"
                         }, 
@@ -1090,12 +1110,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Global Soil Data Task Global soil data products CD-ROM (IGBP-DIS) International Geosphere-Biosphere Programme, Data and Information System, Potsdam, Germany", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.326060", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.268128", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "1c5da051-b1f9-4200-90f9-9990d77ce1e5"
+                                "id": "962cc25a-c06a-4d85-8869-96217c65afca"
                             }, 
                             "context": "reference"
                         }, 
@@ -1115,12 +1136,13 @@
                             "abstract": "n/a", 
                             "collectiveTitle": "Matthes, K., Funke, B., Andersson, M. E., Barnard, L., Beer, J., Charbonneau, P., Clilverd, M. A., Dudok de Wit, T., Haberreiter, M., Hendry, A., Jackman, C. H., Kretzschmar, M., Kruschke, T., Kunze, M., Langematz, U., Marsh, D. R., Maycock, A. C., Misios, S., Rodger, C. J., Scaife, A. A., Sepp\u00e4l\u00e4, A., Shangguan, M., Sinnhuber, M., Tourpali, K., Usoskin, I., van de Kamp, M., Verronen, P. T., and Versick, S. Solar forcing for CMIP6 (v3.2) Geosci. Model Dev., 10, 2247-2302", 
                             "meta": {
-                                "createDate": "2019-01-28 12:11:50.326273", 
-                                "project": "mohc", 
-                                "source": "mohc", 
-                                "version": 0, 
+                                "institute": "mohc", 
+                                "createDate": "2019-02-19 10:01:40.268343", 
+                                "project": "cmip6", 
+                                "source": "pyesdoc", 
+                                "version": 1, 
                                 "type": "cim.2.shared.Citation", 
-                                "id": "227566df-cf28-418d-b96f-f7ccee323dce"
+                                "id": "a7632938-6bb5-414b-a90a-56d6ef6e535f"
                             }, 
                             "context": "reference"
                         }
@@ -1207,12 +1229,13 @@
     ], 
     "coupler": "OASIS3-MCT", 
     "meta": {
-        "createDate": "2019-01-28 12:11:50.230263", 
-        "project": "mohc", 
-        "source": "mohc", 
-        "version": 0, 
+        "institute": "mohc", 
+        "createDate": "2019-02-19 10:01:40.035107", 
+        "project": "cmip6", 
+        "source": "pyesdoc", 
+        "version": 1, 
         "type": "cim.2.science.Model", 
-        "id": "8931d4cf-84ad-422b-9c1a-b91b93514a4f"
+        "id": "293441fc-ed8c-4d4c-8583-42d51085f1f2"
     }, 
     "modelType": "GCM", 
     "version": "3.1", 
@@ -1429,12 +1452,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P., Ineson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3 and GC3.1) configurations, Journal of Advances in Modeling Earth Systems Journal of Advances in Modeling Earth Systems, 10, 357-380.", 
                         "meta": {
-                            "createDate": "2019-01-28 12:11:50.375161", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:01:40.420414", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "859e1432-5682-4621-ae92-6de608827528"
+                            "id": "181d188b-a451-48b9-aa38-542ddf7c59fd"
                         }, 
                         "context": "reference"
                     }
@@ -1497,12 +1521,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P., Ineson, S., Johns, T., Keen, A., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., Scaife, A., Schiemann, R., Storkey, D., Thorpe, L., Watterson, I., Walters, D., West, A., Wood, R., Woollings, T., and Xavier, P. The Met Office Global Coupled model 3.0 and 3.1 (GC3 and GC3.1) configurations, Journal of Advances in Modeling Earth Systems Journal of Advances in Modeling Earth Systems, 10, 357-380.", 
                         "meta": {
-                            "createDate": "2019-01-28 12:11:50.383488", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:01:40.433570", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "fdde8e90-ce33-4ea2-b257-eafb426f7b90"
+                            "id": "bac44ca2-7603-4903-80e7-7e5c2ade66ba"
                         }, 
                         "context": "reference"
                     }
@@ -1595,12 +1620,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Oki T., and Y.C. Sud (1998) Design of the Total Runoff Integrating Pathways [TRIP] - A global river channel network.. Earth Interactions, 2.", 
                         "meta": {
-                            "createDate": "2019-01-28 12:11:50.391937", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:01:40.445898", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "6e9f42e5-716c-4ab0-a085-3f1afa6f62f7"
+                            "id": "a287083c-c785-433b-b7ed-8e0d908341cb"
                         }, 
                         "context": "reference"
                     }, 
@@ -1620,12 +1646,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "Marsh, R., Ivchenko, V. O., Skliris, N., Alderson, S., Bigg, G. R., Madec, G., Blaker, A. T., Aksenov, Y., Sinha, B., Coward, A. C., Le Sommer, J., Merino, I., and Zalesny, V. NEMO-ICB (v1.0): interactive icebergs in the NEMO ocean model globally configured at eddy-permitting resolution Geoscientific Model Development, 8, 1547-1562", 
                         "meta": {
-                            "createDate": "2019-01-28 12:11:50.392177", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:01:40.446214", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "8d4ada50-b18b-4b6c-9abf-803cd81ceff0"
+                            "id": "6771f9fa-4ed0-4fc9-964b-9d2662029069"
                         }, 
                         "context": "reference"
                     }, 
@@ -1645,12 +1672,13 @@
                         "abstract": "n/a", 
                         "collectiveTitle": "West, A. E, McLaren, A. J., Hewitt, H. T. and Best, M. J.\r\n The location of the thermodynamic atmosphere-ice interface in fully coupled models - a case study using JULES and CICE Geosci. Mod. Dev., 9, 1125-1141", 
                         "meta": {
-                            "createDate": "2019-01-28 12:11:50.392404", 
-                            "project": "mohc", 
-                            "source": "mohc", 
-                            "version": 0, 
+                            "institute": "mohc", 
+                            "createDate": "2019-02-19 10:01:40.446648", 
+                            "project": "cmip6", 
+                            "source": "pyesdoc", 
+                            "version": 1, 
                             "type": "cim.2.shared.Citation", 
-                            "id": "9eba7f0d-8478-4cc1-bbfa-862a986e5ea3"
+                            "id": "4209de9c-6acf-479a-972f-2d142d37827f"
                         }, 
                         "context": "reference"
                     }
